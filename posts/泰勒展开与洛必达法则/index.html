@@ -1,0 +1,583 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <title>泰勒展开与洛必达法则 - RocksonLee's blog</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='description' itemprop="description" content="">
+    <meta name="keywords" content="RocksonLee">
+    <meta property="og:url" content="https://blog.rockson.top">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="RocksonLee's blog">
+    <meta property="og:image" content="https://cdn.jsdelivr.net/gh/zcmimi/cdn@master/img/avatar_2.webp">
+    <meta property="og:description" content="">
+    <link rel="canonical" href="https://blog.rockson.top">
+    <script type="application/ld+json">{
+        "@context": "http://schema.org",
+        "@type": "Website",
+        "publisher":{
+            "@type":"Organization",
+            "name":"RocksonLee's blog",
+            "logo":"https://cdn.jsdelivr.net/gh/zcmimi/cdn@master/img/avatar_2.webp"
+        },
+        "url":"https://blog.rockson.top",
+        "image":{
+            "@type":"ImageObject",
+            "url":"https://cdn.jsdelivr.net/gh/zcmimi/cdn@master/img/avatar_2.webp"
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://blog.rockson.top"
+        },
+        "description":""
+    }</script>
+<script>
+wonld=Object.create({
+    list:[],
+    append:function(e){this.list.push(e);},
+    excute:function(){
+        for(var i=0;i<this.list.length;++i)
+            this.list[i]();
+    }
+});
+window.onload=function(){wonld.excute();};
+</script>
+    <link rel="dns-prefetch" href="https://blog.rockson.top">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zcmimi/cdn@master/material/assets/mdui/css/mdui.min.css" type="text/css">
+    <link rel="stylesheet" href="/assets/theme/origin.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zcmimi/cdn@master/material/assets/icon/mqii/mqii.css" type="text/css">
+    <!--custom--><link rel="stylesheet" href="/custom.css" type="text/css">
+    <!--highlight-->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/styles/github.min.css">
+    <script async src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"></script>
+    <!--highlight end-->
+    <!-- markdown katex-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zcmimi/cdn@master/material/assets/markdown.min.css" type="text/css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex/dist/katex.min.css" type="text/css">
+    <script async src="//cdn.jsdelivr.net/npm/katex/dist/katex.min.js"></script>
+    <!-- markdown katex end-->
+    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/zcmimi/cdn@master/img/avatar_2.webp">
+</head>
+<body class="mdui-appbar-with-toolbar mdui-theme-accent-blue">
+    <div class="mdui-progress" id='loading-progress' style="position: fixed;top:0;z-index: 999999;"><div class="mdui-progress-indeterminate"></div></div>
+    <div id="theme_css"></div>
+    <div class="mdui-appbar mdui-appbar-fixed mdui-appbar-scroll-hide mdui-appbar-inset mdui-color-white">
+        <div class="mdui-toolbar mdui-color-theme">
+            <button class="mdui-btn mdui-btn-icon" onclick="drawer.toggle();" mdui-tooltip="{content: '菜单'}">
+                <i class="mdui-icon material-icons">menu</i>
+            </button>
+            <a href="/" class="mdui-typo-title">RocksonLee's blog</a>
+            <div class="mdui-toolbar-spacer"></div>
+            <div class="mdui-row" id='toolbar-menu'>
+                <a href="/tags" target="_blank" class="mdui-col mdui-text-color-black">标签云</a>
+                <a href="/categories" target="_blank" class="mdui-col mdui-text-color-black">分类</a>
+                <a href="/links" target="_blank" class="mdui-col mdui-text-color-black">友链</a>
+                <a href="/tools" target="_blank" class="mdui-col mdui-text-color-black">工具集</a>
+                <a href="/about" target="_blank" class="mdui-col mdui-text-color-black">关于我</a>
+                <a href="https://travellings.now.sh/" target="_blank" class="mdui-col mdui-text-color-black">Traveling</a>
+            </div><script>if(document.body.clientWidth<1078)document.getElementById('toolbar-menu').hidden=1;</script>
+            <button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '切换主题'}" mdui-menu="{target: '#theme_menu',align: 'right',covered: false}">
+                <i class="mdui-icon material-icons">view_quilt</i>
+            </button>
+            <ul class="mdui-menu" id="theme_menu" style="width: fit-content;">
+                <li class="mdui-menu-item" mdui-tooltip="{content: '回归原本'}"><a onclick="theme('day')">日间模式</a></li>
+                <li class="mdui-menu-item" mdui-tooltip="{content: '晚上要保护眼睛哦'}"><a onclick="theme('night')">夜间模式</a></li>
+                <li class="mdui-menu-item" mdui-tooltip="{content: '满足你的少女心吧'}"><a onclick="theme('pink')">粉红</a></li>
+                <li class="mdui-menu-item" mdui-tooltip="{content: '没什么,就是淡蓝色'}"><a onclick="theme('blue')">粉蓝</a></li>
+            </ul>
+            <button onclick="search_dialog.open();document.getElementById('search_input').focus();" class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '搜索'}">
+                <i class="mdui-icon material-icons">search</i>
+            </button>
+            <button id='toc_button' class="mdui-btn mdui-btn-icon" onclick="toc_drawer.toggle();" mdui-tooltip="{content: '目录'}" hidden>
+                <i class="mdui-icon material-icons">format_list_numbered</i>
+            </button>
+        </div>
+    </div>
+
+    <div class="mdui-container">
+        <div id='page_typ' hidden>article</div>
+<div class="mdui-card article">
+    <div class="mdui-card-primary">
+        <a href="#" class="mdui-card-primary-title">泰勒展开与洛必达法则</a>
+        <div class="mdui-card-primary-subtitle">        <a href="/tags/数论" class="mdui-chip mdui-text-color-black">
+            <span class="mdui-chip-title">数论</span>
+        </a>
+</div>
+    </div>
+    <div class="mdui-card-header">
+        <img class="mdui-card-header-avatar" src="    https://cdn.jsdelivr.net/gh/zcmimi/cdn@master/img/avatar_2.webp
+" alt='avatar'>
+        <div class="mdui-card-header-title">RocksonLee</div>
+        <div class="mdui-card-header-subtitle">2020-07-16 19:40</div>
+        <div class="mdui-card-menu">
+            <button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '文章分类'}" mdui-menu="{target:'#categories',align:'right',covered: false}">
+                <i class="mdui-icon material-icons">bookmark</i>
+            </button>
+            <ul class="mdui-menu" id="categories">
+                    <li class="mdui-menu-item">
+                        <a href="/categories/note">
+                            note
+                        </a>
+                    </li>
+            </ul>
+            <button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '本文阅读量'}" mdui-menu="{target:'#visit_counter',align:'right',covered: false}">
+                <i class="mdui-icon material-icons">remove_red_eye</i>
+            </button>
+            <ul class="mdui-menu" id="visit_counter">
+                <li class="mdui-menu-item">
+                    <div id="busuanzi_container_page_pv">
+                        <center>本文总阅读量<span id="busuanzi_value_page_pv"></span>次</center>
+                    </div>
+                </li>
+            </ul>
+<button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '分享'}" mdui-menu="{target:'#share_menu',align:'right',covered: false}">
+    <i class="mdui-icon material-icons">share</i>
+</button>
+<ul class="mdui-menu" id="share_menu" style="width: fit-content;">
+    <li class="mdui-menu-item">
+        <a id="share_weibo" href="https://service.weibo.com/share/share.php?appkey=&title=泰勒展开与洛必达法则 - RocksonLee's blog&url=https://blog.rockson.top/posts/泰勒展开与洛必达法则&pic=https://cdn.jsdelivr.net/gh/zcmimi/cdn@master/img/avatar_2.webp&searchPic=false&style=simple" target="_blank" rel="noopener">
+            <i class="mdui-menu-item-icon mdui-icon mqii mqii-weibo"></i>分享到微博
+        </a>
+    </li>
+    <li class="mdui-menu-item">
+        <a id="share_qq" href="https://connect.qq.com/widget/shareqq/index.html?site=RocksonLee's blog&title=泰勒展开与洛必达法则 - RocksonLee's blog&summary=&pics=https://cdn.jsdelivr.net/gh/zcmimi/cdn@master/img/avatar_2.webp&url=https://blog.rockson.top/posts/泰勒展开与洛必达法则" target="_blank" rel="noopener">
+            <i class="mdui-menu-item-icon mdui-icon mqii mqii-qq_filled"></i>分享到QQ
+        </a>
+    </li>
+    <li class="mdui-menu-item">
+        <a id="share_twitter" href="https://twitter.com/intent/tweet?text=泰勒展开与洛必达法则 - RocksonLee's blog&url=https://blog.rockson.top/posts/泰勒展开与洛必达法则" target="_blank" rel="noopener">
+            <i class="mdui-menu-item-icon mdui-icon mqii mqii-twitter"></i>分享到Twitter
+        </a>
+    </li>
+    <li class="mdui-menu-item">
+        <a id="share_copy" onclick="copylink()">
+            <i class="mdui-menu-item-icon mdui-icon material-icons">link</i>复制链接
+        </a>
+    </li>
+</ul>        </div>
+    </div>
+    <div class="mdui-card-content">
+        
+        <div id="md-body" class="md-body"><h2>前置知识</h2>
+<ol>
+<li>极限</li>
+<li>导数与高阶导数</li>
+</ol>
+<p>下面简单介绍下极限与导数的概念</p>
+<h3>极限</h3>
+<p><code><latex>\displaystyle \lim_{x\to \infty} \frac 1x=0</latex></code>表示当<code><latex>x</latex></code>无限趋近于无穷大时<code><latex>\frac 1x</latex></code>无限接近于<code><latex>0</latex></code></p>
+<p><code><latex>\displaystyle \lim_{x\to 0} \frac 1x=\infty</latex></code>表示当<code><latex>x</latex></code>无限趋近于<code><latex>0</latex></code>时<code><latex>\frac 1x</latex></code>无限接近于无穷大</p>
+<p><a href="https://baike.baidu.com/item/%E6%9E%81%E9%99%90/3564509">百度百科 - 极限 （数学术语）</a></p>
+<p><a href="https://zh.wikipedia.org/wiki/%E6%9E%81%E9%99%90">维基百科 - 极限</a></p>
+<h3>导数</h3>
+<p>导数,又名微商,是微积分中的重要基础概念.</p>
+<p>当函数<code><latex>y=f(x)</latex></code>的自变量<code><latex>x</latex></code>在一点<code><latex>x_0</latex></code>上产生一个增量<code><latex>\Delta x</latex></code>时,函数输出值的增量<code><latex>\Delta y=f(x+\Delta x)-f(x)</latex></code>与自变量增量<code><latex>\Delta x</latex></code>的比值在<code><latex>\Delta x</latex></code>趋于<code><latex>0</latex></code>时的极限<code><latex>a</latex></code>如果存在,<code><latex>a</latex></code>即为在<code><latex>x_0</latex></code>处的导数,记作<code><latex>f'(x_0)</latex></code>或<code><latex>\frac d{dx} f(x_0)</latex></code>.</p>
+<p><code><latex>\displaystyle f'(x)=\lim_{\Delta x\to 0} \frac{\Delta y}{\Delta x}=\lim_{\Delta x\to 0} \frac{f(x+\Delta x)-f(x)}{\Delta x}</latex></code></p>
+<p><code><latex>\displaystyle f'(x_0)=\lim_{x\to x_0} \frac{f(x)-f(x_0)}{x-x_0}</latex></code></p>
+<p><img src="/posts/泰勒展开与洛必达法则/导数.png" alt=""> <img src="/posts/泰勒展开与洛必达法则/导数2.gif" alt=""></p>
+<p>(图片摘自维基百科)</p>
+<p><a href="https://baike.baidu.com/item/%E5%AF%BC%E6%95%B0">百度百科 - 导数</a></p>
+<p><a href="https://zh.wikipedia.org/zh-cn/%E5%AF%BC%E6%95%B0">维基百科 - 导数</a></p>
+<h2>微分中值定理</h2>
+<h3>罗尔定理</h3>
+<p>如果函数<code><latex>f(x)</latex></code>满足:</p>
+<ol>
+<li>在闭区间<code><latex>[a,b]</latex></code>上连续</li>
+<li>在开区间<code><latex>(a,b)</latex></code>内可导</li>
+<li><code><latex>f(a)=f(b)</latex></code></li>
+</ol>
+<p>那么存在<code><latex>f'(\xi)=0,\xi \in(a,b)</latex></code></p>
+<p><img src="/posts/泰勒展开与洛必达法则/罗尔定理.svg" alt=""></p>
+<p>几何意义:</p>
+<p>如果光滑的曲线<code><latex>\tau: y=f(x)(x\in [a,b])</latex></code>的两个端点<code><latex>A,B</latex></code>等高,即其连线<code><latex>AB</latex></code>水平,则在<code><latex>\tau</latex></code>上必有一点<code><latex>C(\xi,f(\xi))(\xi \in(a,b))</latex></code>,<code><latex>\tau</latex></code>在<code><latex>C</latex></code>点的切线是水平的</p>
+<h3>拉格朗日中值定理</h3>
+<p><strong>拉格朗日中值定理</strong>,也简称<strong>均值定理</strong></p>
+<p>罗尔定理的扩展</p>
+<p>如果函数<code><latex>f(x)</latex></code>满足:</p>
+<ol>
+<li>在闭区间<code><latex>[a,b]</latex></code>上连续</li>
+<li>在开区间<code><latex>(a,b)</latex></code>内可导</li>
+</ol>
+<p>那么存在<code><latex>f(b)-f(a)=f'(\xi)(b-a),\xi \in(a,b)</latex></code></p>
+<p><img src="/posts/泰勒展开与洛必达法则/拉格朗日中值定理.svg" alt=""></p>
+<blockquote><p>证明:</p>
+<p>设直线<code><latex>AB:y=f(a)+\frac{f(b)-f(a)}{b-a}(x-a)</latex></code></p>
+<p>作新的函数</p>
+<p><code><latex>\displaystyle \varphi(x)=f(x)-\left[ f(a)+\frac{f(b)-f(a)}{b-a}(x-a) \right]</latex></code></p>
+<p><code><latex>\varphi(x)</latex></code>在<code><latex>[a,b]</latex></code>上连续,在<code><latex>(a,b)</latex></code>上可导,</p>
+<p><code><latex>\displaystyle \varphi'(x)=f'(x)-\frac{f(b)-f(a)}{b-a}</latex></code></p>
+<p>且<code><latex>\varphi(a)=0,\varphi(b)=0</latex></code>. <code><latex>\varphi(x)(x\in [a,b])</latex></code>符合罗尔定理的条件,所以<code><latex>\exist \xi \in (a,b)</latex></code>使得</p>
+<p><code><latex>\displaystyle \varphi'(\xi)=f'(\xi)-\frac{f(b)-f(a)}{b-a}=0</latex></code></p>
+</blockquote>
+<h3>柯西中值定理</h3>
+<p><strong>柯西中值定理</strong>,也叫<strong>拓展中值定理</strong></p>
+<p>如果函数<code><latex>f(x)</latex></code>满足:</p>
+<ol>
+<li>在闭区间<code><latex>[a,b]</latex></code>上连续</li>
+<li>在开区间<code><latex>(a,b)</latex></code>内可导</li>
+<li><code><latex>g'(x)\neq 0(\forall x \in (a,b))</latex></code></li>
+</ol>
+<p>则<code><latex>\exist \xi \in (a,b)</latex></code>,使得:</p>
+<p><code><latex>\displaystyle \frac{f(b)-f(a)}{g(b)-g(a)}=\frac{f'(\xi)}{g'(\xi)}</latex></code></p>
+<p><img src="/posts/泰勒展开与洛必达法则/柯西中值定理.png" alt=""></p>
+<blockquote><p>证明:</p>
+<p>由拉格朗日定理,在条件<code><latex>g'(x)\neq 0</latex></code>下,</p>
+<p><code><latex>g(b)-g(a)=g'(\eta)(b-a)\neq 0,\eta \in (a,b)</latex></code></p>
+<p>作函数</p>
+<p><code><latex>\displaystyle F(x)=f(x)-\frac{f(b)-f(a)}{g(b)-g(a)}(g(x)-g(a))</latex></code></p>
+<p>易证<code><latex>F(x)</latex></code>在<code><latex>[a,b]</latex></code>上满足洛尔定理条件,从而存在<code><latex>\xi \in(a,b)</latex></code>使得<code><latex>F'(\xi)=0</latex></code>,即</p>
+<p><code><latex>\displaystyle f'(\xi)=\frac{f(b)-f(a)}{g(b)-g(a)}g'(\xi)</latex></code></p>
+<p>由于<code><latex>g'(\xi)\neq 0</latex></code>,得到</p>
+<p><code><latex>\displaystyle \frac{f(b)-f(a)}{g(b)-g(a)}=\frac{f'(\xi)}{g'(\xi)}</latex></code></p>
+</blockquote>
+<h2>泰勒展开</h2>
+<h3>泰勒公式</h3>
+<p>若函数<code><latex>f(x)</latex></code>在包含<code><latex>x_0</latex></code>的某个闭区间<code><latex>[a,b]</latex></code>上具有<code><latex>n</latex></code>阶导数,且在开区间<code><latex>(a,b)</latex></code>上具有<code><latex>n+1</latex></code>阶导数,则对闭区间<code><latex>[a,b]</latex></code>上任意一点<code><latex>x</latex></code>,成立下式:</p>
+<p><code><latex>\displaystyle
+\begin{aligned}
+f(x)
+&=\sum_{i=0}^n \frac{f^{(i)}(x_0)}{i!}(x-x_0)^i+R_n(x)\\
+&=f(x_0)+f'(x_0)(x-x_0)+\frac{f''(x_0)}{2!}(x-x_0)^2+\cdots+\frac{f^{(n)}(x_0)}{n!}(x-x_0)^n+R_n(x)
+\end{aligned}
+</latex></code></p>
+<p>其中<code><latex>\displaystyle R_n(x)=\frac{f^{(n+1)} (\xi)}{(n+1)!}(x-x_0)^{n+1},\xi \in (x_0,x)</latex></code></p>
+<p>当<code><latex>n\to \infty</latex></code>时,<code><latex>R_n(x)\to 0</latex></code>,可忽略不计,可以得到函数的另一种表现形式(即用无穷级数表示)</p>
+<blockquote><p>证明:</p>
+<p>设<code><latex>x_0&lt;x</latex></code>(<code><latex>x_0>x</latex></code>的情况类似),设函数</p>
+<p><code><latex>\displaystyle F(t)=f(x)-\sum_{i=0}^n \frac{f^{(i)}(t)}{i!}(x-t)^i</latex></code></p>
+<p><code><latex>G(t)=(x-t)^{n+1}</latex></code></p>
+<p><code><latex>F(t)</latex></code>在<code><latex>G(t)</latex></code>在<code><latex>[x_0,x]</latex></code>上连续,在<code><latex>(x_0,x)</latex></code>上可导,且</p>
+<p><code><latex>\displaystyle
+F(x)=0,G(x)=0
+\\~\\
+\begin{aligned}
+F'(t)
+&=-\sum_{i=0}^n \left[ \frac{f^{(i)}(t)}{i!}(x-t)^i \right]'\\
+&=-f(t)-\sum_{i=1}^n \left[ \frac{f^{(i+1)}(t)}{i!}(x-t)^i - \frac{f^{(i)}(t)} {(i-1)!}(x-t)^{i-1} \right]\\
+&=-\frac{f^{(n+1)}(t)}{n!}(x-t)^n
+\end{aligned}
+\\
+G'(t)=-(n+1)(x-t)^n
+\\~\\
+F(x_0)=f(x)-\left[ f(x_0)+f'(x_0)(x-x_0)+\frac{f''(x_0)}{2!}(x-x_0)^2+\cdots +\frac{f^{(n)}(x_0)}{n!}(x-x_0)^2 \right]\\
+G(x_0)=(x-x_0)^{n+1}
+</latex></code></p>
+<p>并且在<code><latex>(x_0,x)</latex></code>上<code><latex>G'(t)\neq 0</latex></code>,所以<code><latex>F(t)</latex></code>和<code><latex>G(t)</latex></code>在<code><latex>[x_0,x]</latex></code>上满足柯西中值定理</p>
+<p>从而存在<code><latex>\xi \in (x_0,x)</latex></code>,使得</p>
+<p><code><latex>\displaystyle \frac{F(x)-F(x_0)}{G(x)-G(x_0)}=\frac{F'(\xi)}{G'(\xi)}</latex></code></p>
+<p>也就是:</p>
+<p><code><latex>\displaystyle \frac{f(x)-\sum_{i=0}^n \frac{f^{(i)}(t)}{i!}(x-t)^i}{(x-x_0)^> {n+1}}=\frac{-\frac{f^{(n+1)}(\xi)}{n!}(x-\xi)^n}{-(n+1)(x-\xi)^n}=\frac{f^{(n> +1)}(\xi)}{(n+1)!}</latex></code></p>
+<p>所以:</p>
+<p><code><latex>\displaystyle f(x)-\sum_{i=0}^n \frac{f^{(i)}(t)}{i!}(x-t)^i=\frac{f^{(n+1)}(\xi)}{(n+1)!}(x-x_0)^{n+1}</latex></code></p>
+<p>这常称为<code><latex>f(x)</latex></code>在点<code><latex>x_0</latex></code>的<code><latex>n</latex></code>阶泰勒公式</p>
+</blockquote>
+<p>当<code><latex>n=0</latex></code>时,上述公式就是拉格朗日中值公式,故泰勒定理就是拉格朗日中值定理的推广</p>
+<h3>常用函数的泰勒展开</h3>
+<ol>
+<li><p><code><latex>e^x</latex></code></p>
+<p><code><latex>(e^x)'=e^x</latex></code>,当<code><latex>x_0</latex></code>取<code><latex>0</latex></code>时,</p>
+<p><code><latex>\displaystyle e^x=1+x+\frac {x^2}{2!}+\frac{x^3}{3!}+\cdots</latex></code></p>
+</li>
+<li><p><code><latex>\sin x</latex></code></p>
+<p><code><latex>\sin^{(n)}(x)=\sin(x+n\cdot \frac{\pi}2)</latex></code>,当<code><latex>x_0</latex></code>取<code><latex>0</latex></code>时,</p>
+<p><code><latex>\displaystyle \sin x=x-\frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!}+\cdots</latex></code></p>
+</li>
+<li><p><code><latex>\cos x</latex></code></p>
+<p><code><latex>\cos^{(n)}(x)=\cos(x+n\cdot \frac{\pi}2)</latex></code>,当<code><latex>x_0</latex></code>取<code><latex>0</latex></code>时,</p>
+<p><code><latex>\displaystyle \cos x=1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+\cdots</latex></code></p>
+</li>
+<li><p><code><latex>\ln (1+x)</latex></code></p>
+<p><code><latex>\ln^{(n)} (1+x)=(-1)^{n+1}\frac{(n-1)!}{(1+x)^n}</latex></code>,当<code><latex>x_0</latex></code>取<code><latex>0</latex></code>时,</p>
+<p><code><latex>\displaystyle x-\frac {x^2}2+\frac {x^3}3-\cdots+\frac {(-1)^{n+1}}n x^{n}-\cdots</latex></code></p>
+</li>
+<li><p><code><latex>\ln(1-x)</latex></code></p>
+<p><code><latex>\ln^{(n)} (1-x)=-\frac{(n-1)!}{(1-x)^n}</latex></code>,当<code><latex>x_0</latex></code>取<code><latex>0</latex></code>时,</p>
+<p><code><latex>\displaystyle -x-\frac {x^2}2-\frac {x^3}3-\cdots-\frac {x^{n}}n-\cdots</latex></code></p>
+</li>
+<li><p><code><latex>\frac 1{1-x}</latex></code></p>
+<p><code><latex>(\frac 1{1-x})^{(n)}=\frac{n!}{(1-x)^{n+1}}</latex></code>,当<code><latex>x_0</latex></code>取<code><latex>0</latex></code>时,</p>
+<p><code><latex>\displaystyle 1+x+x^2+\cdots+x^n+\cdots \quad \forall x:\left|x\right|&lt;1</latex></code></p>
+</li>
+</ol>
+<h2>洛必达法则</h2>
+<p>假设函数<code><latex>f(x)</latex></code>和<code><latex>g(x)</latex></code>满足下列条件:</p>
+<ol>
+<li><p><code><latex>f(x)</latex></code>,<code><latex>g(x)</latex></code>都在<code><latex>a</latex></code>点的某去心邻域<code><latex>\mathring{U}(a)</latex></code>上可导,且<code><latex>g'(x)\neq 0(\forall x \in \mathring{U}(a))</latex></code></p>
+</li>
+<li><p>当<code><latex>x\to a</latex></code>时<code><latex>f(x)\to 0,g(x)\to 0</latex></code>(或<code><latex>f(x)\to \infty,g(x)\to \infty</latex></code>)</p>
+</li>
+<li><p><code><latex>\displaystyle lim_{x\to a}\frac{f'(x)}{g'(x)}</latex></code>存在(也可以是<code><latex>\infty</latex></code>)</p>
+</li>
+</ol>
+<p>则<code><latex>\displaystyle \lim_{x\to a}\frac{f(x)}{g(x)}=lim_{x\to a}\frac{f'(x)}{g'(x)}</latex></code></p>
+<blockquote><p>证明:</p>
+<p>由于<code><latex>\displaystyle \lim_{x\to a}\frac{f(x)}{g(x)}</latex></code>与<code><latex>f(x),g(x)</latex></code>在<code><latex>a</latex></code>点的取值无关,我们可以设<code><latex>f(a)=0,g(a)=0</latex></code>,则<code><latex>f(x),g(x)</latex></code>在<code><latex>a</latex></code>的某一邻域内连续</p>
+<p>设<code><latex>x\in \mathring{U}(a)</latex></code>,由定理的条件1,<code><latex>f(x)</latex></code>和<code><latex>g(x)</latex></code>在<code><latex>[a,x]</latex></code>(或<code><latex>[x,a]</latex></code>)上满足柯西中值定理的条件,从而存在<code><latex>\xi \in(a,x)</latex></code>(或<code><latex>(x,a)</latex></code>),使得</p>
+<p><code><latex>\displaystyle \frac{f(x)}{g(x)}=\frac{f(x)-f(a)}{g(x)-g(a)}=\frac{f'(\xi)}{g'(\xi)}</latex></code></p>
+<p>当<code><latex>x\to a</latex></code>时<code><latex>\xi \to a</latex></code>,所以</p>
+<p><code><latex>\displaystyle \lim_{x\to a} \frac{f(x)}{g(x)}=\lim_{x\to a} \frac{f'(\xi)}{g'(\xi)}=\lim_{x\to a} \frac{f'(x)}{g'(x)}</latex></code></p>
+</blockquote>
+<p>在条件1,2下,只要<code><latex>\displaystyle \lim_{x\to a} \frac{f'(x)}{g'(x)}=A\text{或}\infty</latex></code>,则<code><latex>\displaystyle \lim_{x\to a} \frac{f(x)}{g(x)}</latex></code>必存在,且就等于<code><latex>A\text{或}\infty</latex></code></p>
+<p>所以为了确定<code><latex>\displaystyle \lim_{x\to a} \frac{f(x)}{g(x)}</latex></code>的值,只要把分子、分母分别求导再取极限,在这个极限存在(或是<code><latex>\infty</latex></code>)的情况下,就可以确定原来未定式的值(或是<code><latex>\infty</latex></code>)</p>
+<p>这种确定未定式的值得方法称为<strong>洛必达法则</strong></p>
+<p>使用洛必达法则时必须注意:</p>
+<ol>
+<li><p><code><latex>\displaystyle \lim_{x\to a} \frac{f(x)}{g(x)}</latex></code>必须是<code><latex>\frac 00</latex></code>型或<code><latex>\frac \infty\infty</latex></code>型的</p>
+</li>
+<li><p><code><latex>\displaystyle \lim_{x\to a} \frac{f'(x)}{g'(x)}</latex></code>存在(或是<code><latex>\infty</latex></code>),</p>
+<p><code><latex>\displaystyle \lim_{x\to a} \frac{f'(x)}{g'(x)}</latex></code>不存在时需要用其他方法判断这个极限是否存在</p>
+</li>
+</ol>
+<blockquote><p>错误示例:</p>
+<p>求<code><latex>\displaystyle \lim_{x\to 0} \frac x{1+\sin x}</latex></code></p>
+<p>当<code><latex>x\to 0</latex></code>时,<code><latex>1+\sin x\to 1</latex></code>,</p>
+<p><code><latex>\displaystyle \lim_{x\to 0}\frac x{1+sin x}=\frac 01=0</latex></code></p>
+<p>套用洛必达法则,就会导致:</p>
+<p><code><latex>\displaystyle \lim_{x\to 0} \frac x{1+\sin x}=\lim_{x\to 0} \frac 1{\cos x}=1</latex></code></p>
+</blockquote>
+<p>例1:</p>
+<p>求<code><latex>\displaystyle \lim_{x\to 0}\frac{x-\sin x}{x^3}</latex></code></p>
+<p>这是<code><latex>\frac 00</latex></code>型未定式,使用洛必达法则,有</p>
+<p><code><latex>\displaystyle \lim_{x\to 0} \frac{x-\sin x}{x^3}=\lim_{x\to 0} \frac{1-\cos x}{3x^2}</latex></code></p>
+<p>还是<code><latex>\frac 00</latex></code>型,再次使用洛必达法则</p>
+<p><code><latex>\displaystyle \lim_{x\to 0} \frac{1-\cos x}{3x^2}=\lim_{x\to 0} \frac{\sin x}{6x}=\frac 16</latex></code></p>
+<p>例2:</p>
+<p>求<code><latex>\displaystyle \lim_{x\to +\infty} \frac{x^n}{e^x}</latex></code></p>
+<p>这是<code><latex>\frac \infty\infty</latex></code>型未定式</p>
+<p>接连使用洛必达法则<code><latex>n</latex></code>次,得</p>
+<p><code><latex>\displaystyle \lim_{x\to +\infty} \frac{x^n}{e^x}=\lim_{x\to +\infty} \frac{nx^{n-1}}{e^x}=\cdots=\lim_{x\to +\infty} \frac{n!}{e^x}=0</latex></code></p>
+</div>
+    </div>
+</div>
+<div class="mdui-row-xs-3 article">
+    <div class="mdui-col">
+        <a href="/posts/LG SP20644 ZQUERY - Zero Query" class="mdui-text-color-black" id='pre_button'>
+            <i class="mdui-icon material-icons">arrow_back</i>
+            LG SP20644 ZQUERY - Zero Query
+        </a>
+    </div>
+    <div class="mdui-col mdui-text-center">泰勒展开与洛必达法则</div>
+    <div class="mdui-col">
+        <a href="/posts/数学常数与欧拉公式" class="mdui-text-color-black mdui-float-right" id='nxt_button'>
+            数学常数与欧拉公式
+            <i class="mdui-icon material-icons">arrow_forward</i>
+        </a>
+    </div>
+</div>
+<div class="mdui-card" style="margin-top: 50px;">
+    <div class="mdui-card-primary">
+        <div class="mdui-card-primary-title">
+            <i class="mdui-icon material-icons">comment</i>
+            评论
+        </div>
+    </div>
+    <div class="mdui-card-content" id='comments'>
+        <center><div class="mdui-spinner"></div></center>
+    </div>
+</div>
+<script>
+function nvl(){
+    document.getElementById('comments').innerHTML=`<center><div class="mdui-spinner mdui-spinner-colorful"></div></center>`;
+    mdui.mutation();
+    var valinejs=document.createElement('script');
+    valinejs.src="//cdn.jsdelivr.net/gh/xCss/Valine/dist/Valine.min.js";
+    valinejs.async=true;
+    valinejs.onload=function(){
+        window.valine=new Valine({
+            el: '#comments',
+            placeholder: "说几句嘛qwq",
+            appId: "NLh0fhLRvD8gOWEC3vtOIRx5-gzGzoHsz",
+            appKey: "DSwqdjPFKAnO4CFMQypfkcB9",
+            path: window.location.pathname,
+        });
+    }
+    document.getElementsByTagName("head")[0].appendChild(valinejs);
+}
+window.addEventListener('load',(event)=>{
+    nvl();
+    document.addEventListener('pjax:complete',nvl);
+});
+</script>
+    </div>
+
+    <div class="mdui-drawer mdui-drawer-close mdui-drawer-full-height" id="drawer">
+        <ul class="mdui-list">
+            <li class="mdui-list-item">
+                <i class="mdui-list-item-icon mdui-icon material-icons mdui-text mdui-text-color-black">home</i>
+                <a href="/" class="mdui-list-item-content">RocksonLee's blog</a>
+            </li>
+            <li><center><img src="https://cdn.jsdelivr.net/gh/zcmimi/cdn@master/img/avatar_2.webp" width="95%" height="95%" alt='avatar'></img></center></li>
+                <li class='mdui-subheader'>Pages</li>
+                    <li class="mdui-list-item">
+                        <i class="mdui-list-item-icon mdui-icon material-icons" style='color:black'">bookmark_border</i>
+                        <a href="/tags" target="_blank" class="mdui-list-item-content">标签云</a>
+                    </li>
+                    <li class="mdui-list-item">
+                        <i class="mdui-list-item-icon mdui-icon material-icons" style='color:black'">book</i>
+                        <a href="/categories" target="_blank" class="mdui-list-item-content">分类</a>
+                    </li>
+                    <li class="mdui-list-item">
+                        <i class="mdui-list-item-icon mdui-icon material-icons" style='color:black'">link</i>
+                        <a href="/links" target="_blank" class="mdui-list-item-content">友链</a>
+                    </li>
+                    <li class="mdui-list-item">
+                        <i class="mdui-list-item-icon mdui-icon material-icons" style='color:black'">build</i>
+                        <a href="/tools" target="_blank" class="mdui-list-item-content">工具集</a>
+                    </li>
+                    <li class="mdui-list-item">
+                        <i class="mdui-list-item-icon mdui-icon material-icons" style='color:black'">person</i>
+                        <a href="/about" target="_blank" class="mdui-list-item-content">关于我</a>
+                    </li>
+                    <li class="mdui-list-item">
+                        <i class="mdui-list-item-icon mdui-icon material-icons" style='color:black'">rss_feed</i>
+                        <a href="/atom.xml" target="_blank" class="mdui-list-item-content">订阅</a>
+                    </li>
+                    <li class="mdui-list-item">
+                        <i class="mdui-list-item-icon mdui-icon material-icons" style='color:black'">list</i>
+                        <a href="/sitemap.xml" target="_blank" class="mdui-list-item-content">站点地图</a>
+                    </li>
+                    <li class="mdui-list-item">
+                        <i class="mdui-list-item-icon mdui-icon material-icons" style='color:black'">comment</i>
+                        <a href="https://nlh0fhlrsgij.leanapp.cn" target="_blank" class="mdui-list-item-content">评论管理</a>
+                    </li>
+                <li class='mdui-subheader'>Catch me</li>
+                    <li class="mdui-list-item">
+                        <i class="mdui-list-item-icon mdui-icon material-icons" style='color:dodgerblue'">email</i>
+                        <a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=fwUcIBIWEhY-Dg5RHBAS" target="_blank" class="mdui-list-item-content">给我写信</a>
+                    </li>
+                    <li class="mdui-list-item">
+                        <i class="mdui-list-item-icon mdui-icon mqii mqii-telegram" style='color:#66ccff'"></i>
+                        <a href="https://t.me/zcmimi" target="_blank" class="mdui-list-item-content">电报</a>
+                    </li>
+                    <li class="mdui-list-item">
+                        <i class="mdui-list-item-icon mdui-icon mqii mqii-twitter" style='color:rgba(29,161,242,1.00)'"></i>
+                        <a href="https://twitter.com/zc_mimi" target="_blank" class="mdui-list-item-content">推特</a>
+                    </li>
+                    <li class="mdui-list-item">
+                        <i class="mdui-list-item-icon mdui-icon mqii mqii-bilibili" style='color:#F06292'"></i>
+                        <a href="https://space.bilibili.com/110897068" target="_blank" class="mdui-list-item-content">哔哩哔哩</a>
+                    </li>
+                    <li class="mdui-list-item">
+                        <i class="mdui-list-item-icon mdui-icon mqii mqii-netease-cloud-music" style='color:red'"></i>
+                        <a href="https://music.163.com/#/user/home?id=507163653" target="_blank" class="mdui-list-item-content">网易云音乐</a>
+                    </li>
+                    <li class="mdui-list-item">
+                        <i class="mdui-list-item-icon mdui-icon mqii mqii-zhihu" style='color:#0084ff'"></i>
+                        <a href="https://www.zhihu.com/people/zcmimi" target="_blank" class="mdui-list-item-content">知乎</a>
+                    </li>
+                    <li class="mdui-list-item">
+                        <img class="mdui-list-item-icon" src="https://www.luogu.com.cn/favicon.ico" alt>
+                        <a href="https://luogu.com.cn/user/36532" target="_blank" class="mdui-list-item-content">洛谷</a>
+                    </li>
+                    <li class="mdui-list-item">
+                        <i class="mdui-list-item-icon mdui-icon mqii mqii-github" style='color:black'"></i>
+                        <a href="https://github.com/zcmimi" target="_blank" class="mdui-list-item-content">Github</a>
+                    </li>
+                <li class='mdui-subheader'>Links</li>
+                    <li class="mdui-list-item">
+                        <i class="mdui-list-item-icon mdui-icon mqii mqii-telegram" style='color:#bbb'"></i>
+                        <a href="https://travellings.now.sh/" target="_blank" class="mdui-list-item-content">Traveling</a>
+                    </li>
+        </ul>
+    </div>
+
+    <div class="mdui-drawer mdui-drawer-close mdui-drawer-full-height mdui-drawer-right" id="toc_drawer" hidden>
+        <ul class="mdui-list" id="toc"></ul>
+    </div>
+</body>
+<!--top-->
+<button class="mdui-fab mdui-fab-mini mdui-fab-fixed mdui-fab-hide" id="totop" onclick="totop()" style="z-index: 99999;">
+    <i class="mdui-icon material-icons">keyboard_arrow_up</i>
+</button>
+<!--top end-->
+<footer class="mdui-m-t-5">
+    <div class="mdui-card">
+        <div class="mdui-card-content mdui-p-a-5">
+            <div class="mdui-container">
+                <div class="mdui-row-sm-3">
+                    <div class="mdui-col">
+                        <div class="mdui-row">
+                                <div class="mdui-col-xs-2 mdui-col-sm-1 mdui-col-md-1" style="margin: 10px;">
+                                    <a href="https://github.com/zcmimi">
+                                        <i class="mdui-icon mqii mqii-github mdui-text-color-black"></i>
+                                    </a>
+                                </div>
+                                <div class="mdui-col-xs-2 mdui-col-sm-1 mdui-col-md-1" style="margin: 10px;">
+                                    <a href="https://space.bilibili.com/110897068">
+                                        <i class="mdui-icon mqii mqii-bilibili mdui-text-color-black"></i>
+                                    </a>
+                                </div>
+                                <div class="mdui-col-xs-2 mdui-col-sm-1 mdui-col-md-1" style="margin: 10px;">
+                                    <a href="https://www.zhihu.com/people/zcmimi">
+                                        <i class="mdui-icon mqii mqii-zhihu mdui-text-color-black"></i>
+                                    </a>
+                                </div>
+                                <div class="mdui-col-xs-2 mdui-col-sm-1 mdui-col-md-1" style="margin: 10px;">
+                                    <a href="https://twitter.com/zc_mimi">
+                                        <i class="mdui-icon mqii mqii-twitter mdui-text-color-black"></i>
+                                    </a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="mdui-col mdui-text-center">
+                        <div>Copyright ©&nbsp;2019-2020&nbsp;RocksonLee's blog</div>
+                        <div><span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span></div>
+                        <script async src="https://cdn.jsdelivr.net/gh/zcmimi/cdn@master/material/assets/busuanzi.js" onload="
+                            wonld.append(busuanzi);
+                            document.addEventListener('pjax:complete',busuanzi);
+                        "></script>
+
+                        <div>last build: 2020-08-06T19:37:06Z</div>
+                    </div>
+                    <div class="mdui-col mdui-text-center mdui-typo">
+                        <div>Powered by <a href="https://github.com/zcmimi/py-blog">py-blog</a></div>
+                        <div>Theme material</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="mdui-dialog" id="search_dialog">
+    <div class="mdui-dialog-title">Search</div>
+    <div class="mdui-dialog-content">
+        <div class="mdui-textfield">
+            <i class="mdui-icon material-icons">search</i>
+            <input id="search_input" class="mdui-textfield-input" placeholder="搜索">
+        </div>
+        <div id="search_result" class="mdui-list"></div>
+    </div>
+</div>
+<script async src='https://cdn.jsdelivr.net/gh/zcmimi/cdn@master/material/assets/worker_search.js'></script>
+<script>
+document.getElementById('search_input').onchange=function(){
+    search("https://blog-search.zcmimi.top");
+}
+</script>
+
+<script async src="https://cdn.jsdelivr.net/gh/zcmimi/cdn@master/material/assets/mdui/js/mdui.min.js"></script>
+<script src='https://cdn.jsdelivr.net/gh/zcmimi/cdn@master/material/assets/bundle.min.js'></script>
+
+<script async>
+var pjaxjs=document.createElement("script");
+pjaxjs.src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js";
+pjaxjs.async=true;
+pjaxjs.onload=function(){
+    var pjax=new Pjax({elements:"a",selectors:[
+        "title",
+        "#TOC",
+        ".mdui-container",
+        ".js-pjax"
+    ]});
+    document.addEventListener('pjax:send',function(){document.getElementById('loading-progress').hidden=0;});
+    document.addEventListener('pjax:complete',function(){document.getElementById('loading-progress').hidden=1;pjax_load();mdui.mutation();});
+}
+document.getElementsByTagName("head")[0].appendChild(pjaxjs);
+</script>
+
+</html>
