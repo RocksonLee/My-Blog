@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <title>Tools - RocksonLee's blog</title>
+    <title>金中夏令营 - RocksonLee's blog</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -103,13 +103,16 @@ window.onload=function(){wonld.excute();};
         <div id='page_typ' hidden>article</div>
 <div class="mdui-card article">
     <div class="mdui-card-media">
-        <img data-src="            /img/22.webp
+        <img data-src="            /img/2.webp
 
 " height="300px" style="object-fit: cover;" src='/assets/icon/loading.svg' alt>
         <div class="mdui-card-media-covered">
             <div class="mdui-card-primary">
-                <div class="mdui-card-primary-title">Tools</div>
-                <div class="mdui-card-primary-subtitle"></div>
+                <div class="mdui-card-primary-title">金中夏令营</div>
+                <div class="mdui-card-primary-subtitle">        <a href="/tags/游记" class="mdui-chip mdui-text-color-black">
+            <span class="mdui-chip-title">游记</span>
+        </a>
+</div>
             </div>
         </div>
     </div>
@@ -117,28 +120,44 @@ window.onload=function(){wonld.excute();};
         <img class="mdui-card-header-avatar" src="    /img/avatar_2.webp
 " alt='avatar'>
         <div class="mdui-card-header-title">RocksonLee</div>
-        <div class="mdui-card-header-subtitle">2020-03-03</div>
+        <div class="mdui-card-header-subtitle">2020-08-08 08:11</div>
         <div class="mdui-card-menu">
-            <span id="Tools" class="leancloud_visitors" data-flag-title="Your Article Title" hidden>
-                <em class="post-meta-item-text">阅读量</em>
-                <i class="leancloud-visitors-count">1000000</i>
-            </span>
+            <button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '文章分类'}" mdui-menu="{target:'#categories',align:'right',covered: false}">
+                <i class="mdui-icon material-icons">bookmark</i>
+            </button>
+            <ul class="mdui-menu" id="categories">
+                    <li class="mdui-menu-item">
+                        <a href="/categories/游记">
+                            游记
+                        </a>
+                    </li>
+            </ul>
+            <button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '本文阅读量'}" mdui-menu="{target:'#visit_counter',align:'right',covered: false}">
+                <i class="mdui-icon material-icons">remove_red_eye</i>
+            </button>
+            <ul class="mdui-menu" id="visit_counter">
+                <li class="mdui-menu-item">
+                    <div id="busuanzi_container_page_pv">
+                        <center>本文总阅读量<span id="busuanzi_value_page_pv"></span>次</center>
+                    </div>
+                </li>
+            </ul>
 <button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '分享'}" mdui-menu="{target:'#share_menu',align:'right',covered: false}">
     <i class="mdui-icon material-icons">share</i>
 </button>
 <ul class="mdui-menu" id="share_menu" style="width: fit-content;">
     <li class="mdui-menu-item">
-        <a id="share_weibo" href="https://service.weibo.com/share/share.php?appkey=&title=Tools - RocksonLee's blog&url=https://blog.rockson.top/tools&pic=/img/avatar_2.webp&searchPic=false&style=simple" target="_blank" rel="noopener">
+        <a id="share_weibo" href="https://service.weibo.com/share/share.php?appkey=&title=金中夏令营 - RocksonLee's blog&url=https://blog.rockson.top/posts/金中夏令营&pic=/img/avatar_2.webp&searchPic=false&style=simple" target="_blank" rel="noopener">
             <i class="mdui-menu-item-icon mdui-icon mqii mqii-weibo"></i>分享到微博
         </a>
     </li>
     <li class="mdui-menu-item">
-        <a id="share_qq" href="https://connect.qq.com/widget/shareqq/index.html?site=RocksonLee's blog&title=Tools - RocksonLee's blog&summary=&pics=/img/avatar_2.webp&url=https://blog.rockson.top/tools" target="_blank" rel="noopener">
+        <a id="share_qq" href="https://connect.qq.com/widget/shareqq/index.html?site=RocksonLee's blog&title=金中夏令营 - RocksonLee's blog&summary=&pics=/img/avatar_2.webp&url=https://blog.rockson.top/posts/金中夏令营" target="_blank" rel="noopener">
             <i class="mdui-menu-item-icon mdui-icon mqii mqii-qq_filled"></i>分享到QQ
         </a>
     </li>
     <li class="mdui-menu-item">
-        <a id="share_twitter" href="https://twitter.com/intent/tweet?text=Tools - RocksonLee's blog&url=https://blog.rockson.top/tools" target="_blank" rel="noopener">
+        <a id="share_twitter" href="https://twitter.com/intent/tweet?text=金中夏令营 - RocksonLee's blog&url=https://blog.rockson.top/posts/金中夏令营" target="_blank" rel="noopener">
             <i class="mdui-menu-item-icon mdui-icon mqii mqii-twitter"></i>分享到Twitter
         </a>
     </li>
@@ -151,52 +170,42 @@ window.onload=function(){wonld.excute();};
     </div>
     <div class="mdui-card-content">
         
-        <div id="md-body" class="md-body"><ul class="mdui-list">
-    <li class="mdui-list-item">
-        <img class="mdui-list-item-icon" src="https://csacademy.com/static/favicon.png">
-        <a href="https://csacademy.com/app/graph_editor/" target="_blank" class="mdui-list-item-content">根据数据生成图或树</a>
-    </li>
-    <li class="mdui-list-item">
-        <svg class="mdui-list-item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="icon"><path d="M 16.8363,2.73375C 16.45,2.73375 16.0688,2.88125 15.7712,3.17375L 13.6525,5.2925L 18.955,10.5962L 21.0737,8.47625C 21.665,7.89 21.665,6.94375 21.0737,6.3575L 17.895,3.17375C 17.6025,2.88125 17.2163,2.73375 16.8363,2.73375 Z M 12.9437,6.00125L 4.84375,14.1062L 7.4025,14.39L 7.57875,16.675L 9.85875,16.85L 10.1462,19.4088L 18.2475,11.3038M 4.2475,15.0437L 2.515,21.7337L 9.19875,19.9412L 8.955,17.7838L 6.645,17.6075L 6.465,15.2925"></path></svg>
-        <a href="https://stackedit.io" target="_blank" class="mdui-list-item-content">在线markdown(支持latex)</a>
-    </li>
-    <li class="mdui-list-item">
-        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-black">edit</i>
-        <a href="http://latex.codecogs.com/eqneditor/editor.php" target="_blank" class="mdui-list-item-content">在线LaTeX编辑器</a>
-    </li>
-    <li class="mdui-list-item">
-        <img class="mdui-list-item-icon" src="https://www.geogebra.org/apps/icons/graphing.ico">
-        <a href="https://www.geogebra.org/graphing" target="_blank" class="mdui-list-item-content">在线数学绘图</a>
-    </li>
-    <li class="mdui-list-item">
-        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-black">content_paste</i>
-        <a href="https://paste.ubuntu.com" target="_blank" class="mdui-list-item-content">贴代码</a>
-    </li>
-    <li class="mdui-list-item">
-        <i class="mdui-list-item-icon mdui-icon material-icons" style="color: #ff4081">queue_music</i>
-        <a href="https://music.zcmimi.top" class="mdui-list-item-content">歌单下载器</a>
-    </li>
-    <li class="mdui-list-item">
-        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-blue">info</i>
-        <a href="/readme" class="mdui-list-item-content">关于博客生成器</a>
-    </li>
-    <li class="mdui-list-item">
-        <i class="mdui-list-item-icon mdui-icon material-icons" style="color: #0041ff">book</i>
-        <a href="https://mdui.org" target="_blank" class="mdui-list-item-content">MDUI文档</a>
-    </li>
-    <li class="mdui-list-item">
-        <i class="mdui-list-item-icon mdui-icon material-icons" style="color: #0041ff">layers</i>
-        <a href="/math-tools" target="_blank" class="mdui-list-item-content">数论工具</a>
-    </li>
-    <li class="mdui-list-item">
-        <i class="mdui-list-item-icon mdui-icon material-icons" style="color: #66ccff">functions</i>
-        <a href="https://webdemo.myscript.com/" target="_blank" class="mdui-list-item-content">在线识别手写公式</a>
-    </li>
-    <li class="mdui-list-item">
-        <i class="mdui-list-item-icon mdui-icon material-icons" style="color: #66ccff">location_searching</i>
-        <a href="http://oeis.org/" target="_blank" class="mdui-list-item-content">数列找规律</a>
-    </li>
-</ul></div>
+        <div id="md-body" class="md-body">j4k6nlx1/iV6C5CsTm/vWaeJYEpkPf0eHed6ajyD6XTTQFLVQgF0R2vJMvMh8SNxKhhkzL9nfojgvpdcSNWEqU4xYZN1qlLr8b5dpYnFLQTx9gyNg1f2cnmngOt6v7KqoTGDw9VWSN+W0kgQzs4VwE5rqVaPEQJ8/5079Tj1YS12xplEZgvRqAYd+13boKgihI60ntvCeTb9xz+whNiLmijcVKXcaH1D8A17O5Y/mulooPJWALqua0O9KTnili/LRdpGKGHQWdCSbQs+4Wb+vE5NJHv/wcc0Fi/tsRKq3KQLOO+wyNN3QqeupPm6iJpL8BM3KJDzUEBZiEXUdKJHnj3griHVJpL2tLSyjWB7WkvuEhbOCohvdMe4pSXdYB1TnvmPUUKM5VoZ7wOjKaZB7TvpaBToHpd7+eL29ZfcJL5VuaP0XhFhcA0hZ3eyP9+kHLmPUpw+zg2Wuj6EsrVYkQ/q0u2+wvyJhwQv2sixfdZ8ELoYwPTwFeA4mpObPoEjxz88rUoR0KqfcKDQOPWhKHLEjBcCtqS4uIAHy+Ui8timX5Se1tI4JhZT8/U0KEREne03Y5FFz1CjlzQ+GBJketiSe3x9szZdXAksFW6AmsP40Y0Mj9jF/Hth3i5jI2MjQ+BvAsILXq5ZKbsUbYZTVDe/82qZR1jTPhmUiLMZvZYCKeasJq+vY0xPEsu6AUmsqM5tHsOnN5Ro5mBRBngUE0Tv0YSt1Re9utew0l6oZhoVUc/maK0kuKSy95wG8AQx8aMS5lJfItTZWs/aI/9M+Lq2SPqbdVX0+y0KjY55rF/5Q3+n9RrpETMsKH221PXgV4bDBWlTTJUBe0yP5HZlPkA8UaRyNdqQUpo7xDbQmEP0qrszKV5U14b+amluWkfCIyy76Snmr0mjaViATQAi8iDvB6fee41DpZD74Du0TvqblvTq4zjyAWCAnLmreNGuPLKdl5dw939JEPdMVZpkhttzHWyqRVEAxRSCIAPNIioI7Ty1YKS4ownh5uspMkxdqDcfnMVfv0511hjRue4OIM9EYofDt+RliA5g+NFBQQa9wdKzLdpyQud+ad3V4VKSYHsbchwz04Ll8gGDVvXMHLTlNMMRt8+AAITZ+1fFUbYSVEAyT0/fljCNakNiF5CLMcUZuVvkxT6M5CKtKgUMTy1D7xVPhDE8/mpHLI+CjoCbjiCF471lW9d0tx+K53aQAVGfVxVXS+tbi/L5EOLxO9s6kUzqU8NyxUBxpQEb2ljSvIdjv8IFv1QdLgXxZM8klWCtGcAoi5VhDY8QQ99QYFG42TkDwzjbKQ3Y7uLZR34XDMc8CDhSjzLCswP0oTcszbYxGel8JLFIJn0TuQFMig2gfWkNHO8NXTO+0rLadP1/DZv11NWn/rsDSFwK+71ABmP+lGRUDFmiECK7EZt4/kv0RMSbZ7FaGxfHSIGmxLMzisGRNpjy+W12La26x9WRyPlDgvpiq0frSwjJgjWIS+LMTut9NXiNVe1tOI35+D99gszSNEk9xeq/TbrccAFfAdnGdRAa3pMnQ6JM7M5eA08ZYTUSi8NRDWlWQBJ7kxLz3JGd1fMq+9X3VX76E3f6jKzYBCXJvrmNBYwLaQ60iQDNmYUuQTuXYyxRseY9hLp9An4u5fOuCvEUERoVUc28wJg1CxxwwA8qfIuTlaKBs/4kZvV5I6pTEJg/1uJ4RZcL/Pet5j8d3/LMHKRqPS5U</div>
+        <div class="mdui-textfield mdui-textfield-floating-label">
+            <label class="mdui-textfield-label">请输入密码:</label>
+            <input class="mdui-textfield-input" type="password" id="passwd">
+        </div>
+        <script src='https://cdn.jsdelivr.net/gh/brix/crypto-js@4.0.0/crypto-js.min.js'></script>
+        <script>
+        function de(data,passwd){while(passwd.length%16)passwd+='\0';var decrypt=CryptoJS.AES.decrypt(data,CryptoJS.enc.Utf8.parse(passwd),{mode: CryptoJS.mode.ECB,padding: CryptoJS.pad.Pkcs7});return decrypt.toString(CryptoJS.enc.Utf8);}
+        var md_body=document.getElementById('md-body'),passwd=document.getElementById('passwd');
+        const content=md_body.innerText;
+        md_body.hidden=1;
+        passwd.oninput=function(){
+            var data=de(content,this.value);
+            if(data){
+                md_body.innerHTML=data;
+                this.parentElement.hidden=1;
+                md_body.hidden=0;
+                highlight(),gentoc("md-body"),katex_();
+            }
+        }
+        </script>
+    </div>
+</div>
+<div class="mdui-row-xs-3 article">
+    <div class="mdui-col">
+        <a href="/posts/金中夏令营" class="mdui-text-color-black" id='pre_button'>
+            <i class="mdui-icon material-icons">arrow_back</i>
+            金中夏令营
+        </a>
+    </div>
+    <div class="mdui-col mdui-text-center">金中夏令营</div>
+    <div class="mdui-col">
+        <a href="/posts/金中夏令营" class="mdui-text-color-black mdui-float-right" id='nxt_button'>
+            金中夏令营
+            <i class="mdui-icon material-icons">arrow_forward</i>
+        </a>
     </div>
 </div>
 <div class="mdui-card" style="margin-top: 50px;">
