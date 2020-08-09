@@ -1,1 +1,1 @@
-sitemap: https://blog.zcmimi.top/sitemap.xml
+sitemap: https://blog.rockson.top/sitemap.xml
