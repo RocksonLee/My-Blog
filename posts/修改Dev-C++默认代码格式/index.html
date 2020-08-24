@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <title>/categories/游记 - RocksonLee's blog</title>
+    <title>修改Dev-C++默认代码格式 - RocksonLee's blog</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -100,69 +100,129 @@ window.onload=function(){wonld.excute();};
     </div>
 
     <div class="mdui-container">
-        <div id='page_typ' hidden>index</div>
-<div class="mdui-typo">
-    <h1>
-            <a href="//categories">/categories</a>
-            <a href="//categories/游记">/游记</a>
-    </h1>
-</div>
+        <div id='page_typ' hidden>article</div>
 <div class="mdui-card article">
     <div class="mdui-card-media">
-        <a href="/posts/金中夏令营">
-            <img data-src="            /img/26.webp
+        <img data-src="            /img/35.webp
 
 " height="300px" style="object-fit: cover;" src='/assets/icon/loading.svg' alt>
-        </a>
         <div class="mdui-card-media-covered">
             <div class="mdui-card-primary">
-                <div class="mdui-card-primary-title">
-                    <a href="/posts/金中夏令营" class="mdui-text mdui-text-color-white">金中夏令营</a>
-                </div>
-                <div class="mdui-card-primary-subtitle">        <a href="/tags/游记" class="mdui-chip mdui-text-color-black">
-            <span class="mdui-chip-title">游记</span>
+                <div class="mdui-card-primary-title">修改Dev-C++默认代码格式</div>
+                <div class="mdui-card-primary-subtitle">        <a href="/tags/编辑器" class="mdui-chip mdui-text-color-black">
+            <span class="mdui-chip-title">编辑器</span>
         </a>
 </div>
             </div>
         </div>
     </div>
-    <div class="mdui-card-content">
-        <div class="md-body" style="font-size: 14px !important"><h2>前言</h2>
-<p>其实这是第二次来到金中了，上一次是2019冬令营，在我写下这篇游记的时候，<strong>CSP 2020</strong>只有不到70天的时间，我在这里收获的东西，不同于往年，还感受到了一些不一样的东西。</p>
-</div>
-    </div>
     <div class="mdui-card-header">
         <img class="mdui-card-header-avatar" src="    /img/avatar_2.webp
 " alt='avatar'>
         <div class="mdui-card-header-title">RocksonLee</div>
-        <div class="mdui-card-header-subtitle">2020-08-08 08:11</div>
+        <div class="mdui-card-header-subtitle">2020-08-24 22:42</div>
         <div class="mdui-card-menu">
-            <button class="mdui-btn mdui-btn-icon"
-                mdui-tooltip="{content: '文章分类'}"
-                mdui-menu="{target:'#categories-1',align:'right',position:'top'}">
+            <button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '文章分类'}" mdui-menu="{target:'#categories',align:'right',covered: false}">
                 <i class="mdui-icon material-icons">bookmark</i>
             </button>
-            <ul class="mdui-menu" id="categories-1">
+            <ul class="mdui-menu" id="categories">
                     <li class="mdui-menu-item">
-                        <a href="/categories/游记">游记</a>
+                        <a href="/categories/编辑器">
+                            编辑器
+                        </a>
                     </li>
             </ul>
-        </div>
+            <button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '本文阅读量'}" mdui-menu="{target:'#visit_counter',align:'right',covered: false}">
+                <i class="mdui-icon material-icons">remove_red_eye</i>
+            </button>
+            <ul class="mdui-menu" id="visit_counter">
+                <li class="mdui-menu-item">
+                    <div id="busuanzi_container_page_pv">
+                        <center>本文总阅读量<span id="busuanzi_value_page_pv"></span>次</center>
+                    </div>
+                </li>
+            </ul>
+<button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '分享'}" mdui-menu="{target:'#share_menu',align:'right',covered: false}">
+    <i class="mdui-icon material-icons">share</i>
+</button>
+<ul class="mdui-menu" id="share_menu" style="width: fit-content;">
+    <li class="mdui-menu-item">
+        <a id="share_weibo" href="https://service.weibo.com/share/share.php?appkey=&title=修改Dev-C++默认代码格式 - RocksonLee's blog&url=https://blog.rockson.top/posts/修改Dev-C++默认代码格式&pic=/img/avatar_2.webp&searchPic=false&style=simple" target="_blank" rel="noopener">
+            <i class="mdui-menu-item-icon mdui-icon mqii mqii-weibo"></i>分享到微博
+        </a>
+    </li>
+    <li class="mdui-menu-item">
+        <a id="share_qq" href="https://connect.qq.com/widget/shareqq/index.html?site=RocksonLee's blog&title=修改Dev-C++默认代码格式 - RocksonLee's blog&summary=&pics=/img/avatar_2.webp&url=https://blog.rockson.top/posts/修改Dev-C++默认代码格式" target="_blank" rel="noopener">
+            <i class="mdui-menu-item-icon mdui-icon mqii mqii-qq_filled"></i>分享到QQ
+        </a>
+    </li>
+    <li class="mdui-menu-item">
+        <a id="share_twitter" href="https://twitter.com/intent/tweet?text=修改Dev-C++默认代码格式 - RocksonLee's blog&url=https://blog.rockson.top/posts/修改Dev-C++默认代码格式" target="_blank" rel="noopener">
+            <i class="mdui-menu-item-icon mdui-icon mqii mqii-twitter"></i>分享到Twitter
+        </a>
+    </li>
+    <li class="mdui-menu-item">
+        <a id="share_copy" onclick="copylink()">
+            <i class="mdui-menu-item-icon mdui-icon material-icons">link</i>复制链接
+        </a>
+    </li>
+</ul>        </div>
+    </div>
+    <div class="mdui-card-content">
+        
+        <div id="md-body" class="md-body"><h3>其实本人是退役一年的OIer蒟蒻了，总结一下现在OI竞赛C++源代码标准格式</h3>
+</div>
     </div>
 </div>
 <div class="mdui-row-xs-3 article">
     <div class="mdui-col">
-        <a href="" class="mdui-btn mdui-btn-icon" disabled id='pre_button'>
+        <a href="/posts/金中夏令营" class="mdui-text-color-black" id='pre_button'>
             <i class="mdui-icon material-icons">arrow_back</i>
+            金中夏令营
         </a>
     </div>
-    <div class="mdui-col mdui-text-center">1 / 1</div>
+    <div class="mdui-col mdui-text-center">修改Dev-C++默认代码格式</div>
     <div class="mdui-col">
-        <a href="" class="mdui-btn mdui-btn-icon mdui-float-right" disabled id='nxt_button'>
+        <a href="/posts/金中夏令营" class="mdui-text-color-black mdui-float-right" id='nxt_button'>
+            金中夏令营
             <i class="mdui-icon material-icons">arrow_forward</i>
         </a>
     </div>
 </div>
+<div class="mdui-card" style="margin-top: 50px;">
+    <div class="mdui-card-primary">
+        <div class="mdui-card-primary-title">
+            <i class="mdui-icon material-icons">comment</i>
+            评论
+        </div>
+    </div>
+    <div class="mdui-card-content" id='comments'>
+        <center><div class="mdui-spinner"></div></center>
+    </div>
+</div>
+<script>
+function nvl(){
+    document.getElementById('comments').innerHTML=`<center><div class="mdui-spinner mdui-spinner-colorful"></div></center>`;
+    mdui.mutation();
+    var valinejs=document.createElement('script');
+    valinejs.src="//cdn.jsdelivr.net/gh/xCss/Valine/dist/Valine.min.js";
+    valinejs.async=true;
+    valinejs.onload=function(){
+        window.valine=new Valine({
+            el: '#comments',
+            placeholder: "说几句嘛qwq",
+            appId: "NLh0fhLRvD8gOWEC3vtOIRx5-gzGzoHsz",
+            appKey: "DSwqdjPFKAnO4CFMQypfkcB9",
+            path: window.location.pathname,
+        });
+    }
+    document.getElementsByTagName("head")[0].appendChild(valinejs);
+}
+window.addEventListener('load',(event)=>{
+    nvl();
+    document.addEventListener('pjax:complete',nvl);
+});
+</script>
     </div>
 
     <div class="mdui-drawer mdui-drawer-close mdui-drawer-full-height" id="drawer">
