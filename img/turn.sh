@@ -1,6 +1,6 @@
 #!/bin/bash
-for i in $(seq 20 33) 
+for i in $(seq 20 36) 
 do
-cwebp $i.jpg -o $i.webp 
+cwebp -lossless $i.jpg -o $i.webp 
 done
 
