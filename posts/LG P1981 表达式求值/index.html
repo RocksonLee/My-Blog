@@ -103,7 +103,7 @@ window.onload=function(){wonld.excute();};
         <div id='page_typ' hidden>article</div>
 <div class="mdui-card article">
     <div class="mdui-card-media">
-        <img data-src="            https://cdn.jsdelivr.net/gh/RocksonLee/cdn@master/img/1.webp
+        <img data-src="            https://cdn.jsdelivr.net/gh/RocksonLee/cdn@master/img/6.webp
 
 " height="300px" style="object-fit: cover;" src='https://cdn.jsdelivr.net/gh/RocksonLee/cdn@master/assets/icon/loading.svg' alt>
         <div class="mdui-card-media-covered">
@@ -178,15 +178,13 @@ window.onload=function(){wonld.excute();};
         
         <div id="md-body" class="md-body"><details><summary>查看原题</summary><div id='from'></div><p><button onclick="document.getElementById('from').innerHTML='<iframe src=&quot;https://www.luogu.com.cn/problem/P1981&quot; width=100% height=800px style=&quot;border: none;&quot;><iframe>'" class='mdui-btn mdui-btn-raised'>点击加载</button><a class='mdui-btn mdui-btn-raised' href="https://www.luogu.com.cn/problem/P1981" target='_blank'>点击跳转</a><p></details><h2>思考</h2>
 <p>表达式求值，其实是一件很简单的事，但是一大段字符串没有空格意味着你要解决逐字输入，这道题很简单，我们只需要把‘<strong>*</strong>’的先解决，再把‘<strong>+</strong>’解决了就好..</p>
-<details><summary>题解1</summary>
-
-```cpp
-#include<cstdio>
-#include<iostream>
-#include<algorithm>
-#include<cmath>
-#include<cstring>
-#include<string>
+<h2>原题题解</h2>
+<pre><code class="lang-cpp">#include&lt;cstdio&gt;
+#include&lt;iostream&gt;
+#include&lt;algorithm&gt;
+#include&lt;cmath&gt;
+#include&lt;cstring&gt;
+#include&lt;string&gt;
 using namespace std;
 int main()
 {
@@ -195,20 +193,20 @@ int main()
     bool tf=true;
     while(tf)
     {
-        scanf("%lld",&shu);
-        tf=scanf("%c",&xg)==1?true:false;
+        scanf(&quot;%lld&quot;,&amp;shu);
+        tf=scanf(&quot;%c&quot;,&amp;xg)==1?true:false;
         if(ch==0)cj=shu;
-        if(ch=='+')sum=(sum+cj)%10000,cj=shu;
-        if(ch=='*')cj=(cj*shu)%10000;
+        if(ch==&#39;+&#39;)sum=(sum+cj)%10000,cj=shu;
+        if(ch==&#39;*&#39;)cj=(cj*shu)%10000;
         if(!tf)sum=(sum+cj)%10000;
         ch=xg;
     }
-    printf("%lld",sum);//输出
+    printf(&quot;%lld&quot;,sum);//输出
     return 0;
 }
-```
-
-</details><p>但是，不能止步于此啊啊啊，表达式求值，不仅仅要有‘<strong>*</strong>’和‘<strong>+</strong>’更要有‘<strong>-</strong>’和‘<strong>^</strong>’</p>
+</code></pre>
+<p>&lt;/details&gt;</p>
+<p>但是，不能止步于此啊啊啊，表达式求值，不仅仅要有‘<strong>*</strong>’和‘<strong>+</strong>’更要有‘<strong>-</strong>’和‘<strong>^</strong>’</p>
 <p>拥有多个运算符和优先级，首当其冲的应该是有栈啊，处理优先级不会混乱</p>
 <p>其次既然有栈了，那么就直接上‘<strong>(</strong>’和‘<strong>)</strong>’吧，可以处理的东西也多了</p>
 <h2>题解</h2>
@@ -545,7 +543,7 @@ window.addEventListener('load',(event)=>{
                             document.addEventListener('pjax:complete',busuanzi);
                         "></script>
 
-                        <div>last build: 2020-09-14T14:02:34Z</div>
+                        <div>last build: 2020-09-14T14:04:05Z</div>
                     </div>
                     <div class="mdui-col mdui-text-center mdui-typo">
                         <div>Powered by <a href="https://github.com/zcmimi/py-blog">py-blog</a></div>
