@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>RocksonLee's Blog</title><link href="https://blog.rockson.top/" rel="self"/><link href="https://blog.rockson.top/"/><updated>2021-08-05 21:15:28</updated><author><name>RocksonLee</name></author><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><entry><title>LG P1981 表达式求值</title><link href="/posts/LG P1981 表达式求值/"/><updated>2020-09-14</updated><summary type="html">&lt;p&gt;&lt;details&gt;&lt;summary&gt;查看原题&lt;/summary&gt;&lt;div id=&#39;from&#39;&gt;&lt;/div&gt;&lt;p&gt;&amp;lt;button onclick=&#34;document.getElementById(&#39;from&#39;).innerHTML=&#39;&amp;lt;iframe src=&amp;quot;&lt;a href=&#34;https://www.luog&#34;&gt;https://www.luog&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>RocksonLee's Blog</title><link href="https://blog.rockson.top/" rel="self"/><link href="https://blog.rockson.top/"/><updated>2021-08-05 21:20:02</updated><author><name>RocksonLee</name></author><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><entry><title>LG P1981 表达式求值</title><link href="/posts/LG P1981 表达式求值/"/><updated>2020-09-14</updated><summary type="html">&lt;p&gt;&lt;details&gt;&lt;summary&gt;查看原题&lt;/summary&gt;&lt;div id=&#39;from&#39;&gt;&lt;/div&gt;&lt;p&gt;&amp;lt;button onclick=&#34;document.getElementById(&#39;from&#39;).innerHTML=&#39;&amp;lt;iframe src=&amp;quot;&lt;a href=&#34;https://www.luog&#34;&gt;https://www.luog&lt;/a&gt;&lt;/p&gt;
 </summary></entry><entry><title>金中夏令营</title><link href="/posts/金中夏令营/"/><updated>2020-08-08</updated><summary type="html">&lt;h2&gt;前言&lt;/h2&gt;
 &lt;p&gt;其实这是第二次来到金中了，上一次是2019冬令营，在我写下这篇游记的时候，&lt;strong&gt;CSP 2020&lt;/strong&gt;只有不到70天的时间，我在这里收获的东西，不同于往年，还感受到了一些不一样的东西。&lt;/p&gt;
 &lt;h2&gt;day 0&lt;/h2&gt;
 &lt;p&gt;我去金中的前几天都在考试，这一次夏令营刚好卡在我们区统考后的第二天，~~根本没得&lt;/p&gt;
-</summary></entry><entry><title>About me</title><link href="/about/"/><updated>2020-03-03</updated><summary type="html">&lt;p&gt;来自广东,汕头的OIer,现高一,性格 $\in [\text{ISTP},\text{ISFJ}]$&lt;/p&gt;
+</summary></entry><entry><title>About me</title><link href="/about/"/><updated>2020-03-03</updated><summary type="html">&lt;p&gt;来自广东,汕头的OIer,现高一,性格 [\text{ISTP},\text{ISFJ}]$&lt;/p&gt;
 &lt;p&gt;邮箱:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;主要:&lt;code&gt;lixuanzhang0629@163.com&lt;/code&gt;&lt;/p&gt;
@@ -11,7 +11,7 @@
 &lt;li&gt;&lt;p&gt;次要: &lt;code&gt;2506295533@qq.com&lt;/code&gt;,&lt;code&gt;lixuanzhang0629@gmail.com&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;手机&lt;/p&gt;
+&lt;p&gt;手机号码: `&lt;/p&gt;
 </summary></entry><entry><title>Readme</title><link href="/collection/"/><updated>2020-05-16</updated><summary type="html">&lt;p&gt;&lt;a href=&#34;https://www.avogado6.com/&#34;&gt;https://www.avogado6.com/&lt;/a&gt;&lt;/p&gt;
 </summary></entry><entry><title>友链</title><link href="/links/"/><updated>2020-03-03</updated><summary type="html">&lt;h2&gt;欢迎互加友链!&lt;/h2&gt;
 &lt;p&gt;请在下方评论区留下自己的友链&lt;/p&gt;
