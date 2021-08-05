@@ -1,19 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>RocksonLee's blog</title><link>https://blog.rockson.top</link><description>RocksonLee's blog</description><lastBuildDate>2021-08-05T20:35:41Z</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>LG P1981 表达式求值</title><link>https://blog.rockson.top/posts/LG P1981 表达式求值</link><description>&lt;p&gt;&lt;details&gt;&lt;summary&gt;查看原题&lt;/summary&gt;&lt;div id='from'&gt;&lt;/div&gt;&lt;p&gt;&lt;button onclick="document.getElementById('fr&lt;/p&gt;&lt;a href=https://blog.rockson.top/posts/LG P1981 表达式求值 target='_blank'&gt;阅读全文&lt;/a&gt;</description><guid isPermaLink="true">https://blog.rockson.top/posts/LG P1981 表达式求值</guid></item><item><title>金中夏令营</title><link>https://blog.rockson.top/posts/金中夏令营</link><description>&lt;p&gt;
-## 前言&lt;/p&gt;&lt;p&gt;其实这是第二次来到金中了，上一次是2019冬令营，在我写下这篇游记的时候，**CSP 2020**只有不到70天的时间，我在这里收获的东西，不同于往年，还感受到了一些不一样的东西。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;a href=https://blog.rockson.top/posts/金中夏令营 target='_blank'&gt;阅读全文&lt;/a&gt;</description><guid isPermaLink="true">https://blog.rockson.top/posts/金中夏令营</guid></item><item><title>About me</title><link>https://blog.rockson.top/about</link><description>&lt;p&gt;
-来自广东,汕头的OIer,现初三,性格$\in [\text{ISTP},\text{ISFJ}]$&lt;/p&gt;&lt;p&gt;邮箱:&lt;/p&gt;&lt;p&gt;- 主要:`lixuanzhang0629@163.com`
-  
-- 次要: `2&lt;/p&gt;&lt;a href=https://blog.rockson.top/about target='_blank'&gt;阅读全文&lt;/a&gt;</description><guid isPermaLink="true">https://blog.rockson.top/about</guid></item><item><title>Readme</title><link>https://blog.rockson.top/collection</link><description>&lt;p&gt;
-https://www.avogado6.com/&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;a href=https://blog.rockson.top/collection target='_blank'&gt;阅读全文&lt;/a&gt;</description><guid isPermaLink="true">https://blog.rockson.top/collection</guid></item><item><title>友链</title><link>https://blog.rockson.top/links</link><description>&lt;p&gt;
-## 欢迎互加友链!&lt;/p&gt;&lt;p&gt;请在下方评论区留下自己的友链&lt;/p&gt;&lt;p&gt;格式:
-- 名字或昵称
-- 网址
-- 描述(如何描述您)
-- 卡片颜色(比如 `#f7a4b9` )&lt;/p&gt;&lt;p&gt;请顺便为您的网站添加上我的友链qwq
-&lt;/p&gt;&lt;a href=https://blog.rockson.top/links target='_blank'&gt;阅读全文&lt;/a&gt;</description><guid isPermaLink="true">https://blog.rockson.top/links</guid></item><item><title>数论工具</title><link>https://blog.rockson.top/math-tools</link><description>&lt;p&gt;
-&lt;ul class="mdui-list"&gt;
-    &lt;li class="mdui-list-item"&gt;
-        &lt;i class="mdui-list-item-icon mdui-i&lt;/p&gt;&lt;a href=https://blog.rockson.top/math-tools target='_blank'&gt;阅读全文&lt;/a&gt;</description><guid isPermaLink="true">https://blog.rockson.top/math-tools</guid></item><item><title>Readme</title><link>https://blog.rockson.top/readme</link><description>&lt;p&gt;## 简介&lt;/p&gt;&lt;p&gt;[demo](https://blog.zcmimi.top/)&lt;/p&gt;&lt;p&gt;本博客生成器基于`python`,使用若干`pip`包,兼容`hexo`,`jekyll`等博客生成器&lt;/p&gt;&lt;p&gt;使用`mar&lt;/p&gt;&lt;a href=https://blog.rockson.top/readme target='_blank'&gt;阅读全文&lt;/a&gt;</description><guid isPermaLink="true">https://blog.rockson.top/readme</guid></item><item><title>Tools</title><link>https://blog.rockson.top/tools</link><description>&lt;p&gt;
-&lt;ul class="mdui-list"&gt;
-    &lt;li class="mdui-list-item"&gt;
-        &lt;img class="mdui-list-item-icon" src&lt;/p&gt;&lt;a href=https://blog.rockson.top/tools target='_blank'&gt;阅读全文&lt;/a&gt;</description><guid isPermaLink="true">https://blog.rockson.top/tools</guid></item></channel></rss>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>RocksonLee's Blog</title><link href="https://blog.rockson.top/" rel="self"/><link href="https://blog.rockson.top/"/><updated>2021-08-05 20:29:42</updated><author><name>RocksonLee</name></author><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><entry><title>LG P1981 表达式求值</title><link href="/posts/LG P1981 表达式求值/"/><updated>2020-09-14</updated><summary type="html">&lt;p&gt;&lt;details&gt;&lt;summary&gt;查看原题&lt;/summary&gt;&lt;div id=&#39;from&#39;&gt;&lt;/div&gt;&lt;p&gt;&amp;lt;button onclick=&#34;document.getElementById(&#39;from&#39;).innerHTML=&#39;&amp;lt;iframe src=&amp;quot;&lt;a href=&#34;https://www.luog&#34;&gt;https://www.luog&lt;/a&gt;&lt;/p&gt;
+</summary></entry><entry><title>金中夏令营</title><link href="/posts/金中夏令营/"/><updated>2020-08-08</updated><summary type="html">&lt;h2&gt;前言&lt;/h2&gt;
+&lt;p&gt;其实这是第二次来到金中了，上一次是2019冬令营，在我写下这篇游记的时候，&lt;strong&gt;CSP 2020&lt;/strong&gt;只有不到70天的时间，我在这里收获的东西，不同于往年，还感受到了一些不一样的东西。&lt;/p&gt;
+&lt;h2&gt;day 0&lt;/h2&gt;
+&lt;p&gt;我去金中的前几天都在考试，这一次夏令营刚好卡在我们区统考后的第二天，~~根本没得&lt;/p&gt;
+</summary></entry><entry><title>About me</title><link href="/about/"/><updated>2020-03-03</updated><summary type="html">&lt;p&gt;来自广东,汕头的OIer,现初三,性格$\in [\text{ISTP},\text{ISFJ}]$&lt;/p&gt;
+&lt;p&gt;邮箱:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;主要:&lt;code&gt;lixuanzhang0629@163.com&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;次要: &lt;code&gt;2506295533@qq.com&lt;/code&gt;,&lt;code&gt;lixuanzhang0629@gmail.com&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;手机号&lt;/p&gt;
+</summary></entry><entry><title>Readme</title><link href="/collection/"/><updated>2020-05-16</updated><summary type="html">&lt;p&gt;&lt;a href=&#34;https://www.avogado6.com/&#34;&gt;https://www.avogado6.com/&lt;/a&gt;&lt;/p&gt;
+</summary></entry><entry><title>友链</title><link href="/links/"/><updated>2020-03-03</updated><summary type="html">&lt;h2&gt;欢迎互加友链!&lt;/h2&gt;
+&lt;p&gt;请在下方评论区留下自己的友链&lt;/p&gt;
+&lt;p&gt;格式:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;名字或昵称&lt;/li&gt;
+&lt;li&gt;网址&lt;/li&gt;
+&lt;li&gt;描述(如何描述您)&lt;/li&gt;
+&lt;li&gt;卡片颜色(比如 &lt;code&gt;#f7a4b9&lt;/code&gt; )&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;请顺便为您的网站添加上我的友链qwq&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;昵称: RocksonLee&lt;/p&gt;
+&lt;p&gt;网址: &lt;a href=&#34;https://blog.Rockson.to&#34;&gt;https://blog.Rockson.to&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</summary></entry><entry><title>数论工具</title><link href="/math-tools/"/><updated>2020-07-08</updated><summary type="html">&lt;p&gt;&lt;ul class=&#34;mdui-list&#34;&gt;
+    &lt;li class=&#34;mdui-list-item&#34;&gt;
+        &lt;i class=&#34;mdui-list-item-icon mdui-icon material-icons&#34; style=&#34;color: #1abc9c&#34;&gt;check_c&lt;/p&gt;
+</summary></entry><entry><title>Readme</title><link href="/readme/"/><updated>2020-05-16</updated><summary type="html">&lt;h2&gt;简介&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.zcmimi.top/&#34;&gt;demo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;本博客生成器基于&lt;code&gt;python&lt;/code&gt;,使用若干&lt;code&gt;pip&lt;/code&gt;包,兼容&lt;code&gt;hexo&lt;/code&gt;,&lt;code&gt;jekyll&lt;/code&gt;等博客生成器&lt;/p&gt;
+&lt;p&gt;使用&lt;code&gt;markdown&lt;/code&gt;,支持&lt;code&gt;LaTeX&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;建议先了解下&lt;code&gt;markdown&lt;/code&gt;和&lt;code&gt;yaml&lt;/code&gt;等语法&lt;/p&gt;
+&lt;p&gt;目前的&lt;/p&gt;
+</summary></entry><entry><title>Tools</title><link href="/tools/"/><updated>2020-03-03</updated><summary type="html">&lt;p&gt;&lt;ul class=&#34;mdui-list&#34;&gt;
+    &lt;li class=&#34;mdui-list-item&#34;&gt;
+        &lt;img class=&#34;mdui-list-item-icon&#34; src=&#34;https://csacademy.com/static/favicon.png&#34;&gt;&lt;/p&gt;
+</summary></entry></feed>
