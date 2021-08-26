@@ -11,13 +11,10 @@ https://blog.rockson.top/
 https://blog.rockson.top/tags/奇怪的东西/
 https://blog.rockson.top/tags/模拟/
 https://blog.rockson.top/tags/栈/
-https://blog.rockson.top/tags/后缀表达式/
+https://blog.rockson.top/tags/后缀表达式]/
 https://blog.rockson.top/tags/游记/
 https://blog.rockson.top/tags/数论/
-https://blog.rockson.top/categories/刷/题/记/录/
-https://blog.rockson.top/categories/刷/题/记/
-https://blog.rockson.top/categories/刷/题/
-https://blog.rockson.top/categories/刷/
+https://blog.rockson.top/categories/刷题记录/
 https://blog.rockson.top/categories/游记/
 https://blog.rockson.top/categories/
 https://blog.rockson.top/tags/
