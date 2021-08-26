@@ -11,7 +11,7 @@ https://blog.rockson.top/
 https://blog.rockson.top/tags/奇怪的东西/
 https://blog.rockson.top/tags/模拟/
 https://blog.rockson.top/tags/栈/
-https://blog.rockson.top/tags/后缀表达式]/
+https://blog.rockson.top/tags/后缀表达式/
 https://blog.rockson.top/tags/游记/
 https://blog.rockson.top/tags/数论/
 https://blog.rockson.top/categories/刷题记录/
