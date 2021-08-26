@@ -8,6 +8,7 @@ https://blog.rockson.top/math-tools/
 https://blog.rockson.top/readme/
 https://blog.rockson.top/tools/
 https://blog.rockson.top/
+https://blog.rockson.top/tags/奇怪的东西/
 https://blog.rockson.top/tags/模拟/
 https://blog.rockson.top/tags/栈/
 https://blog.rockson.top/tags/后缀表达式/
