@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>RocksonLee's Blog</title><link>https://blog.rockson.top/</link><description>RocksonLee's Blog</description><lastBuildDate>2021-09-15 16:44:29</lastBuildDate><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><item><title>线段树详解</title><link>/posts/线段树/</link><description>&lt;p&gt;&lt;details&gt;&lt;summary&gt;查看原题&lt;/summary&gt;&lt;div id=&#39;from&#39;&gt;&lt;/div&gt;&lt;p&gt;&amp;lt;button onclick=&#34;document.getElementById(&#39;from&#39;).innerHTML=&#39;&amp;lt;iframe src=&amp;quot;&lt;a href=&#34;https://www.cnb&#34;&gt;https://www.cnb&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>RocksonLee's Blog</title><link>https://blog.rockson.top/</link><description>RocksonLee's Blog</description><lastBuildDate>2021-09-15 18:51:48</lastBuildDate><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><item><title>算法打油诗[转载]</title><link>/posts/算法打油诗[转载]/</link><description>&lt;p&gt;```
+屏幕在深夜微微发亮&lt;/p&gt;
+&lt;p&gt;思想在那虚树路径上彷徨&lt;/p&gt;
+&lt;p&gt;平面的向量交错生长&lt;/p&gt;
+&lt;p&gt;织成 忧伤的网&lt;/p&gt;
+&lt;p&gt;剪枝剪去我们的疯狂&lt;/p&gt;
+&lt;p&gt;SPFA 告诉我前途在何方&lt;/p&gt;
+&lt;p&gt;01 背包装下了忧伤&lt;/p&gt;
+&lt;p&gt;笑颜 溢满脸庞&lt;/p&gt;
+&lt;p&gt;键盘微凉 鼠标微凉&lt;/p&gt;
+&lt;p&gt;指尖流淌 代码千行&lt;/p&gt;
+&lt;p&gt;凸包周长 直径多长&lt;/p&gt;
+&lt;p&gt;一进考场 全都忘光&lt;/p&gt;
+&lt;p&gt;你在 OJ 上提交了&lt;/p&gt;
+</description><pubDate>2021-09-15 16:46:54</pubDate><guid>https://blog.rockson.top/posts/算法打油诗[转载]/</guid></item><item><title>线段树详解</title><link>/posts/线段树/</link><description>&lt;p&gt;&lt;details&gt;&lt;summary&gt;查看原题&lt;/summary&gt;&lt;div id=&#39;from&#39;&gt;&lt;/div&gt;&lt;p&gt;&amp;lt;button onclick=&#34;document.getElementById(&#39;from&#39;).innerHTML=&#39;&amp;lt;iframe src=&amp;quot;&lt;a href=&#34;https://www.cnb&#34;&gt;https://www.cnb&lt;/a&gt;&lt;/p&gt;
 </description><pubDate>2021-09-15 16:42:46</pubDate><guid>https://blog.rockson.top/posts/线段树/</guid></item><item><title>对拍</title><link>/posts/对拍/</link><description>&lt;h2&gt;对拍程序&lt;/h2&gt;
 &lt;h3&gt;首先需要将造数据的data.exe加上&lt;/h3&gt;
 &lt;pre&gt;&lt;code class=&#34;lang-cpp&#34;&gt;freopen(&amp;quot;data.in&amp;quot;,&amp;quot;r&amp;quot;,stdout);

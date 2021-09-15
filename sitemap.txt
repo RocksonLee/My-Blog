@@ -1,3 +1,4 @@
+https://blog.rockson.top/posts/算法打油诗[转载]/
 https://blog.rockson.top/posts/线段树/
 https://blog.rockson.top/posts/对拍/
 https://blog.rockson.top/posts/金中新生群圣经/
@@ -10,10 +11,10 @@ https://blog.rockson.top/math-tools/
 https://blog.rockson.top/readme/
 https://blog.rockson.top/tools/
 https://blog.rockson.top/
+https://blog.rockson.top/tags/奇怪的东西/
 https://blog.rockson.top/tags/线段树/
 https://blog.rockson.top/tags/对拍/
 https://blog.rockson.top/tags/比赛常用/
-https://blog.rockson.top/tags/奇怪的东西/
 https://blog.rockson.top/tags/模拟/
 https://blog.rockson.top/tags/栈/
 https://blog.rockson.top/tags/后缀表达式/
