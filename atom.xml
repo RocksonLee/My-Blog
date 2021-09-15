@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>RocksonLee's Blog</title><link href="https://blog.rockson.top/" rel="self"/><link href="https://blog.rockson.top/"/><updated>2021-08-29 15:40:52</updated><author><name>RocksonLee</name></author><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><entry><title>金中新生群圣经</title><link href="/posts/金中新生群圣经/"/><updated>2021-08-24</updated><summary type="html">&lt;p&gt;致敬圣经编纂组的全体成员&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>RocksonLee's Blog</title><link href="https://blog.rockson.top/" rel="self"/><link href="https://blog.rockson.top/"/><updated>2021-09-15 16:44:29</updated><author><name>RocksonLee</name></author><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><entry><title>线段树详解</title><link href="/posts/线段树/"/><updated>2021-09-15</updated><summary type="html">&lt;p&gt;&lt;details&gt;&lt;summary&gt;查看原题&lt;/summary&gt;&lt;div id=&#39;from&#39;&gt;&lt;/div&gt;&lt;p&gt;&amp;lt;button onclick=&#34;document.getElementById(&#39;from&#39;).innerHTML=&#39;&amp;lt;iframe src=&amp;quot;&lt;a href=&#34;https://www.cnb&#34;&gt;https://www.cnb&lt;/a&gt;&lt;/p&gt;
+</summary></entry><entry><title>对拍</title><link href="/posts/对拍/"/><updated>2021-09-15</updated><summary type="html">&lt;h2&gt;对拍程序&lt;/h2&gt;
+&lt;h3&gt;首先需要将造数据的data.exe加上&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&#34;lang-cpp&#34;&gt;freopen(&amp;quot;data.in&amp;quot;,&amp;quot;r&amp;quot;,stdout);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;主程序&lt;/h3&gt;
+&lt;p&gt;```cpp&lt;/p&gt;
+&lt;h1&gt;include &amp;lt;bits/stdc++.h&amp;gt;&lt;/h1&gt;
+&lt;p&gt;using namespace std;
+int mai&lt;/p&gt;
+</summary></entry><entry><title>金中新生群圣经</title><link href="/posts/金中新生群圣经/"/><updated>2021-08-24</updated><summary type="html">&lt;p&gt;致敬圣经编纂组的全体成员&lt;/p&gt;
 &lt;p&gt;如果有重复，请麻烦指出来啊awa&lt;/p&gt;
 &lt;p&gt;Update Time：2021.8.29 15：40&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;1.jpg&#34; alt=&#34;1.jpg&#34;&gt;&lt;/p&gt;
