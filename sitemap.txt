@@ -1,3 +1,5 @@
+https://blog.rockson.top/posts/手写int128/
+https://blog.rockson.top/posts/快速幂/
 https://blog.rockson.top/posts/快读/
 https://blog.rockson.top/posts/离子反应/
 https://blog.rockson.top/posts/算法打油诗[转载]/
@@ -13,8 +15,10 @@ https://blog.rockson.top/math-tools/
 https://blog.rockson.top/readme/
 https://blog.rockson.top/tools/
 https://blog.rockson.top/
-https://blog.rockson.top/tags/快读/
+https://blog.rockson.top/tags/高精度/
 https://blog.rockson.top/tags/比赛常用/
+https://blog.rockson.top/tags/快速幂/
+https://blog.rockson.top/tags/快读/
 https://blog.rockson.top/tags/离子反应/
 https://blog.rockson.top/tags/奇怪的东西/
 https://blog.rockson.top/tags/线段树/

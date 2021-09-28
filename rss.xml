@@ -1,4 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>RocksonLee's Blog</title><link>https://blog.rockson.top/</link><description>RocksonLee's Blog</description><lastBuildDate>2021-09-27 21:34:00</lastBuildDate><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><item><title>快读</title><link>/posts/快读/</link><description>&lt;h3&gt;代码&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>RocksonLee's Blog</title><link>https://blog.rockson.top/</link><description>RocksonLee's Blog</description><lastBuildDate>2021-09-28 12:57:02</lastBuildDate><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><item><title>手写int128</title><link>/posts/手写int128/</link><description>&lt;h1&gt;这个东西有待考证和优化&lt;/h1&gt;
+&lt;p&gt;```cpp&lt;/p&gt;
+&lt;h1&gt;include &lt;iostream&gt;&lt;/h1&gt;
+&lt;h1&gt;include &lt;cstdio&gt;&lt;/h1&gt;
+&lt;h1&gt;include &lt;stack&gt;&lt;/h1&gt;
+&lt;h1&gt;include &lt;cstring&gt;&lt;/h1&gt;
+&lt;p&gt;using namespace std;
+//从这里到100行都是int128的运算代码
+typedef st&lt;/p&gt;
+</description><pubDate>2021-09-27 21:47:39</pubDate><guid>https://blog.rockson.top/posts/手写int128/</guid></item><item><title>快速幂</title><link>/posts/快速幂/</link><description>&lt;h3&gt;快速幂&lt;/h3&gt;
+&lt;p&gt;```cpp
+long long pow_quick(long long a, long long n){
+    long long res = 1;
+    while(n){
+        if(n &amp;amp; 1){
+            res *= a;   //判断最后一位是不是1，如果是的话，就把 a 乘上来&lt;/p&gt;
+</description><pubDate>2021-09-27 21:37:57</pubDate><guid>https://blog.rockson.top/posts/快速幂/</guid></item><item><title>快读</title><link>/posts/快读/</link><description>&lt;h3&gt;代码&lt;/h3&gt;
 &lt;p&gt;```cpp
 int read()
 {
