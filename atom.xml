@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>RocksonLee's Blog</title><link href="https://blog.rockson.top/" rel="self"/><link href="https://blog.rockson.top/"/><updated>2021-09-28 12:57:02</updated><author><name>RocksonLee</name></author><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><entry><title>手写int128</title><link href="/posts/手写int128/"/><updated>2021-09-27</updated><summary type="html">&lt;h1&gt;这个东西有待考证和优化&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>RocksonLee's Blog</title><link href="https://blog.rockson.top/" rel="self"/><link href="https://blog.rockson.top/"/><updated>2021-09-28 19:42:50</updated><author><name>RocksonLee</name></author><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><entry><title>模拟赛2021.9.24</title><link href="/posts/模拟赛2021.9.24/"/><updated>2021-09-28</updated><summary type="html">&lt;p&gt;&lt;details&gt;
+    &lt;summary&gt;查看原题&lt;/summary&gt;
+    &lt;div id=&#39;from&#39;&gt;&lt;/div&gt;
+    &lt;p&gt;&amp;lt;button onclick=&#34;document.getElementById(&#39;from&#39;).innerHTML=&#39;&amp;lt;iframe src=&amp;quot;.&lt;/p&gt;
+</summary></entry><entry><title>逆序对详解</title><link href="/posts/逆序对详解/"/><updated>2021-09-28</updated><summary type="html">&lt;h2&gt;归并排序&lt;/h2&gt;
+&lt;p&gt;&lt;details&gt;
+    &lt;summary&gt;查看链接&lt;/summary&gt;
+    &lt;div id=&#39;from&#39;&gt;&lt;/div&gt;
+    &lt;p&gt;&amp;lt;button onclick=&#34;document.getElementById(&#39;from&#39;).innerHTML=&#39;&amp;lt;iframe src&lt;/p&gt;
+</summary></entry><entry><title>手写int128</title><link href="/posts/手写int128/"/><updated>2021-09-27</updated><summary type="html">&lt;h1&gt;这个东西有待考证和优化&lt;/h1&gt;
 &lt;p&gt;```cpp&lt;/p&gt;
 &lt;h1&gt;include &lt;iostream&gt;&lt;/h1&gt;
 &lt;h1&gt;include &lt;cstdio&gt;&lt;/h1&gt;
@@ -46,7 +55,7 @@ int read()
 &lt;p&gt;凸包周长 直径多长&lt;/p&gt;
 &lt;p&gt;一进考场 全都忘光&lt;/p&gt;
 &lt;p&gt;你在 OJ 上提交了&lt;/p&gt;
-</summary></entry><entry><title>线段树详解</title><link href="/posts/线段树/"/><updated>2021-09-15</updated><summary type="html">&lt;p&gt;&lt;details&gt;
+</summary></entry><entry><title>线段树详解</title><link href="/posts/线段树详解/"/><updated>2021-09-15</updated><summary type="html">&lt;p&gt;&lt;details&gt;
     &lt;summary&gt;查看链接&lt;/summary&gt;
     &lt;div id=&#39;from&#39;&gt;&lt;/div&gt;
     &lt;p&gt;
