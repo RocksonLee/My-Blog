@@ -1,3 +1,4 @@
+https://blog.rockson.top/posts/高精模板/
 https://blog.rockson.top/posts/模拟赛2021.9.29题面/
 https://blog.rockson.top/posts/模拟赛2021.9.29/
 https://blog.rockson.top/posts/模拟赛2021.9.24/
@@ -20,6 +21,8 @@ https://blog.rockson.top/readme/
 https://blog.rockson.top/tools/
 https://blog.rockson.top/
 https://blog.rockson.top/page/2/
+https://blog.rockson.top/tags/高精度/
+https://blog.rockson.top/tags/比赛常用/
 https://blog.rockson.top/tags/逆序对/
 https://blog.rockson.top/tags/树状数组/
 https://blog.rockson.top/tags/单调队列/
@@ -28,8 +31,6 @@ https://blog.rockson.top/tags/模拟/
 https://blog.rockson.top/tags/堆/
 https://blog.rockson.top/tags/ing/
 https://blog.rockson.top/tags/归并排序/
-https://blog.rockson.top/tags/高精度/
-https://blog.rockson.top/tags/比赛常用/
 https://blog.rockson.top/tags/快速幂/
 https://blog.rockson.top/tags/快读/
 https://blog.rockson.top/tags/离子反应/
@@ -40,8 +41,8 @@ https://blog.rockson.top/tags/栈/
 https://blog.rockson.top/tags/后缀表达式/
 https://blog.rockson.top/tags/游记/
 https://blog.rockson.top/tags/数论/
-https://blog.rockson.top/categories/比赛/
 https://blog.rockson.top/categories/note/
+https://blog.rockson.top/categories/比赛/
 https://blog.rockson.top/categories/文化课/化学/离子反应/
 https://blog.rockson.top/categories/文化课/化学/
 https://blog.rockson.top/categories/文化课/
