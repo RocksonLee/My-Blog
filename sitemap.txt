@@ -1,4 +1,6 @@
+https://blog.rockson.top/posts/模拟赛2021.10.15/
 https://blog.rockson.top/posts/高精模板/
+https://blog.rockson.top/posts/Diary-2021.10/
 https://blog.rockson.top/posts/模拟赛2021.9.29题面/
 https://blog.rockson.top/posts/模拟赛2021.9.29/
 https://blog.rockson.top/posts/模拟赛2021.9.24/
@@ -23,6 +25,7 @@ https://blog.rockson.top/
 https://blog.rockson.top/page/2/
 https://blog.rockson.top/tags/高精度/
 https://blog.rockson.top/tags/比赛常用/
+https://blog.rockson.top/tags/diary/
 https://blog.rockson.top/tags/逆序对/
 https://blog.rockson.top/tags/树状数组/
 https://blog.rockson.top/tags/单调队列/
@@ -42,6 +45,7 @@ https://blog.rockson.top/tags/后缀表达式/
 https://blog.rockson.top/tags/游记/
 https://blog.rockson.top/tags/数论/
 https://blog.rockson.top/categories/note/
+https://blog.rockson.top/categories/diary/
 https://blog.rockson.top/categories/比赛/
 https://blog.rockson.top/categories/文化课/化学/离子反应/
 https://blog.rockson.top/categories/文化课/化学/
