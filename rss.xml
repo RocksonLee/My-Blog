@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>RocksonLee's Blog</title><link>https://blog.rockson.top/</link><description>RocksonLee's Blog</description><lastBuildDate>2021-10-17 18:59:38</lastBuildDate><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><item><title>模拟赛2021.10.11</title><link>/posts/模拟赛2021.10.11/</link><description>&lt;p&gt;&lt;details&gt;
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>RocksonLee's Blog</title><link>https://blog.rockson.top/</link><description>RocksonLee's Blog</description><lastBuildDate>2021-10-20 10:08:16</lastBuildDate><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><item><title>stjzoi刷题记录</title><link>/posts/stjzoi刷题记录/</link><description>&lt;h2&gt;以下均为C++语言，输入输出以C++为主&lt;/h2&gt;
+&lt;h2&gt;完成时间较为久远，若加强数据，可能存在无法过编译&lt;/h2&gt;
+&lt;h2&gt;码风较差，过几天再优化吧&lt;/h2&gt;
+&lt;h2&gt;首发于blog.rockson.top&lt;/h2&gt;
+&lt;h3&gt;1&lt;/h3&gt;
+&lt;p&gt;```cpp&lt;/p&gt;
+&lt;h1&gt;include&lt;iostream&gt;&lt;/h1&gt;
+&lt;p&gt;using namespace std;
+int&lt;/p&gt;
+</description><pubDate>2021-10-20 10:01:53</pubDate><guid>https://blog.rockson.top/posts/stjzoi刷题记录/</guid></item><item><title>模拟赛2021.10.11</title><link>/posts/模拟赛2021.10.11/</link><description>&lt;p&gt;&lt;details&gt;
     &lt;summary&gt;查看原题&lt;/summary&gt;
     &lt;div id=&#39;from&#39;&gt;&lt;/div&gt;
     &lt;p&gt;&amp;lt;button onclick=&#34;document.getElementById(&#39;from&#39;).innerHTML=&#39;&amp;lt;iframe src=&amp;quot;&lt;/p&gt;
