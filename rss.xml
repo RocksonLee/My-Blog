@@ -1,12 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>RocksonLee's Blog</title><link>https://blog.rockson.top/</link><description>RocksonLee's Blog</description><lastBuildDate>2021-10-20 10:08:16</lastBuildDate><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><item><title>stjzoi刷题记录</title><link>/posts/stjzoi刷题记录/</link><description>&lt;h2&gt;以下均为C++语言，输入输出以C++为主&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>RocksonLee's Blog</title><link>https://blog.rockson.top/</link><description>RocksonLee's Blog</description><lastBuildDate>2021-10-25 16:56:26</lastBuildDate><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><item><title>CSP2021-S2 游记</title><link>/posts/CSP2021-S2 游记/</link><description>&lt;h2&gt;Day -1&lt;/h2&gt;
+&lt;p&gt;真的有一说一挺紧张的，貌似忘了带什么，带的很齐全啊，慌啊qwq&lt;/p&gt;
+&lt;p&gt;CSP-S 我还复习不全啊，DP随便打了几道题，不过还是感觉挺颓废的&lt;/p&gt;
+&lt;p&gt;这几天我tm在干什么&amp;gt;_&amp;lt;&lt;/p&gt;
+&lt;p&gt;草~&lt;/p&gt;
+&lt;h2&gt;Day 1&lt;/h2&gt;
+&lt;h3&gt;前往广州&lt;/h3&gt;
+&lt;p&gt;貌似没什么好说的，早上9.10才起床，我妈一直催我，头晕啊。&lt;/p&gt;
+</description><pubDate>2021-10-25 15:34:44</pubDate><guid>https://blog.rockson.top/posts/CSP2021-S2 游记/</guid></item><item><title>stjzoi刷题记录</title><link>/posts/stjzoi刷题记录/</link><description>&lt;h2&gt;以下均为C++语言，输入输出以C++为主&lt;/h2&gt;
 &lt;h2&gt;完成时间较为久远，若加强数据，可能存在无法过编译&lt;/h2&gt;
 &lt;h2&gt;码风较差，过几天再优化吧&lt;/h2&gt;
 &lt;h2&gt;首发于blog.rockson.top&lt;/h2&gt;
 &lt;h3&gt;1&lt;/h3&gt;
 &lt;p&gt;```cpp&lt;/p&gt;
-&lt;h1&gt;include&lt;iostream&gt;&lt;/h1&gt;
-&lt;p&gt;using namespace std;
-int&lt;/p&gt;
+&lt;h1&gt;include &lt;cstdio&gt;&lt;/h1&gt;
+&lt;p&gt;int main()
+{
+    printf(&#34;Hel&lt;/p&gt;
 </description><pubDate>2021-10-20 10:01:53</pubDate><guid>https://blog.rockson.top/posts/stjzoi刷题记录/</guid></item><item><title>模拟赛2021.10.11</title><link>/posts/模拟赛2021.10.11/</link><description>&lt;p&gt;&lt;details&gt;
     &lt;summary&gt;查看原题&lt;/summary&gt;
     &lt;div id=&#39;from&#39;&gt;&lt;/div&gt;
@@ -130,7 +139,7 @@ int mai&lt;/p&gt;
     &lt;summary&gt;查看原题&lt;/summary&gt;
     &lt;div id=&#39;from&#39;&gt;&lt;/div&gt;
     &lt;p&gt;&amp;lt;button onclick=&#34;document.getElementById(&#39;from&#39;).innerHTML=&#39;&amp;lt;iframe src=&amp;quot;h&lt;/p&gt;
-</description><pubDate>2021-08-24 13:39:00</pubDate><guid>https://blog.rockson.top/posts/LG P1981 表达式求值/</guid></item><item><title>金中夏令营</title><link>/posts/金中夏令营/</link><description>&lt;h2&gt;前言&lt;/h2&gt;
+</description><pubDate>2021-08-24 13:39:00</pubDate><guid>https://blog.rockson.top/posts/LG P1981 表达式求值/</guid></item><item><title>金中夏令营 游记</title><link>/posts/金中夏令营/</link><description>&lt;h2&gt;前言&lt;/h2&gt;
 &lt;p&gt;其实这是第二次来到金中了，上一次是2019冬令营，在我写下这篇游记的时候，&lt;strong&gt;CSP 2020&lt;/strong&gt;只有不到70天的时间，我在这里收获的东西，不同于往年，还感受到了一些不一样的东西。&lt;/p&gt;
 &lt;h2&gt;day 0&lt;/h2&gt;
 &lt;p&gt;我去金中的前几天都在考试，这一次夏令营刚好卡在我们区统考后的第二天，~~根本没得&lt;/p&gt;
