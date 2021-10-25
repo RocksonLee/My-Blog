@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>RocksonLee's Blog</title><link>https://blog.rockson.top/</link><description>RocksonLee's Blog</description><lastBuildDate>2021-10-25 16:56:26</lastBuildDate><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><item><title>CSP2021-S2 游记</title><link>/posts/CSP2021-S2 游记/</link><description>&lt;h2&gt;Day -1&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>RocksonLee's Blog</title><link>https://blog.rockson.top/</link><description>RocksonLee's Blog</description><lastBuildDate>2021-10-25 16:59:12</lastBuildDate><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><item><title>git设置</title><link>/posts/git设置/</link><description>&lt;p&gt;```
+git config --global http.proxy &lt;a href=&#34;http://127.0.0.1:1080&#34;&gt;http://127.0.0.1:1080&lt;/a&gt;
+git config --global https.proxy &lt;a href=&#34;https://127.0.0.1:1080&#34;&gt;https://127.0.0.1:1080&lt;/a&gt;
+git config --global user.name &#34;Rockso&lt;/p&gt;
+</description><pubDate>2021-10-25 16:58:39</pubDate><guid>https://blog.rockson.top/posts/git设置/</guid></item><item><title>CSP2021-S2 游记</title><link>/posts/CSP2021-S2 游记/</link><description>&lt;h2&gt;Day -1&lt;/h2&gt;
 &lt;p&gt;真的有一说一挺紧张的，貌似忘了带什么，带的很齐全啊，慌啊qwq&lt;/p&gt;
 &lt;p&gt;CSP-S 我还复习不全啊，DP随便打了几道题，不过还是感觉挺颓废的&lt;/p&gt;
 &lt;p&gt;这几天我tm在干什么&amp;gt;_&amp;lt;&lt;/p&gt;
