@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>RocksonLee's Blog</title><link href="https://blog.rockson.top/" rel="self"/><link href="https://blog.rockson.top/"/><updated>2021-10-29 20:44:39</updated><author><name>RocksonLee</name></author><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><entry><title>Note sth</title><link href="/posts/Note sth/"/><updated>2021-10-29</updated><summary type="html">&lt;p&gt;Nth...&lt;/p&gt;
-</summary></entry><entry><title>Diy U盘 sth</title><link href="/posts/Diy U盘 sth/"/><updated>2021-10-29</updated><summary type="html">&lt;p&gt;&lt;details&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>RocksonLee's Blog</title><link href="https://blog.rockson.top/" rel="self"/><link href="https://blog.rockson.top/"/><updated>2021-10-30 07:06:53</updated><author><name>RocksonLee</name></author><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><entry><title>Note sth</title><link href="/posts/Note sth/"/><updated>2021-10-29</updated><summary type="html">&lt;p&gt;Nth...&lt;/p&gt;
+</summary></entry><entry><title>Diy Udisk Note</title><link href="/posts/Diy Udisk Note/"/><updated>2021-10-29</updated><summary type="html">&lt;p&gt;&lt;details&gt;
     &lt;summary&gt;SM2246XT+海力士H27Q1T8CCE3R（ID:AD3A15A7444A）的正确开卡参数&lt;/summary&gt;
     &lt;div id=&#39;from&#39;&gt;&lt;/div&gt;
     &lt;p&gt;&amp;lt;button onclick=&#34;document.getEleme&lt;/p&gt;
@@ -7,7 +7,7 @@
     &lt;summary&gt;跳转CCF大纲&lt;/summary&gt;
     &lt;div id=&#39;from&#39;&gt;&lt;/div&gt;
     &lt;p&gt;&amp;lt;button onclick=&#34;document.getElementById(&#39;from&#39;).innerHTML=&#39;&amp;lt;iframe src=&amp;amp;qu&lt;/p&gt;
-</summary></entry><entry><title>git设置</title><link href="/posts/git设置/"/><updated>2021-10-25</updated><summary type="html">&lt;p&gt;```
+</summary></entry><entry><title>git setting</title><link href="/posts/git setting/"/><updated>2021-10-25</updated><summary type="html">&lt;p&gt;```
 git config --global http.proxy &lt;a href=&#34;http://127.0.0.1:1080&#34;&gt;http://127.0.0.1:1080&lt;/a&gt;
 git config --global https.proxy &lt;a href=&#34;https://127.0.0.1:1080&#34;&gt;https://127.0.0.1:1080&lt;/a&gt;
 git config --global user.name &#34;Rockso&lt;/p&gt;
@@ -43,12 +43,12 @@ git config --global user.name &#34;Rockso&lt;/p&gt;
     &lt;p&gt;
         &amp;lt;a class=&#39;mdui-btn mdui-btn-raised&#39; href=&#34;&lt;a href=&#34;https://www.cnblogs.com/mr&#34;&gt;https://www.cnblogs.com/mr&lt;/a&gt;&lt;/p&gt;
 </summary></entry><entry><title>Diary-2021.10</title><link href="/posts/Diary-2021.10/"/><updated>2021-10-01</updated><summary type="html">&lt;h2&gt;10.1&lt;/h2&gt;
-&lt;p&gt;今天最显著的特点就是无所事事啊，什么的。今天好无聊啊，重新和&lt;del&gt;JEG&lt;/del&gt;JSG的ws&amp;amp;&amp;amp;xtx一起颓一个新坑——艾维空岛&lt;br&gt;
-好无聊啊，有点想cql...&lt;/p&gt;
+&lt;p&gt;今天最显著的特点就是无所事事啊，什么的。今天好无聊啊，重新和&lt;del&gt;JEG&lt;/del&gt;JSG的ws&amp;amp;&amp;amp;xtx一起颓一个新坑——艾维空岛&lt;/p&gt;
+&lt;p&gt;好无聊啊，有点想cql...&lt;/p&gt;
 &lt;h2&gt;10.2&lt;/h2&gt;
-&lt;p&gt;继续颓废qwq&lt;br&gt;
-arc ptt -&amp;gt;8.97 good&lt;/p&gt;
-&lt;p&gt;下午15：00去找了ylx，u1s1&lt;/p&gt;
+&lt;p&gt;继续颓废qwq&lt;/p&gt;
+&lt;p&gt;arc ptt -&amp;gt;8.97 good&lt;/p&gt;
+&lt;p&gt;下午15：00去找了ylx，u&lt;/p&gt;
 </summary></entry><entry><title>模拟赛2021.9.29</title><link href="/posts/模拟赛2021.9.29/"/><updated>2021-09-29</updated><summary type="html">&lt;p&gt;&lt;details&gt;
     &lt;summary&gt;查看原题&lt;/summary&gt;
     &lt;div id=&#39;from&#39;&gt;&lt;/div&gt;
