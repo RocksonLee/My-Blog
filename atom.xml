@@ -1,4 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>RocksonLee's Blog</title><link href="https://blog.rockson.top/" rel="self"/><link href="https://blog.rockson.top/"/><updated>2021-11-01 14:12:09</updated><author><name>RocksonLee</name></author><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><entry><title>Diary-2021.11</title><link href="/posts/Diary-2021.11/"/><updated>2021-11-01</updated><summary type="html">&lt;h2&gt;11.1&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>RocksonLee's Blog</title><link href="https://blog.rockson.top/" rel="self"/><link href="https://blog.rockson.top/"/><updated>2021-11-01 21:47:57</updated><author><name>RocksonLee</name></author><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><entry><title>LG P1352 没有上司的舞会</title><link href="/posts/LG P1352 没有上司的舞会/"/><updated>2021-11-01</updated><summary type="html">&lt;p&gt;这道题树形dp不是很难，但是提醒了个点，注意存图的时候，是从1开始还是0开始。。。。&lt;/p&gt;
+&lt;p&gt;```cpp&lt;/p&gt;
+&lt;h1&gt;include &amp;lt;bits/stdc++.h&amp;gt;&lt;/h1&gt;
+&lt;h1&gt;define INF 0x3F3F3F3F&lt;/h1&gt;
+&lt;h1&gt;define N 6000+100&lt;/h1&gt;
+&lt;p&gt;using namespace std;
+vector&amp;lt;in&lt;/p&gt;
+</summary></entry><entry><title>Diary-2021.11</title><link href="/posts/Diary-2021.11/"/><updated>2021-11-01</updated><summary type="html">&lt;h2&gt;11.1&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;中午&lt;/li&gt;
 &lt;/ul&gt;

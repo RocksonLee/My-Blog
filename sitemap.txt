@@ -1,3 +1,4 @@
+https://blog.rockson.top/posts/LG P1352 没有上司的舞会/
 https://blog.rockson.top/posts/Diary-2021.11/
 https://blog.rockson.top/posts/Note sth/
 https://blog.rockson.top/posts/Diy Udisk Note/
@@ -31,6 +32,8 @@ https://blog.rockson.top/tools/
 https://blog.rockson.top/
 https://blog.rockson.top/page/2/
 https://blog.rockson.top/page/3/
+https://blog.rockson.top/tags/dp/
+https://blog.rockson.top/tags/树形dp/
 https://blog.rockson.top/tags/diary/
 https://blog.rockson.top/tags/高精度/
 https://blog.rockson.top/tags/比赛常用/
@@ -52,6 +55,7 @@ https://blog.rockson.top/tags/栈/
 https://blog.rockson.top/tags/后缀表达式/
 https://blog.rockson.top/tags/游记/
 https://blog.rockson.top/tags/数论/
+https://blog.rockson.top/categories/刷题记录/
 https://blog.rockson.top/categories/diary/
 https://blog.rockson.top/categories/比赛/
 https://blog.rockson.top/categories/note/
@@ -61,7 +65,6 @@ https://blog.rockson.top/categories/文化课/
 https://blog.rockson.top/categories/算法/图论/线段树/
 https://blog.rockson.top/categories/算法/图论/
 https://blog.rockson.top/categories/算法/
-https://blog.rockson.top/categories/刷题记录/
 https://blog.rockson.top/categories/游记/
 https://blog.rockson.top/categories/
 https://blog.rockson.top/tags/
