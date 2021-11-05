@@ -1,0 +1,116 @@
+<!DOCTYPE html><html lang="zh-CN"><head><title>P2986 [USACO10MAR]Great Cow Gathering G - RocksonLee's Blog</title><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="dns-prefetch" href="https://blog.rockson.top/"><link rel="preload" href="https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/assets/mdui/css/mdui.min.css" as="style"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/assets/mdui/css/mdui.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/assets/theme/origin.css" as="style"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/assets/theme/origin.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/assets/icon/mqii/mqii.css" media="print" onload='this.media="all"'><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/styles/github.min.css" media="print" onload='this.media="all"'><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/assets/markdown.min.css" media="print" onload='this.media="all"'><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css" media="print" onload='this.media="all"'><link rel="stylesheet" href="/custom.css"><link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/img/avatar_2.webp"><meta name="name" itemprop="name" content="RocksonLee's Blog"><meta name="description" itemprop="description" content="RocksonLee's Blog"><meta name="keywords" itemprop="keywords" content="RocksonLee's Blog"><meta name="image" itemprop="image" content="https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/img/avatar_2.webp"><meta property="og:url" content="https://blog.rockson.top/"><meta property="og:type" content="blog"><meta property="og:title" content="RocksonLee's Blog"><meta property="og:image" content="https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/img/avatar_2.webp"><meta property="og:description" content="RocksonLee's Blog"><link rel="canonical" href="https://blog.rockson.top/"><script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "Website",
+    "publisher":{
+        "@type":"Organization",
+        "name":"RocksonLee's Blog",
+        "logo":"https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/img/avatar_2.webp"
+    },
+    "url":"https://blog.rockson.top/",
+    "image":{
+        "@type":"ImageObject",
+        "url":"https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/img/avatar_2.webp"
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://blog.rockson.top/"
+    },
+    "description":""
+}</script></head><body class="mdui-appbar-with-toolbar mdui-theme-accent-blue"><div class="mdui-progress" id='loading-progress' style="position: fixed;top:0;z-index: 999999;"><div class="mdui-progress-indeterminate"></div></div><div id="theme_css"></div><div class="mdui-appbar mdui-appbar-fixed mdui-appbar-scroll-hide"><div class="mdui-toolbar"><button class="mdui-btn mdui-btn-icon" mdui-drawer="{target:'#drawer'}" mdui-tooltip="{content: '菜单'}"><i class="mdui-icon material-icons">menu</i></button><a href="/" class="mdui-typo-title">RocksonLee's Blog</a><div class="mdui-toolbar-spacer"></div><div class="mdui-row mdui-hidden-sm-down"><a href="/tags/" target="_blank" rel="noopener" class="mdui-col text">标签云</a><a href="/categories/" target="_blank" rel="noopener" class="mdui-col text">分类</a><a href="/links/" target="_blank" rel="noopener" class="mdui-col text">友链</a><a href="/tools/" target="_blank" rel="noopener" class="mdui-col text">工具集</a><a href="/about/" target="_blank" rel="noopener" class="mdui-col text">关于</a></div><button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '切换主题'}" mdui-menu="{target: '#theme_menu',align: 'right',covered: false}"><i class="mdui-icon material-icons">view_quilt</i></button><ul class="mdui-menu" id="theme_menu" style="width: fit-content;"><li class="mdui-menu-item" mdui-tooltip="{content: '回归原本'}"><a onclick="theme('day')">日间模式</a></li><li class="mdui-menu-item" mdui-tooltip="{content: '晚上要保护眼睛哦'}"><a onclick="theme('night')">夜间模式</a></li><li class="mdui-menu-item" mdui-tooltip="{content: '满足你的少女心吧'}"><a onclick="theme('pink')">粉红</a></li><li class="mdui-menu-item" mdui-tooltip="{content: '没什么,就是淡蓝色'}"><a onclick="theme('blue')">粉蓝</a></li></ul><button mdui-dialog="{target:'#search_dialog'}" onclick="document.getElementById('search_input').focus();" class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '搜索'}"><i class="mdui-icon material-icons">search</i></button><button id='toc_button' class="mdui-btn mdui-btn-icon" mdui-drawer="{target:'#toc_drawer'}" mdui-tooltip="{content: '目录'}" hidden><i class="mdui-icon material-icons">format_list_numbered</i></button></div></div><div class="mdui-container"><div id='page_typ' hidden>article</div><div class="mdui-card article"><a href="/posts/LG P2986 [USACO10MAR]Great Cow Gathering G/"><div class="mdui-card-media"><img data-src="https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/img/3.webp" height="300px" style="object-fit: cover;" src='https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/assets/icon/loading.svg' alt></div></a><div class="mdui-card-primary"><a href="/posts/LG P2986 [USACO10MAR]Great Cow Gathering G/" class="mdui-card-primary-title">P2986 [USACO10MAR]Great Cow Gathering G</a><div class="mdui-card-primary-subtitle"><a href="/tags/dp/" class="mdui-chip"><span class="mdui-chip-title">dp</span></a><a href="/tags/树形dp/" class="mdui-chip"><span class="mdui-chip-title">树形dp</span></a></div></div><div class="mdui-card-header"><img data-src="https://cdn.jsdelivr.net/gh/RocksonLee/My-Blog@master/img/avatar_2.webp" src='https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/assets/icon/loading.svg' alt='avatar' class="mdui-card-header-avatar"><div class="mdui-card-header-title">RocksonLee</div><div class="mdui-card-header-subtitle">2021-11-03 21:09:24</div><div class="mdui-card-menu"><button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '文章分类'}" mdui-menu="{target:'#categories-list',align:'right',covered: false}"><i class="mdui-icon material-icons">bookmark</i></button><ul class="mdui-menu" id="categories-list"><li class="mdui-menu-item"><a href="/categories/刷题记录/">刷题记录</a></li></ul><button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '本文阅读量'}" mdui-menu="{target:'#visit_counter',align:'right',covered: false}"><i class="mdui-icon material-icons">remove_red_eye</i></button><ul class="mdui-menu" id="visit_counter"><li class="mdui-menu-item"><div id="busuanzi_container_page_pv"><center>本文总阅读量<span id="busuanzi_value_page_pv"></span>次</center></div></li></ul><button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '分享'}" mdui-menu="{target:'#share_menu',align:'right',covered: false}"><i class="mdui-icon material-icons">share</i></button><ul class="mdui-menu" id="share_menu" style="width: fit-content;"><li class="mdui-menu-item"><a id="share_weibo" href="https://service.weibo.com/share/share.php?appkey=&title=P2986 [USACO10MAR]Great Cow Gathering G - RocksonLee's Blog&url=/posts/LG P2986 [USACO10MAR]Great Cow Gathering G/&pic=https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/img/avatar_2.webp&style=simple" target="_blank" rel="noopener"><i class="mdui-menu-item-icon mdui-icon mqii mqii-weibo"></i>分享到微博</a></li><li class="mdui-menu-item"><a id="share_qq" href="https://connect.qq.com/widget/shareqq/index.html?site=RocksonLee's Blog&title=P2986 [USACO10MAR]Great Cow Gathering G - RocksonLee's Blog&summary=&pics=https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/img/avatar_2.webp&url=/posts/LG P2986 [USACO10MAR]Great Cow Gathering G/" target="_blank" rel="noopener"><i class="mdui-menu-item-icon mdui-icon mqii mqii-qq_filled"></i>分享到QQ</a></li><li class="mdui-menu-item"><a id="share_twitter" href="https://twitter.com/intent/tweet?text=P2986 [USACO10MAR]Great Cow Gathering G - RocksonLee's Blog&url=/posts/LG P2986 [USACO10MAR]Great Cow Gathering G/" target="_blank" rel="noopener"><i class="mdui-menu-item-icon mdui-icon mqii mqii-twitter"></i>分享到Twitter</a></li><li class="mdui-menu-item"><a id="share_copy" onclick="copylink()"><i class="mdui-menu-item-icon mdui-icon material-icons">link</i>复制链接</a></li></ul></div></div><div class="mdui-card-content"><div id="md-body" class="md-body text"><details>
+    <summary>查看原题</summary>
+    <div id='from'></div>
+    <p><button onclick="document.getElementById('from').innerHTML='<iframe src=&quot;https://www.luogu.com.cn/problem/P2986&quot; width=100% height=800px style=& quotborder: none;&quot;><iframe>'"class='mdui-btn mdui-btn-raised'>点击加载</button>
+    <a class='mdui-btn mdui-btn-raised' href="https://www.luogu.com.cn/problem/P2986" target='_blank'>点击跳转</a>、
+</details><p>二次扫描 换根，难度不大</p>
+<p>主要是扫描的时候，方程要对</p>
+<p>每扫下一个点的时候，需要把前面的点的牛总数加上这条边，减去后面的点的牛总数乘上这条边</p>
+<p>蓝属实有点过了qwq，推P3478，模板题</p>
+<p>记得开long long</p>
+<pre><code class="lang-cpp">#include &lt;bits/stdc++.h&gt;
+#define INF 0x3f3f3f3f3f3f3f3f
+// 尼玛，开个ll记得把这里加多4个3f
+#define N 100010
+typedef long long ll;
+using namespace std;
+
+ll n,x,y,temp;
+ll f[N],ans=INF;
+ll c[N],qwq[N],size[N];// 尼玛，开个ll不会么
+vector&lt;pair&lt;ll,ll&gt;&gt; q[N];
+
+void dfs(ll x,ll fa)
+{
+    size[x]=c[x];
+    for (ll i = 0; i &lt; q[x].size(); i++)
+    {
+        ll y=q[x][i].first;
+        if (y==fa) continue;
+        dfs(y,x);//注意先dfs再干别的事
+        size[x]+=size[y];
+        qwq[x]+=qwq[y]+size[y]*q[x][i].second;
+    }
+}
+
+void dp(ll x,ll fa)
+{
+    ll now;
+    for (ll i = 0; i &lt; q[x].size(); i++)
+    {
+        ll y=q[x][i].first;
+        if(y==fa)continue;
+        f[y]=f[x]-size[y]*q[x][i].second+(size[1]-size[y])*q[x][i].second;
+        dp(y,x);
+    }
+}
+
+int main()
+{
+    //freopen(&quot;P2986_8.in&quot;,&quot;r&quot;,stdin); //提交代码的时候把这个注释掉啊喂
+    scanf(&quot;%lld&quot;,&amp;n);
+    for (ll i = 1; i &lt;= n; i++)
+        scanf(&quot;%lld&quot;,&amp;c[i]); //草，下次注意，开了ll记得%d变%lld
+    for (ll i = 1; i &lt; n; i++)
+    {
+        scanf(&quot;%d%d%d&quot;,&amp;x,&amp;y,&amp;temp);
+        q[x].push_back(make_pair(y,temp)); //Get! make_pair(),qwq
+        q[y].push_back(make_pair(x,temp));
+    }
+    dfs(1,0);
+    f[1]=qwq[1];
+    //cout&lt;&lt;f[1]&lt;&lt;&quot; &quot;&lt;&lt;size[1]&lt;&lt;endl;//提交代码的时候把这个注释掉啊喂
+    dp(1,0);
+    for (ll i = 1; i &lt;= n; i++)
+        ans=min(ans,f[i]); //留个标记，以后尝试吧这个丢到dp里面qwq
+    cout&lt;&lt;ans&lt;&lt;endl;
+    return 0;
+
+}
+</code></pre>
+</div></div></div><div class="mdui-row-xs-3 article"><div class="mdui-col"><a href="/posts/LG P3478 [POI2008]STA-Station/" class="text" id='pre_button'><i class="mdui-icon material-icons">arrow_back</i>LG P3478 [POI2008]STA-Station</a></div><div class="mdui-col mdui-text-center">P2986 [USACO10MAR]Great Cow Gathering G</div><div class="mdui-col"><a href="/posts/LG P1122 最大子树和/" class="text mdui-float-right" id='nxt_button'>LG P1122 最大子树和<i class="mdui-icon material-icons">arrow_forward</i></a></div></div><div class="mdui-card" style="margin-top: 50px;"><div class="mdui-card-primary"><div class="mdui-card-primary-title"><i class="mdui-icon material-icons">comment</i>评论</div></div><div class="mdui-card-content" id='comments'><center><div class="mdui-spinner"></div></center></div></div><script>
+function SetComment(){
+    window.comment=new Valine({
+        el: '#comments',
+        placeholder: "说几句嘛qwq",
+        appId: "M4mC8E08McE8QJWN35fbUT9X-MdYXbMMI",
+        appKey: "PVAi8n10SbrDMHVbNwrW2gRr",
+        path: window.location.pathname,
+    });
+}
+function GenComment(){
+    document.getElementById('comments').innerHTML=`<center><div class="mdui-spinner mdui-spinner-colorful"></div></center>`;
+    mdui.mutation(document.getElementById('comments'));
+
+    if(document.getElementById("comment_js"))SetComment();
+    else{
+        var valinejs=document.createElement('script');
+        valinejs.id="comment_js";
+        valinejs.src="https://cdn.jsdelivr.net/gh/xCss/Valine/dist/Valine.min.js";
+        valinejs.async=true;
+        valinejs.onload=SetComment;
+    }
+    document.getElementsByTagName("head")[0].appendChild(valinejs);
+}
+</script></div><div class="mdui-drawer mdui-drawer-close" id="drawer"><ul class="mdui-list"><li class='mdui-subheader'>Pages</li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon material-icons"style='color:black'">bookmark_border</i><a href="/tags/" target="_blank" rel="noopener" class="mdui-list-item-content">标签云</a></li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon material-icons"style='color:black'">book</i><a href="/categories/" target="_blank" rel="noopener" class="mdui-list-item-content">分类</a></li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon material-icons"style='color:black'">link</i><a href="/links/" target="_blank" rel="noopener" class="mdui-list-item-content">友链</a></li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon material-icons"style='color:black'">build</i><a href="/tools/" target="_blank" rel="noopener" class="mdui-list-item-content">工具集</a></li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon material-icons"style='color:black'">person</i><a href="/about/" target="_blank" rel="noopener" class="mdui-list-item-content">关于</a></li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon material-icons"style='color:black'">rss_feed</i><a href="/atom.xml" target="_blank" rel="noopener" class="mdui-list-item-content">订阅</a></li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon material-icons"style='color:black'">list</i><a href="/sitemap.xml" target="_blank" rel="noopener" class="mdui-list-item-content">站点地图</a></li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon material-icons"style='color:black'">comment</i><a href="https://rocksonlee.avosapps.us" target="_blank" rel="noopener" class="mdui-list-item-content">评论管理</a></li><li class='mdui-subheader'>Catch me</li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon material-icons"style='color:dodgerblue'">email</i><a href="mailto:lixuanzhang0629@163.com" target="_blank" rel="noopener" class="mdui-list-item-content">给我写信</a></li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon mqii mqii-telegram"style='color:#66ccff'"></i><a href="https://t.me/RocksonLee" target="_blank" rel="noopener" class="mdui-list-item-content">电报</a></li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon mqii mqii-twitter"style='color:rgba(29,161,242,1.00)'"></i><a href="https://twitter.com/RocksonLee_" target="_blank" rel="noopener" class="mdui-list-item-content">推特</a></li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon mqii mqii-bilibili"style='color:#F06292'"></i><a href="https://space.bilibili.com/456088161" target="_blank" rel="noopener" class="mdui-list-item-content">哔哩哔哩</a></li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon mqii mqii-netease-cloud-music"style='color:red'"></i><a href="https://music.163.com/#/user/home?id=3718936185" target="_blank" rel="noopener" class="mdui-list-item-content">网易云音乐</a></li><li class="mdui-list-item"><img class="mdui-list-item-icon" src="/img/links/luogu.webp" alt><a href="https://www.luogu.com.cn/user/146852" target="_blank" rel="noopener" class="mdui-list-item-content">洛谷</a></li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon mqii mqii-github"style='color:black'"></i><a href="https://github.com/RocksonLee" target="_blank" rel="noopener" class="mdui-list-item-content">Github</a></li><li class='mdui-subheader'>Links</li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon mqii mqii-telegram"style='color:#bbb'"></i><a href="https://travellings.link/" target="_blank" rel="noopener" class="mdui-list-item-content">Traveling</a></li></ul></div><div class="mdui-drawer mdui-drawer-close mdui-drawer-right" id="toc_drawer" hidden><ul class="mdui-list" id="toc"></ul></div></body><button class="mdui-fab mdui-fab-mini mdui-fab-fixed mdui-fab-hide" id="totop" onclick="totop()" style="z-index: 99999;"><i class="mdui-icon material-icons">keyboard_arrow_up</i></button><footer class="mdui-m-t-5"><div class="mdui-card"><div class="mdui-card-content mdui-p-a-5"><div class="mdui-container"><div class="mdui-row-sm-3"><div class="mdui-col"><div class="mdui-row"><div class="mdui-col-xs-2 mdui-col-sm-1 mdui-col-md-1" style="margin: 10px;"><a href="https://github.com/RocksonLee" target="_blank" rel="noopener"><i class="mdui-icon mqii mqii-github"></i></a></div><div class="mdui-col-xs-2 mdui-col-sm-1 mdui-col-md-1" style="margin: 10px;"><a href="https://space.bilibili.com/456088161" target="_blank" rel="noopener"><i class="mdui-icon mqii mqii-bilibili"></i></a></div><div class="mdui-col-xs-2 mdui-col-sm-1 mdui-col-md-1" style="margin: 10px;"><a href="https://www.zhihu.com/people/rocksonlee-6" target="_blank" rel="noopener"><i class="mdui-icon mqii mqii-zhihu"></i></a></div><div class="mdui-col-xs-2 mdui-col-sm-1 mdui-col-md-1" style="margin: 10px;"><a href="https://twitter.com/RocksonLee_" target="_blank" rel="noopener"><i class="mdui-icon mqii mqii-twitter"></i></a></div></div></div><div class="mdui-col mdui-text-center"><span>Copyright ©&nbsp;2020-2021&nbsp;RocksonLee's Blog</span><div><span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span></div><script async src="https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/assets/busuanzi.js" onload="window.addEventListener('load',busuanzi);document.addEventListener('pjax:complete',busuanzi);"></script><div>last build:2021-11-05 21:53:25</div></div><div class="mdui-col mdui-text-center mdui-typo"><div>Powered by<a href="https://github.com/zcmimi/py-blog" target="_blank" rel="noopener">py-blog</a></div><div>Theme<a href="https://github.com/zcmimi/py-blog-theme-material" target="_blank" rel="noopener">material</a></div></div></div></div></div></div></footer><div class="mdui-dialog" id="search_dialog" style="min-height: 50%;"><div class="mdui-dialog-title">Search</div><div class="mdui-dialog-content"><div class="mdui-textfield"><i class="mdui-icon material-icons">search</i><input id="search_input" class="mdui-textfield-input" placeholder="搜索"></div><div id="search_result" class="mdui-list"></div></div></div><script async src='https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/assets/local_search.js'></script><script>document.getElementById('search_input').onchange=function(){search("/pure_data.json");}</script><script async defer src="https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/assets/mdui/js/mdui.min.js"></script><script async defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"></script><script async defer src="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.js"></script><script defer src='https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/assets/bundle.min.js'></script><script defer src='/custom.js'></script><script defer>
+window.addEventListener('load',()=>{try{GenComment();}catch{}});
+document.addEventListener('pjax:complete',()=>{try{GenComment();}catch{}});
+</script></html>

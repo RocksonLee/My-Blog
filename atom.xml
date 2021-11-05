@@ -1,10 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>RocksonLee's Blog</title><link href="https://blog.rockson.top/" rel="self"/><link href="https://blog.rockson.top/"/><updated>2021-11-01 21:47:57</updated><author><name>RocksonLee</name></author><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><entry><title>LG P1352 没有上司的舞会</title><link href="/posts/LG P1352 没有上司的舞会/"/><updated>2021-11-01</updated><summary type="html">&lt;p&gt;这道题树形dp不是很难，但是提醒了个点，注意存图的时候，是从1开始还是0开始。。。。&lt;/p&gt;
-&lt;p&gt;```cpp&lt;/p&gt;
-&lt;h1&gt;include &amp;lt;bits/stdc++.h&amp;gt;&lt;/h1&gt;
-&lt;h1&gt;define INF 0x3F3F3F3F&lt;/h1&gt;
-&lt;h1&gt;define N 6000+100&lt;/h1&gt;
-&lt;p&gt;using namespace std;
-vector&amp;lt;in&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>RocksonLee's Blog</title><link href="https://blog.rockson.top/" rel="self"/><link href="https://blog.rockson.top/"/><updated>2021-11-05 21:53:25</updated><author><name>RocksonLee</name></author><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><entry><title>LG P4059 [Code#1]找爸爸</title><link href="/posts/LG P4059 [Code#1]找爸爸/"/><updated>2021-11-05</updated><summary type="html">&lt;p&gt;\begin{aligned}
+f&lt;em&gt;{i, j, 0} &amp;amp;=\max \left{f&lt;/em&gt;{i-1, j-1,0}, f&lt;em&gt;{i-1, j-1,1}, f&lt;/em&gt;{i-1, j-1,2}\right}+d&lt;em&gt;{x&lt;/em&gt;{i}, y&lt;em&gt;{j}} \
+f&lt;/em&gt;{i, j, 1} &amp;amp;=\max \left{f_{i,&lt;/p&gt;
+</summary></entry><entry><title>字符串hash学习</title><link href="/posts/字符串hash学习/"/><updated>2021-11-05</updated><summary type="html">&lt;p&gt;&lt;details&gt;
+    &lt;summary&gt;查看原文&lt;/summary&gt;
+    &lt;div id=&#39;from&#39;&gt;&lt;/div&gt;
+    &lt;p&gt;&amp;lt;button onclick=&#34;document.getElementById(&#39;from&#39;).innerHTML=&#39;&amp;lt;iframe src=&amp;amp;quo&lt;/p&gt;
+</summary></entry><entry><title>LG P3478 [POI2008]STA-Station</title><link href="/posts/LG P3478 [POI2008]STA-Station/"/><updated>2021-11-03</updated><summary type="html">&lt;p&gt;&lt;details&gt;
+    &lt;summary&gt;查看原题&lt;/summary&gt;
+    &lt;div id=&#39;from&#39;&gt;&lt;/div&gt;
+    &lt;p&gt;&amp;lt;button onclick=&#34;document.getElementById(&#39;from&#39;).innerHTML=&#39;&amp;lt;iframe src=&amp;quot;&lt;/p&gt;
+</summary></entry><entry><title>P2986 [USACO10MAR]Great Cow Gathering G</title><link href="/posts/LG P2986 [USACO10MAR]Great Cow Gathering G/"/><updated>2021-11-03</updated><summary type="html">&lt;p&gt;&lt;details&gt;
+    &lt;summary&gt;查看原题&lt;/summary&gt;
+    &lt;div id=&#39;from&#39;&gt;&lt;/div&gt;
+    &lt;p&gt;&amp;lt;button onclick=&#34;document.getElementById(&#39;from&#39;).innerHTML=&#39;&amp;lt;iframe src=&amp;quot;&lt;/p&gt;
+</summary></entry><entry><title>LG P1122 最大子树和</title><link href="/posts/LG P1122 最大子树和/"/><updated>2021-11-02</updated><summary type="html">&lt;p&gt;&lt;details&gt;
+    &lt;summary&gt;查看原题&lt;/summary&gt;
+    &lt;div id=&#39;from&#39;&gt;&lt;/div&gt;
+    &lt;p&gt;&amp;lt;button onclick=&#34;document.getElementById(&#39;from&#39;).innerHTML=&#39;&amp;lt;iframe src=&amp;quot;&lt;/p&gt;
+</summary></entry><entry><title>LG P1352 没有上司的舞会</title><link href="/posts/LG P1352 没有上司的舞会/"/><updated>2021-11-01</updated><summary type="html">&lt;p&gt;&lt;details&gt;
+    &lt;summary&gt;查看原题&lt;/summary&gt;
+    &lt;div id=&#39;from&#39;&gt;&lt;/div&gt;
+    &lt;p&gt;&amp;lt;button onclick=&#34;document.getElementById(&#39;from&#39;).innerHTML=&#39;&amp;lt;iframe src=&amp;quot;&lt;/p&gt;
 </summary></entry><entry><title>Diary-2021.11</title><link href="/posts/Diary-2021.11/"/><updated>2021-11-01</updated><summary type="html">&lt;h2&gt;11.1&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;中午&lt;/li&gt;
@@ -115,15 +131,6 @@ int read()
     while (ch &amp;lt; &#39;0&#39; || ch &amp;gt; &#39;9&#39;)
     { // ch 不是数字时
         if (ch == &#39;-&#39;)&lt;/p&gt;
-</summary></entry><entry><title>离子反应</title><link href="/posts/离子反应/"/><updated>2021-09-16</updated><summary type="html">&lt;h1&gt;[未完成]&lt;/h1&gt;
-&lt;p&gt;作为一个文化课的菜鸡的一点笔记（以下内容只是高一所学，高年级如有变动，我也不会改的）&lt;/p&gt;
-&lt;h2&gt;0：知识前置&lt;/h2&gt;
-&lt;p&gt;电离，电解质，强弱酸碱之分&lt;/p&gt;
-&lt;h2&gt;1：书写离子方程式&lt;/h2&gt;
-&lt;p&gt;先随便写道方程式&lt;/p&gt;
-&lt;p&gt;$NaOH+HCl=NaCl+H_2O$&lt;/p&gt;
-&lt;p&gt;另一道方程式&lt;/p&gt;
-&lt;p&gt;$OH^-+H^+=H_2O$&lt;/p&gt;
 </summary></entry><entry><title>算法打油诗[转载]</title><link href="/posts/算法打油诗[转载]/"/><updated>2021-09-15</updated><summary type="html">&lt;p&gt;```
 屏幕在深夜微微发亮&lt;/p&gt;
 &lt;p&gt;思想在那虚树路径上彷徨&lt;/p&gt;
@@ -163,7 +170,7 @@ int mai&lt;/p&gt;
 </summary></entry><entry><title>LG P1981 表达式求值</title><link href="/posts/LG P1981 表达式求值/"/><updated>2021-08-24</updated><summary type="html">&lt;p&gt;&lt;details&gt;
     &lt;summary&gt;查看原题&lt;/summary&gt;
     &lt;div id=&#39;from&#39;&gt;&lt;/div&gt;
-    &lt;p&gt;&amp;lt;button onclick=&#34;document.getElementById(&#39;from&#39;).innerHTML=&#39;&amp;lt;iframe src=&amp;quot;h&lt;/p&gt;
+    &lt;p&gt;&amp;lt;button onclick=&#34;document.getElementById(&#39;from&#39;).innerHTML=&#39;&amp;lt;iframe src=&amp;quot;&lt;/p&gt;
 </summary></entry><entry><title>金中夏令营 游记</title><link href="/posts/金中夏令营/"/><updated>2020-08-08</updated><summary type="html">&lt;h2&gt;前言&lt;/h2&gt;
 &lt;p&gt;其实这是第二次来到金中了，上一次是2019冬令营，在我写下这篇游记的时候，&lt;strong&gt;CSP 2020&lt;/strong&gt;只有不到70天的时间，我在这里收获的东西，不同于往年，还感受到了一些不一样的东西。&lt;/p&gt;
 &lt;h2&gt;day 0&lt;/h2&gt;
