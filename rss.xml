@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>RocksonLee's Blog</title><link>https://blog.rockson.top/</link><description>RocksonLee's Blog</description><lastBuildDate>2021-11-05 21:53:25</lastBuildDate><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><item><title>LG P4059 [Code#1]找爸爸</title><link>/posts/LG P4059 [Code#1]找爸爸/</link><description>&lt;p&gt;\begin{aligned}
-f&lt;em&gt;{i, j, 0} &amp;amp;=\max \left{f&lt;/em&gt;{i-1, j-1,0}, f&lt;em&gt;{i-1, j-1,1}, f&lt;/em&gt;{i-1, j-1,2}\right}+d&lt;em&gt;{x&lt;/em&gt;{i}, y&lt;em&gt;{j}} \
-f&lt;/em&gt;{i, j, 1} &amp;amp;=\max \left{f_{i,&lt;/p&gt;
-</description><pubDate>2021-11-05 21:46:02</pubDate><guid>https://blog.rockson.top/posts/LG P4059 [Code#1]找爸爸/</guid></item><item><title>字符串hash学习</title><link>/posts/字符串hash学习/</link><description>&lt;p&gt;&lt;details&gt;
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>RocksonLee's Blog</title><link>https://blog.rockson.top/</link><description>RocksonLee's Blog</description><lastBuildDate>2021-11-05 21:59:38</lastBuildDate><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><item><title>LG P4059 [Code 1]找爸爸</title><link>/posts/LG P4059 [Code 1]找爸爸/</link><description>&lt;p&gt;$f&lt;em&gt;{i, j, 0} =\max \left{f&lt;/em&gt;{i-1, j-1,0}, f&lt;em&gt;{i-1, j-1,1}, f&lt;/em&gt;{i-1, j-1,2}\right}+d&lt;em&gt;{x&lt;/em&gt;{i}, y_{j}} $&lt;/p&gt;
+&lt;p&gt;$f&lt;em&gt;{i, j, 1} =\max \left{f&lt;/em&gt;{i, j-1,1}-b, f_{i,&lt;/p&gt;
+</description><pubDate>2021-11-05 21:46:02</pubDate><guid>https://blog.rockson.top/posts/LG P4059 [Code 1]找爸爸/</guid></item><item><title>字符串hash学习</title><link>/posts/字符串hash学习/</link><description>&lt;p&gt;&lt;details&gt;
     &lt;summary&gt;查看原文&lt;/summary&gt;
     &lt;div id=&#39;from&#39;&gt;&lt;/div&gt;
     &lt;p&gt;&amp;lt;button onclick=&#34;document.getElementById(&#39;from&#39;).innerHTML=&#39;&amp;lt;iframe src=&amp;amp;quo&lt;/p&gt;
