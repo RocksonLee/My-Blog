@@ -1,3 +1,4 @@
+https://blog.rockson.top/posts/错排问题的思考/
 https://blog.rockson.top/posts/单源最短路径/
 https://blog.rockson.top/posts/LG P4059 [Code 1]找爸爸/
 https://blog.rockson.top/posts/字符串hash学习/
@@ -37,6 +38,7 @@ https://blog.rockson.top/tools/
 https://blog.rockson.top/
 https://blog.rockson.top/page/2/
 https://blog.rockson.top/page/3/
+https://blog.rockson.top/page/4/
 https://blog.rockson.top/tags/hash/
 https://blog.rockson.top/tags/字符串/
 https://blog.rockson.top/tags/dp/

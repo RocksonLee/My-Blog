@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>RocksonLee's Blog</title><link href="https://blog.rockson.top/" rel="self"/><link href="https://blog.rockson.top/"/><updated>2021-11-09 12:24:58</updated><author><name>RocksonLee</name></author><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><entry><title>单源最短路径</title><link href="/posts/单源最短路径/"/><updated>2021-11-09</updated><summary type="html">&lt;p&gt;```cpp&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>RocksonLee's Blog</title><link href="https://blog.rockson.top/" rel="self"/><link href="https://blog.rockson.top/"/><updated>2021-11-09 22:04:11</updated><author><name>RocksonLee</name></author><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><entry><title>错排问题的思考</title><link href="/posts/错排问题的思考/"/><updated>2021-11-09</updated><summary type="html">&lt;p&gt;错排问题&lt;/p&gt;
+&lt;p&gt;n个有序的元素应有n!个不同的排列，如若一个排列使得所有的元素不在原来的位置上，则称这个排列为错排；有的叫重排。&lt;/p&gt;
+&lt;p&gt;递推关系&lt;br&gt;
+为求其递推关系，分两步走：&lt;br&gt;
+第一步，考虑第n个元素，把它放在某一个位置，比如位置k，一共有n-1种放法；&lt;br&gt;
+第二步，考虑第k个元素，这时有两种情况&lt;/p&gt;
+</summary></entry><entry><title>单源最短路径</title><link href="/posts/单源最短路径/"/><updated>2021-11-09</updated><summary type="html">&lt;p&gt;```cpp&lt;/p&gt;
 &lt;h1&gt;include &amp;lt;bits/stdc++.h&amp;gt;&lt;/h1&gt;
 &lt;h1&gt;define N 100100&lt;/h1&gt;
 &lt;h1&gt;define M 500000&lt;/h1&gt;
