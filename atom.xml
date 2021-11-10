@@ -1,10 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>RocksonLee's Blog</title><link href="https://blog.rockson.top/" rel="self"/><link href="https://blog.rockson.top/"/><updated>2021-11-09 22:04:11</updated><author><name>RocksonLee</name></author><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><entry><title>错排问题的思考</title><link href="/posts/错排问题的思考/"/><updated>2021-11-09</updated><summary type="html">&lt;p&gt;错排问题&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>RocksonLee's Blog</title><link href="https://blog.rockson.top/" rel="self"/><link href="https://blog.rockson.top/"/><updated>2021-11-11 07:26:42</updated><author><name>RocksonLee</name></author><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><entry><title>最小生成树</title><link href="/posts/最小生成树/"/><updated>2021-11-10</updated><summary type="html">&lt;p&gt;```cpp&lt;/p&gt;
+&lt;h1&gt;include &amp;lt;bits/stdc++.h&amp;gt;&lt;/h1&gt;
+&lt;h1&gt;define N 5050&lt;/h1&gt;
+&lt;h1&gt;define M 200200&lt;/h1&gt;
+&lt;h1&gt;define il inline&lt;/h1&gt;
+&lt;h1&gt;define in(a) a = read()&lt;/h1&gt;
+&lt;h1&gt;define cl(a, b) memset(a, b, sizeof(a))&lt;/h1&gt;
+</summary></entry><entry><title>二次元相关的琐碎</title><link href="/posts/二次元相关的琐碎/"/><updated>2021-11-10</updated><summary type="html">&lt;h3&gt;一些好文（基本全是转的&lt;/h3&gt;
+&lt;p&gt;中国的动画，告诉孩子的是：这是坏人，这是好人，好人就要打坏人。坏人从始到终都是坏的，好人打坏人天经地义。
+日本的动漫，告诉孩子：这是坏人，他变为坏人的理由是，为了守护某样东西、为了保护某个人、为了守住某个约定、因为以前遭受了不公与伤害，以报复世界，而变为坏人反派。&lt;/p&gt;
+</summary></entry><entry><title>luogu私信提醒</title><link href="/posts/luogu私信提醒/"/><updated>2021-11-10</updated><summary type="html">&lt;p&gt;使用洛谷私信的时候常常不能在线聊天, 因为消息没有提醒功能, 这里实现了一个收到消息产生系统通知的功能, 打开私信页面, 将一下代码复制到控制台并回车运行即可.&lt;/p&gt;
+&lt;p&gt;注意需要允许通知权限.&lt;/p&gt;
+&lt;p&gt;私信页面弄了之后是不能关的） , 需要一直挂着&lt;/p&gt;
+&lt;p&gt;```javascript
+let ws = new Web&lt;/p&gt;
+</summary></entry><entry><title>错排问题的思考</title><link href="/posts/错排问题的思考/"/><updated>2021-11-09</updated><summary type="html">&lt;p&gt;错排问题&lt;/p&gt;
 &lt;p&gt;n个有序的元素应有n!个不同的排列，如若一个排列使得所有的元素不在原来的位置上，则称这个排列为错排；有的叫重排。&lt;/p&gt;
 &lt;p&gt;递推关系&lt;br&gt;
 为求其递推关系，分两步走：&lt;br&gt;
 第一步，考虑第n个元素，把它放在某一个位置，比如位置k，一共有n-1种放法；&lt;br&gt;
 第二步，考虑第k个元素，这时有两种情况&lt;/p&gt;
-</summary></entry><entry><title>单源最短路径</title><link href="/posts/单源最短路径/"/><updated>2021-11-09</updated><summary type="html">&lt;p&gt;```cpp&lt;/p&gt;
+</summary></entry><entry><title>最短路</title><link href="/posts/最短路/"/><updated>2021-11-09</updated><summary type="html">&lt;p&gt;```cpp&lt;/p&gt;
 &lt;h1&gt;include &amp;lt;bits/stdc++.h&amp;gt;&lt;/h1&gt;
 &lt;h1&gt;define N 100100&lt;/h1&gt;
 &lt;h1&gt;define M 500000&lt;/h1&gt;
