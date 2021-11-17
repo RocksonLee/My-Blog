@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>RocksonLee's Blog</title><link>https://blog.rockson.top/</link><description>RocksonLee's Blog</description><lastBuildDate>2021-11-17 19:32:39</lastBuildDate><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><item><title>关于博客文章（必看）</title><link>/posts/关于博客文章（必看）/</link><description>&lt;p&gt;这个博客是我个人的博客&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>RocksonLee's Blog</title><link>https://blog.rockson.top/</link><description>RocksonLee's Blog</description><lastBuildDate>2021-11-17 19:36:22</lastBuildDate><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><item><title>关于博客文章（必看）</title><link>/posts/关于博客文章（必看）/</link><description>&lt;p&gt;这个博客是我个人的博客&lt;/p&gt;
 &lt;p&gt;存着一些奇奇怪怪的东西&lt;del&gt;（可以看到我发疯的记录）&lt;/del&gt;&lt;/p&gt;
 &lt;p&gt;你可在这里找到我的一些思考，一些做题想法&lt;/p&gt;
 &lt;p&gt;也可能会看到我转载的一些优秀的思考&lt;/p&gt;
@@ -68,11 +68,11 @@ let ws = new Web&lt;/p&gt;
 &lt;p&gt;```
 我已经得不到幸福了，因为我已经被幸福包围了，有关心我的人，有照顾我的人，有一个为了我哭为我笑，爱着我的人&lt;/p&gt;
 </description><pubDate>2021-11-01 14:05:44</pubDate><guid>https://blog.rockson.top/posts/Diary-2021.11/</guid></item><item><title>Note sth</title><link>/posts/Note sth/</link><description>&lt;p&gt;Nth...&lt;/p&gt;
-&lt;p&gt;四、常见评测结果
-（1）Accepted 正确通过
-（2）Compile Error 编译错误（选错语言/头文件/语法等）
-（3）Runtime Error 运行时错误：内存非法访问（指针指向非法内存区，数组越界等）、递归爆栈、浮点运算错误（除数为0，模数为0）
-（4）Wrong&lt;/p&gt;
+&lt;p&gt;四、常见评测结果&lt;/p&gt;
+&lt;p&gt;（1）Accepted 正确通过&lt;/p&gt;
+&lt;p&gt;（2）Compile Error 编译错误（选错语言/头文件/语法等）&lt;/p&gt;
+&lt;p&gt;（3）Runtime Error 运行时错误：内存非法访问（指针指向非法内存区，数组越界等）、递归爆栈、浮点运算错误（除数为0，模数为0）&lt;/p&gt;
+&lt;p&gt;（4）W&lt;/p&gt;
 </description><pubDate>2021-10-29 19:06:51</pubDate><guid>https://blog.rockson.top/posts/Note sth/</guid></item><item><title>Diy Udisk Note</title><link>/posts/Diy Udisk Note/</link><description>&lt;p&gt;&lt;details&gt;
     &lt;summary&gt;SM2246XT+海力士H27Q1T8CCE3R（ID:AD3A15A7444A）的正确开卡参数&lt;/summary&gt;
     &lt;div id=&#39;from&#39;&gt;&lt;/div&gt;
