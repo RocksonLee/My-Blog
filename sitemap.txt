@@ -1,3 +1,5 @@
+https://blog.rockson.top/posts/关于博客文章（必看）/
+https://blog.rockson.top/posts/复赛时要记住的30句话/
 https://blog.rockson.top/posts/最小生成树/
 https://blog.rockson.top/posts/二次元相关的琐碎/
 https://blog.rockson.top/posts/luogu私信提醒/
@@ -33,10 +35,8 @@ https://blog.rockson.top/posts/金中新生群圣经/
 https://blog.rockson.top/posts/LG P1981 表达式求值/
 https://blog.rockson.top/posts/金中夏令营/
 https://blog.rockson.top/about/
-https://blog.rockson.top/collection/
 https://blog.rockson.top/links/
 https://blog.rockson.top/math-tools/
-https://blog.rockson.top/readme/
 https://blog.rockson.top/tools/
 https://blog.rockson.top/
 https://blog.rockson.top/page/2/
