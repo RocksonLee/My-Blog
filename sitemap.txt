@@ -1,4 +1,6 @@
 https://blog.rockson.top/posts/关于博客文章（必看）/
+https://blog.rockson.top/posts/Splay/
+https://blog.rockson.top/posts/KMP初探/
 https://blog.rockson.top/posts/复赛时要记住的30句话/
 https://blog.rockson.top/posts/最小生成树/
 https://blog.rockson.top/posts/二次元相关的琐碎/
