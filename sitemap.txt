@@ -1,12 +1,3 @@
-https://blog.rockson.top/posts/关于博客文章（必看）/
-https://blog.rockson.top/posts/Splay/
-https://blog.rockson.top/posts/KMP初探/
-https://blog.rockson.top/posts/复赛时要记住的30句话/
-https://blog.rockson.top/posts/最小生成树/
-https://blog.rockson.top/posts/二次元相关的琐碎/
-https://blog.rockson.top/posts/luogu私信提醒/
-https://blog.rockson.top/posts/错排问题的思考/
-https://blog.rockson.top/posts/最短路/
 https://blog.rockson.top/posts/LG P4059 [Code 1]找爸爸/
 https://blog.rockson.top/posts/字符串hash学习/
 https://blog.rockson.top/posts/LG P3478 [POI2008]STA-Station/
@@ -37,13 +28,14 @@ https://blog.rockson.top/posts/金中新生群圣经/
 https://blog.rockson.top/posts/LG P1981 表达式求值/
 https://blog.rockson.top/posts/金中夏令营/
 https://blog.rockson.top/about/
+https://blog.rockson.top/collection/
 https://blog.rockson.top/links/
 https://blog.rockson.top/math-tools/
+https://blog.rockson.top/readme/
 https://blog.rockson.top/tools/
 https://blog.rockson.top/
 https://blog.rockson.top/page/2/
 https://blog.rockson.top/page/3/
-https://blog.rockson.top/page/4/
 https://blog.rockson.top/tags/hash/
 https://blog.rockson.top/tags/字符串/
 https://blog.rockson.top/tags/dp/
