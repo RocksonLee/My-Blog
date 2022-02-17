@@ -1,4 +1,5 @@
 https://blog.rockson.top/posts/关于博客文章（必看）/
+https://blog.rockson.top/posts/LG P2375 [NOI2014] 动物园/
 https://blog.rockson.top/posts/二次元相关的琐碎/
 https://blog.rockson.top/posts/复赛时要记住的30句话/
 https://blog.rockson.top/posts/单源最短路径/
@@ -19,12 +20,8 @@ https://blog.rockson.top/posts/NOI大纲[跳转]/
 https://blog.rockson.top/posts/git setting/
 https://blog.rockson.top/posts/CSP2021-S2 游记/
 https://blog.rockson.top/posts/stjzoi刷题记录/
-https://blog.rockson.top/posts/模拟赛2021.10.11/
-https://blog.rockson.top/posts/模拟赛2021.10.15/
 https://blog.rockson.top/posts/高精模板/
 https://blog.rockson.top/posts/Diary-2021.10/
-https://blog.rockson.top/posts/模拟赛2021.9.29/
-https://blog.rockson.top/posts/模拟赛2021.9.24/
 https://blog.rockson.top/posts/逆序对详解/
 https://blog.rockson.top/posts/手写int128/
 https://blog.rockson.top/posts/快速幂/
@@ -50,20 +47,10 @@ https://blog.rockson.top/tags/字符串/
 https://blog.rockson.top/tags/dp/
 https://blog.rockson.top/tags/树形dp/
 https://blog.rockson.top/tags/diary/
-https://blog.rockson.top/tags/tarjan/
-https://blog.rockson.top/tags/强连通分量/
-https://blog.rockson.top/tags/缩点/
 https://blog.rockson.top/tags/高精度/
 https://blog.rockson.top/tags/比赛常用/
-https://blog.rockson.top/tags/数位dp/
-https://blog.rockson.top/tags/状压dp/
-https://blog.rockson.top/tags/模拟赛/
 https://blog.rockson.top/tags/逆序对/
 https://blog.rockson.top/tags/树状数组/
-https://blog.rockson.top/tags/单调队列/
-https://blog.rockson.top/tags/队列/
-https://blog.rockson.top/tags/模拟/
-https://blog.rockson.top/tags/堆/
 https://blog.rockson.top/tags/ing/
 https://blog.rockson.top/tags/归并排序/
 https://blog.rockson.top/tags/快速幂/
@@ -71,6 +58,7 @@ https://blog.rockson.top/tags/快读/
 https://blog.rockson.top/tags/奇怪的东西/
 https://blog.rockson.top/tags/线段树/
 https://blog.rockson.top/tags/对拍/
+https://blog.rockson.top/tags/模拟/
 https://blog.rockson.top/tags/栈/
 https://blog.rockson.top/tags/后缀表达式/
 https://blog.rockson.top/tags/游记/
@@ -82,7 +70,6 @@ https://blog.rockson.top/categories/算法/图论/
 https://blog.rockson.top/categories/算法/
 https://blog.rockson.top/categories/刷题记录/
 https://blog.rockson.top/categories/diary/
-https://blog.rockson.top/categories/比赛/
 https://blog.rockson.top/categories/note/
 https://blog.rockson.top/categories/游记/
 https://blog.rockson.top/categories/
