@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>RocksonLee's Blog</title><link>https://blog.rockson.top/</link><description>RocksonLee's Blog</description><lastBuildDate>2022-03-15 17:27:10</lastBuildDate><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><item><title>关于博客文章（必看）</title><link>/posts/guan-yu-bo-ke-wen-zhang-（-bi-kan-）/</link><description>&lt;p&gt;这个博客是我个人的博客&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>RocksonLee's Blog</title><link>https://blog.rockson.top/</link><description>RocksonLee's Blog</description><lastBuildDate>2022-03-15 17:28:58</lastBuildDate><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><item><title>关于博客文章（必看）</title><link>/posts/guan-yu-bo-ke-wen-zhang-（-bi-kan-）/</link><description>&lt;p&gt;这个博客是我个人的博客&lt;/p&gt;
 &lt;p&gt;存着一些奇奇怪怪的东西（可以看到我发疯的记录）&lt;/p&gt;
 &lt;p&gt;你可在这里找到我的一些思考，一些做题想法&lt;/p&gt;
 &lt;p&gt;也可能会看到我转载的一些优秀的思考&lt;/p&gt;
@@ -10,8 +10,8 @@
 &lt;p&gt;USACO training 其实是很久之前就想彻底刷一遍的题单，但是因为其他的原因，一直没有完整的刷过一遍，这两个星期也有空，尝试刷刷吧！&lt;/p&gt;
 &lt;h2&gt;USACO Section 1&lt;/h2&gt;
 &lt;p&gt;&lt;details&gt;&lt;/p&gt;
-&lt;summary&gt;Code&lt;/summary&gt;&lt;p&gt;```cpp
-#&lt;/p&gt;
+&lt;p&gt;&lt;summary&gt;Code&lt;/summary&gt;&lt;/p&gt;
+&lt;p&gt;&lt;pre&gt;&amp;lt;cod&lt;/p&gt;
 </description><pubDate>2022-03-15 13:33:25</pubDate><guid>https://blog.rockson.top/posts/!USACO-training--xue-xi-ji-hua/</guid></item><item><title>学习笔记</title><link>/posts/!-xue-xi-bi-ji/</link><description>&lt;h1&gt;前言&lt;/h1&gt;
 &lt;p&gt;可能是在整理 $blog$ 上力不从心, 在使用 $\LaTeX$ 上并没有做到很工整, 所以现在开始之前的博客都处于半闲置状态, 博客使用频率不高, 可能也是一些问题, 最近尽量搞起来&lt;/p&gt;
 &lt;p&gt;基本上把能看的学习笔记集中在这里, 这样就不会混乱了, 打起来也不用 $Jump~Jump~Ju&lt;/p&gt;
