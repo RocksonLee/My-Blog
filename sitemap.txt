@@ -1,6 +1,6 @@
 https://blog.rockson.top/posts/guan-yu-bo-ke-wen-zhang-（-bi-kan-）/
-https://blog.rockson.top/posts/USACO-training--xue-xi-ji-hua/
-https://blog.rockson.top/posts/xue-xi-bi-ji/
+https://blog.rockson.top/posts/!USACO-training--xue-xi-ji-hua/
+https://blog.rockson.top/posts/!-xue-xi-bi-ji/
 https://blog.rockson.top/posts/luogu-ge-ren-zhu-ye-cun-dang-22.3.10/
 https://blog.rockson.top/posts/CF-1649B-Game-of-Ball-Passing/
 https://blog.rockson.top/posts/CF-1642B-Power-Walking/
@@ -9,7 +9,7 @@ https://blog.rockson.top/posts/er-ci-yuan-xiang-guan-de-suo-sui/
 https://blog.rockson.top/posts/fu-sai-shi-yao-ji-zhu-de-30-ju-hua/
 https://blog.rockson.top/posts/dan-yuan-zui-duan-lu-jing/
 https://blog.rockson.top/posts/luogu-si-xin-ti-xing/
-https://blog.rockson.top/posts/！Splay/
+https://blog.rockson.top/posts/Splay/
 https://blog.rockson.top/posts/cuo-pai-wen-ti-de-si-kao/
 https://blog.rockson.top/posts/KMP-chu-tan/
 https://blog.rockson.top/posts/LG-P4059-[Code-1]-zhao-ba-ba/
