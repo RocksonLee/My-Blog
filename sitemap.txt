@@ -1,5 +1,5 @@
 https://blog.rockson.top/posts/[-zhi-ding-]-guan-yu-bo-ke-wen-zhang-（-bi-kan-）/
-https://blog.rockson.top/posts/!USACO/
+https://blog.rockson.top/posts/!USACO_out/
 https://blog.rockson.top/posts/Blog-wei-hu-bi-ji/
 https://blog.rockson.top/posts/CF-1654C-Alice-and-the-Cake/
 https://blog.rockson.top/posts/CF-1654B-Prefix-Removals/
@@ -43,6 +43,7 @@ https://blog.rockson.top/posts/dui-pai/
 https://blog.rockson.top/posts/jin-zhong-xin-sheng-qun-sheng-jing/
 https://blog.rockson.top/posts/LG-P1981--biao-da-shi-qiu-zhi/
 https://blog.rockson.top/posts/jin-zhong-xia-ling-ying/
+https://blog.rockson.top/posts/!USACO/
 https://blog.rockson.top/about/
 https://blog.rockson.top/collection/
 https://blog.rockson.top/links/
