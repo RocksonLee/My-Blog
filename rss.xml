@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>RocksonLee's Blog</title><link>https://blog.rockson.top/</link><description>RocksonLee's Blog</description><lastBuildDate>2022-03-22 21:01:24</lastBuildDate><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><item><title>关于博客文章（必看）</title><link>/posts/[-zhi-ding-]-guan-yu-bo-ke-wen-zhang-（-bi-kan-）/</link><description>&lt;p&gt;这个博客是我个人的博客&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>RocksonLee's Blog</title><link>https://blog.rockson.top/</link><description>RocksonLee's Blog</description><lastBuildDate>2022-03-24 21:35:54</lastBuildDate><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><item><title>关于博客文章（必看）</title><link>/posts/[-zhi-ding-]-guan-yu-bo-ke-wen-zhang-（-bi-kan-）/</link><description>&lt;p&gt;这个博客是我个人的博客&lt;/p&gt;
 &lt;p&gt;存着一些奇奇怪怪的东西（可以看到我发疯的记录）&lt;/p&gt;
 &lt;p&gt;你可在这里找到我的一些思考，一些做题想法&lt;/p&gt;
 &lt;p&gt;也可能会看到我转载的一些优秀的思考&lt;/p&gt;
@@ -16,7 +16,12 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-</description><pubDate>2022-03-15 13:33:25</pubDate><guid>https://blog.rockson.top/posts/!USACO_out/</guid></item><item><title>Blog维护笔记</title><link>/posts/Blog-wei-hu-bi-ji/</link><description>&lt;p&gt;material\index.html&lt;/p&gt;
+</description><pubDate>2022-03-15 13:33:25</pubDate><guid>https://blog.rockson.top/posts/!USACO_out/</guid></item><item><title>CF 815B Karen and Test</title><link>/posts/CF-815B-Karen-and-Test/</link><description>&lt;h2&gt;Problem&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://codeforces.com/contest/815/problem/B&#34;&gt;codeforces&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/CF815B&#34;&gt;Luogu&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Solution&lt;/h2&gt;
+&lt;p&gt;看到一串数字，两两进行相加&lt;/p&gt;
+</description><pubDate>2022-03-24 19:58:46</pubDate><guid>https://blog.rockson.top/posts/CF-815B-Karen-and-Test/</guid></item><item><title>Blog维护笔记</title><link>/posts/Blog-wei-hu-bi-ji/</link><description>&lt;p&gt;material\index.html&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;a href=&#34;{{i.link}}&#34; class=&#34;mdui-card-primary-title&#34;&amp;gt;{%if i.top&amp;gt;0%}[置顶]{%elif i.top&amp;lt;0%}[置底]{%endif%}{{i.title}}&amp;lt;/a&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;To:&lt;/p&gt;
@@ -55,11 +60,11 @@
 &lt;p&gt;&lt;a href=&#34;https://codeforces.com/contest/1649/problem/B&#34;&gt;codeforces&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Solution&lt;/h2&gt;
 &lt;p&gt;接受球不消耗次数，球从一&lt;/p&gt;
-</description><pubDate>2022-03-07 14:12:51</pubDate><guid>https://blog.rockson.top/posts/CF-1649B-Game-of-Ball-Passing/</guid></item><item><title>CF 1642B Power Walking</title><link>/posts/CF-1642B-Power-Walking/</link><description>&lt;h3&gt;原题链接&lt;/h3&gt;
+</description><pubDate>2022-03-07 14:12:51</pubDate><guid>https://blog.rockson.top/posts/CF-1649B-Game-of-Ball-Passing/</guid></item><item><title>CF 1642B Power Walking</title><link>/posts/CF-1642B-Power-Walking/</link><description>&lt;h2&gt;原题链接&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://codeforces.com/contest/1642/problem/B&#34;&gt;codeforces&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/CF1642A&#34;&gt;luogu&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;题意理解&lt;/h3&gt;
-&lt;p&gt;这道题是赛时做的，如果没有你谷简明&lt;/p&gt;
+&lt;h2&gt;题意理解&lt;/h2&gt;
+&lt;p&gt;这道题是赛时做的，如果没有你谷简明扼要&lt;/p&gt;
 </description><pubDate>2022-03-07 13:34:16</pubDate><guid>https://blog.rockson.top/posts/CF-1642B-Power-Walking/</guid></item><item><title>LG P2375 [NOI2014] 动物园</title><link>/posts/LG-P2375-[NOI2014]--dong-wu-yuan/</link><description>&lt;p&gt;祭上一次blog已经3个月了，我成为鸽子了...&lt;/p&gt;
 &lt;p&gt;这道题就跑两遍kmp&lt;del&gt;看毛片&lt;/del&gt;就可以解决问题，但是一些小问题由于码力解决较晚。&lt;/p&gt;
 &lt;p&gt;解决用时1.5h&lt;/p&gt;
