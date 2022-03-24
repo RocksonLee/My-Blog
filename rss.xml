@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>RocksonLee's Blog</title><link>https://blog.rockson.top/</link><description>RocksonLee's Blog</description><lastBuildDate>2022-03-24 21:37:35</lastBuildDate><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><item><title>关于博客文章（必看）</title><link>/posts/[-zhi-ding-]-guan-yu-bo-ke-wen-zhang-（-bi-kan-）/</link><description>&lt;p&gt;这个博客是我个人的博客&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><rss version="2.0"><channel><title>RocksonLee's Blog</title><link>https://blog.rockson.top/</link><description>RocksonLee's Blog</description><lastBuildDate>2022-03-25 06:32:50</lastBuildDate><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><item><title>关于博客文章（必看）</title><link>/posts/[-zhi-ding-]-guan-yu-bo-ke-wen-zhang-（-bi-kan-）/</link><description>&lt;p&gt;这个博客是我个人的博客&lt;/p&gt;
 &lt;p&gt;存着一些奇奇怪怪的东西（可以看到我发疯的记录）&lt;/p&gt;
 &lt;p&gt;你可在这里找到我的一些思考，一些做题想法&lt;/p&gt;
 &lt;p&gt;也可能会看到我转载的一些优秀的思考&lt;/p&gt;
@@ -20,7 +20,7 @@
 &lt;p&gt;&lt;a href=&#34;https://codeforces.com/contest/815/problem/B&#34;&gt;codeforces&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/CF815B&#34;&gt;Luogu&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Solution&lt;/h2&gt;
-&lt;p&gt;看到一串数字，两两进行相加&lt;/p&gt;
+&lt;p&gt;看到一串数字，两两进行相加的&lt;/p&gt;
 </description><pubDate>2022-03-24 19:58:46</pubDate><guid>https://blog.rockson.top/posts/CF-815B-Karen-and-Test/</guid></item><item><title>Blog维护笔记</title><link>/posts/Blog-wei-hu-bi-ji/</link><description>&lt;p&gt;material\index.html&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;a href=&#34;{{i.link}}&#34; class=&#34;mdui-card-primary-title&#34;&amp;gt;{%if i.top&amp;gt;0%}[置顶]{%elif i.top&amp;lt;0%}[置底]{%endif%}{{i.title}}&amp;lt;/a&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
