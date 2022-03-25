@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>RocksonLee's Blog</title><link href="https://blog.rockson.top/" rel="self"/><link href="https://blog.rockson.top/"/><updated>2022-03-25 09:34:06</updated><author><name>RocksonLee</name></author><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><entry><title>关于博客文章（必看）</title><link href="/posts/[-zhi-ding-]-guan-yu-bo-ke-wen-zhang-（-bi-kan-）/"/><updated>2021-12-09</updated><summary type="html">&lt;p&gt;这个博客是我个人的博客&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>RocksonLee's Blog</title><link href="https://blog.rockson.top/" rel="self"/><link href="https://blog.rockson.top/"/><updated>2022-03-25 18:42:57</updated><author><name>RocksonLee</name></author><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><entry><title>关于博客文章（必看）</title><link href="/posts/guan-yu-bo-ke-wen-zhang/"/><updated>2022-01-01</updated><summary type="html">&lt;p&gt;这个博客是我个人的博客&lt;/p&gt;
 &lt;p&gt;存着一些奇奇怪怪的东西（可以看到我发疯的记录）&lt;/p&gt;
 &lt;p&gt;你可在这里找到我的一些思考，一些做题想法&lt;/p&gt;
 &lt;p&gt;也可能会看到我转载的一些优秀的思考&lt;/p&gt;
 &lt;p&gt;不过这些不是我写的文字，侵删，记得联系我qwq&lt;/p&gt;
 &lt;p&gt;希望能找到你喜欢/想要的东西&lt;/p&gt;
 &lt;p&gt;qwq&lt;/p&gt;
-</summary></entry><entry><title>USACO training 学习计划</title><link href="/posts/!USACO_out/"/><updated>2022-03-15</updated><summary type="html">&lt;ul&gt;
+</summary></entry><entry><title>金中夏令营 游记</title><link href="/posts/jin-zhong-xia-ling-ying/"/><updated>2020-08-08</updated><summary type="html">&lt;h2&gt;前言&lt;/h2&gt;
+&lt;p&gt;其实这是第二次来到金中了，上一次是2019冬令营，在我写下这篇游记的时候，&lt;strong&gt;CSP 2020&lt;/strong&gt;只有不到70天的时间，我在这里收获的东西，不同于往年，还感受到了一些不一样的东西。&lt;/p&gt;
+&lt;h2&gt;day 0&lt;/h2&gt;
+&lt;p&gt;我去金中的前几天都在考试，这一次夏令营刚好卡在我们区统考后的第二天，~~根本没得&lt;/p&gt;
+</summary></entry><entry><title>USACO training 学习计划</title><link href="/posts/!USACO-training/"/><updated>2022-03-15</updated><summary type="html">&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#0&#34;&gt;前言&lt;/a&gt;  &lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#1&#34;&gt;USACO Section 1&lt;/a&gt;  &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#2&#34;&gt;1.2.2&lt;/a&gt;  &lt;ul&gt;
@@ -16,15 +20,19 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+</summary></entry><entry><title>NOI大纲</title><link href="/posts/NOI-da-gang/"/><updated>2021-10-26</updated><summary type="html">&lt;p&gt;&lt;details&gt;
+    &lt;summary&gt;跳转CCF大纲&lt;/summary&gt;
+    &lt;div id=&#39;from&#39;&gt;&lt;/div&gt;
+    &lt;p&gt;&amp;lt;button onclick=&#34;document.getElementById(&#39;from&#39;).innerHTML=&#39;&amp;lt;iframe src=&amp;amp;qu&lt;/p&gt;
+</summary></entry><entry><title>AT AGC070D HonestOrUnkind</title><link href="/posts/AT-AGC070D-HonestOrUnkind/"/><updated>2022-03-25</updated><summary type="html">&lt;h2&gt;Problem&lt;/h2&gt;
 </summary></entry><entry><title>CF 815B Karen and Test</title><link href="/posts/CF-815B-Karen-and-Test/"/><updated>2022-03-24</updated><summary type="html">&lt;h2&gt;Problem&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://codeforces.com/contest/815/problem/B&#34;&gt;codeforces&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/CF815B&#34;&gt;Luogu&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Solution&lt;/h2&gt;
 &lt;p&gt;看到一串数字，两两进行相加的&lt;/p&gt;
 </summary></entry><entry><title>Blog维护笔记</title><link href="/posts/Blog-wei-hu-bi-ji/"/><updated>2022-03-22</updated><summary type="html">&lt;p&gt;material\index.html&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;a href=&#34;{{i.link}}&#34; class=&#34;mdui-card-primary-title&#34;&amp;gt;{%if i.top&amp;gt;0%}[置顶]{%elif i.top&amp;lt;0%}[置底]{%endif%}{{i.title}}&amp;lt;/a&amp;gt;
+&lt;pre&gt;&lt;code class=&#34;lang-html&#34;&gt;&amp;lt;a href=&amp;quot;{{i.link}}&amp;quot; class=&amp;quot;mdui-card-primary-title&amp;quot;&amp;gt;{%if i.top&amp;gt;0%}[置顶]{%elif i.top&amp;lt;0%}[置底]{%endif%}{{i.title}}&amp;lt;/a&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;To:&lt;/p&gt;
 </summary></entry><entry><title>CF 1654C Alice and the Cake</title><link href="/posts/CF-1654C-Alice-and-the-Cake/"/><updated>2022-03-21</updated><summary type="html">&lt;h2&gt;Problem&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/CF1654C&#34;&gt;Luogu&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://codeforces.com/contest/1654/problem/C&#34;&gt;Codeforces&lt;/a&gt;&lt;/p&gt;
@@ -50,11 +58,11 @@
 &lt;p&gt;&lt;a href=&#34;https://codeforces.com/contest/1650/problem/A&#34;&gt;codeforces&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Solution&lt;/h2&gt;
 &lt;p&gt;你仔细想一下，他一次只能&lt;/p&gt;
-</summary></entry><entry><title>学习笔记</title><link href="/posts/!-xue-xi-bi-ji/"/><updated>2022-03-10</updated><summary type="html">&lt;h1&gt;前言&lt;/h1&gt;
+</summary></entry><entry><title>学习笔记</title><link href="/posts/!Study-Note/"/><updated>2022-03-10</updated><summary type="html">&lt;h1&gt;前言&lt;/h1&gt;
 &lt;p&gt;可能是在整理 $blog$ 上力不从心, 在使用 $\LaTeX$ 上并没有做到很工整, 所以现在开始之前的博客都处于半闲置状态, 博客使用频率不高, 可能也是一些问题, 最近尽量搞起来&lt;/p&gt;
 &lt;p&gt;基本上把能看的学习笔记集中在这里, 这样就不会混乱了, 打起来也不用 $Jump~Jump~Ju&lt;/p&gt;
 </summary></entry><entry><title>luogu个人主页存档22.3.10</title><link href="/posts/luogu-ge-ren-zhu-ye-cun-dang-22.3.10/"/><updated>2022-03-10</updated><summary type="html">&lt;p&gt;&lt;a href=&#34;https://blog.rockson.top/&#34;&gt;$\mathit{\Large{\textcolor{#2874B2}{My \ Blog}}}$&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;![](&lt;a href=&#34;https://cdn.jsdelivr.net/gh/RocksonLee/Picgo/20211020210756.p&#34;&gt;https://cdn.jsdelivr.net/gh/RocksonLee/Picgo/20211020210756.p&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;![pic](&lt;a href=&#34;https://cdn.jsdelivr.net/gh/RocksonLee/Picgo/2021102021075&#34;&gt;https://cdn.jsdelivr.net/gh/RocksonLee/Picgo/2021102021075&lt;/a&gt;&lt;/h2&gt;
 </summary></entry><entry><title>CF 1649B Game of Ball Passing</title><link href="/posts/CF-1649B-Game-of-Ball-Passing/"/><updated>2022-03-07</updated><summary type="html">&lt;h2&gt;Problem&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/CF1649B&#34;&gt;luogu&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://codeforces.com/contest/1649/problem/B&#34;&gt;codeforces&lt;/a&gt;&lt;/p&gt;
@@ -73,16 +81,9 @@
 &lt;p&gt;```cpp&lt;/p&gt;
 &lt;h1&gt;include &amp;lt;bits/stdc+&lt;/h1&gt;
 </summary></entry><entry><title>二次元相关的琐碎</title><link href="/posts/er-ci-yuan-xiang-guan-de-suo-sui/"/><updated>2021-12-09</updated><summary type="html">&lt;h2&gt;一些好文（基本全是转的&lt;/h2&gt;
-&lt;p&gt;中国的动画，告诉孩子的是：这是坏人，这是好人，好人就要打坏人。坏人从始到终都是坏的，好人打坏人天经地义。 日本的动漫，告诉孩子：这是坏人，他变为坏人的理由是，为了守护某样东西、为了保护某个人、为了守住某个约定、因为以前遭受了不公与伤害，以报复世界，而变为坏人反派。好人&lt;/p&gt;
+&lt;p&gt;中国的动画，告诉孩子的是：这是坏人，这是好人，好人就要打坏人。坏人从始到终都是坏的，好人打坏人天经地义。 日本的动漫，告诉孩子：这是坏人，他变为坏人的理由是，为了守护某样东西、为了保护某个人、为了守住某个约定、因为以前遭受了不公与伤害，以报复世界，而变为坏人反派。好&lt;/p&gt;
 </summary></entry><entry><title>复赛时要记住的30句话</title><link href="/posts/fu-sai-shi-yao-ji-zhu-de-30-ju-hua/"/><updated>2021-12-09</updated><summary type="html">&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/blog/LinearExpectation/method-to-get-score-in-a-easy-way&#34;&gt;https://www.luogu.com.cn/blog/LinearExpectation/method-to-get-score-in-a-easy-way&lt;/a&gt;
-&amp;lt;&lt;a href=&#34;https://www.luogu.com.cn/blog/zyf2004/fu-sai-shi-yao-ji-zhu-di-30&#34;&gt;https://www.luogu.com.cn/blog/zyf2004/fu-sai-shi-yao-ji-zhu-di-30&lt;/a&gt;&lt;/p&gt;
-</summary></entry><entry><title>单源最短路径</title><link href="/posts/dan-yuan-zui-duan-lu-jing/"/><updated>2021-12-09</updated><summary type="html">&lt;p&gt;```cpp&lt;/p&gt;
-&lt;h1&gt;include &amp;lt;bits/stdc++.h&amp;gt;&lt;/h1&gt;
-&lt;h1&gt;define N 100100&lt;/h1&gt;
-&lt;h1&gt;define M 500000&lt;/h1&gt;
-&lt;h1&gt;define il inline&lt;/h1&gt;
-&lt;h1&gt;define in(a) a = read()&lt;/h1&gt;
-&lt;h1&gt;define cl(a, b) memset(a, b, sizeof(a))&lt;/h1&gt;
+&amp;lt;&lt;a href=&#34;https://www.luogu.com.cn/blog/zyf2004/fu-sai-shi-yao-ji-zhu-di-3&#34;&gt;https://www.luogu.com.cn/blog/zyf2004/fu-sai-shi-yao-ji-zhu-di-3&lt;/a&gt;&lt;/p&gt;
 </summary></entry><entry><title>luogu私信提醒</title><link href="/posts/luogu-si-xin-ti-xing/"/><updated>2021-12-09</updated><summary type="html">&lt;p&gt;使用洛谷私信的时候常常不能在线聊天, 因为消息没有提醒功能, 这里实现了一个收到消息产生系统通知的功能, 打开私信页面, 将一下代码复制到控制台并回车运行即可.&lt;/p&gt;
 &lt;p&gt;注意需要允许通知权限.&lt;/p&gt;
 &lt;p&gt;私信页面弄了之后是不能关的） , 需要一直挂着&lt;/p&gt;
@@ -109,7 +110,15 @@ let ws = new WebSocket(&lt;/p&gt;
 &lt;h1&gt;define N 1000100&lt;/h1&gt;
 &lt;h1&gt;define Inf 0x3f3f3f3f&lt;/h1&gt;
 &lt;p&gt;int Kmp[N];
-char Mode[N], S[N];&lt;/p&gt;
+char Mode[N], S[N];
+i&lt;/p&gt;
+</summary></entry><entry><title>单源最短路径</title><link href="/posts/dan-yuan-zui-duan-lu-jing/"/><updated>2021-11-26</updated><summary type="html">&lt;p&gt;```cpp&lt;/p&gt;
+&lt;h1&gt;include &amp;lt;bits/stdc++.h&amp;gt;&lt;/h1&gt;
+&lt;h1&gt;define N 100100&lt;/h1&gt;
+&lt;h1&gt;define M 500000&lt;/h1&gt;
+&lt;h1&gt;define il inline&lt;/h1&gt;
+&lt;h1&gt;define in(a) a = read()&lt;/h1&gt;
+&lt;h1&gt;define cl(a, b) memset(a, b, sizeof(a))&lt;/h1&gt;
 </summary></entry><entry><title>LG P4059 [Code 1]找爸爸</title><link href="/posts/LG-P4059-[Code-1]-zhao-ba-ba/"/><updated>2021-11-05</updated><summary type="html">&lt;p&gt;$f&lt;em&gt;{i, j, 0} =\max \left{f&lt;/em&gt;{i-1, j-1,0}, f&lt;em&gt;{i-1, j-1,1}, f&lt;/em&gt;{i-1, j-1,2}\right}+d&lt;em&gt;{x&lt;/em&gt;{i}, y_{j}} $&lt;/p&gt;
 &lt;p&gt;$f&lt;em&gt;{i, j, 1} =\max \left{f&lt;/em&gt;{i, j-1,1}-b, f_{i,&lt;/p&gt;
 </summary></entry><entry><title>字符串hash学习</title><link href="/posts/zi-fu-chuan-hash-xue-xi/"/><updated>2021-11-05</updated><summary type="html">&lt;p&gt;&lt;details&gt;
@@ -120,10 +129,10 @@ char Mode[N], S[N];&lt;/p&gt;
     &lt;summary&gt;查看原题&lt;/summary&gt;
     &lt;div id=&#39;from&#39;&gt;&lt;/div&gt;
     &lt;p&gt;&amp;lt;button onclick=&#34;document.getElementById(&#39;from&#39;).innerHTML=&#39;&amp;lt;iframe src=&amp;quot;&lt;/p&gt;
-</summary></entry><entry><title>P2986 [USACO10MAR]Great Cow Gathering G</title><link href="/posts/LG-P2986-[USACO10MAR]Great-Cow-Gathering-G/"/><updated>2021-11-03</updated><summary type="html">&lt;p&gt;&lt;details&gt;
+</summary></entry><entry><title>LG P2986 [USACO10MAR]Great Cow Gathering G</title><link href="/posts/LG-P2986-[USACO10MAR]Great-Cow-Gathering-G/"/><updated>2021-11-03</updated><summary type="html">&lt;p&gt;&lt;details&gt;
     &lt;summary&gt;查看原题&lt;/summary&gt;
     &lt;div id=&#39;from&#39;&gt;&lt;/div&gt;
-    &lt;p&gt;&amp;lt;button onclick=&#34;document.getElementById(&#39;from&#39;).innerHTML=&#39;&amp;lt;iframe src=&amp;quot;&lt;/p&gt;
+    &lt;p&gt;&amp;lt;button onclick=&#34;document.getElementById(&#39;from&#39;).innerHTML=&#39;&amp;lt;iframe src=&amp;quot;h&lt;/p&gt;
 </summary></entry><entry><title>LG P1122 最大子树和</title><link href="/posts/LG-P1122--zui-da-zi-shu-he/"/><updated>2021-11-02</updated><summary type="html">&lt;p&gt;&lt;details&gt;
     &lt;summary&gt;查看原题&lt;/summary&gt;
     &lt;div id=&#39;from&#39;&gt;&lt;/div&gt;
@@ -154,14 +163,10 @@ char Mode[N], S[N];&lt;/p&gt;
 &lt;p&gt;（1）Accepted 正确通过&lt;/p&gt;
 &lt;p&gt;（2）Compile Error 编译错误（选错语言/头文件/语法等）&lt;/p&gt;
 &lt;p&gt;（3）Runtime Error&lt;/p&gt;
-</summary></entry><entry><title>NOI大纲[跳转]</title><link href="/posts/NOI-da-gang-[-tiao-zhuan-]/"/><updated>2021-10-26</updated><summary type="html">&lt;p&gt;&lt;details&gt;
-    &lt;summary&gt;跳转CCF大纲&lt;/summary&gt;
-    &lt;div id=&#39;from&#39;&gt;&lt;/div&gt;
-    &lt;p&gt;&amp;lt;button onclick=&#34;document.getElementById(&#39;from&#39;).innerHTML=&#39;&amp;lt;iframe src=&amp;amp;qu&lt;/p&gt;
-</summary></entry><entry><title>git setting</title><link href="/posts/git-setting/"/><updated>2021-10-25</updated><summary type="html">&lt;p&gt;```
+</summary></entry><entry><title>git setting</title><link href="/posts/git-setting/"/><updated>2021-10-25</updated><summary type="html">&lt;p&gt;```ps
 git config --global http.proxy &lt;a href=&#34;http://127.0.0.1:1080&#34;&gt;http://127.0.0.1:1080&lt;/a&gt;
 git config --global https.proxy &lt;a href=&#34;https://127.0.0.1:1080&#34;&gt;https://127.0.0.1:1080&lt;/a&gt;
-git config --global user.name &#34;Rockso&lt;/p&gt;
+git config --global user.name &#34;Rock&lt;/p&gt;
 </summary></entry><entry><title>CSP2021-S2 游记</title><link href="/posts/CSP2021-S2--you-ji/"/><updated>2021-10-25</updated><summary type="html">&lt;h2&gt;Day -1&lt;/h2&gt;
 &lt;p&gt;真的有一说一挺紧张的，貌似忘了带什么，带的很齐全啊，慌啊qwq&lt;/p&gt;
 &lt;p&gt;CSP-S 我还复习不全啊，DP随便打了几道题，不过还是感觉挺颓废的&lt;/p&gt;
@@ -179,12 +184,12 @@ git config --global user.name &#34;Rockso&lt;/p&gt;
 &lt;h1&gt;include &lt;cstdio&gt;&lt;/h1&gt;
 &lt;p&gt;int main()
 {
-    printf(&#34;Hel&lt;/p&gt;
+    print&lt;/p&gt;
 </summary></entry><entry><title>高精模板</title><link href="/posts/gao-jing-mu-ban/"/><updated>2021-10-08</updated><summary type="html">&lt;p&gt;&lt;details&gt;
     &lt;summary&gt;查看链接&lt;/summary&gt;
     &lt;div id=&#39;from&#39;&gt;&lt;/div&gt;
     &lt;p&gt;
-        &amp;lt;a class=&#39;mdui-btn mdui-btn-raised&#39; href=&#34;&lt;a href=&#34;https://www.cnblogs.com/mr&#34;&gt;https://www.cnblogs.com/mr&lt;/a&gt;&lt;/p&gt;
+        &amp;lt;a class=&#39;mdui-btn mdui-btn-raised&#39; href=&#34;&lt;a href=&#34;https://www.cnblogs.com/mrc&#34;&gt;https://www.cnblogs.com/mrc&lt;/a&gt;&lt;/p&gt;
 </summary></entry><entry><title>Diary-2021.10</title><link href="/posts/Diary-2021.10/"/><updated>2021-10-01</updated><summary type="html">&lt;h2&gt;10.1&lt;/h2&gt;
 &lt;p&gt;今天最显著的特点就是无所事事啊，什么的。今天好无聊啊，重新和&lt;del&gt;JEG&lt;/del&gt;JSG的ws&amp;amp;&amp;amp;xtx一起颓一个新坑——艾维空岛&lt;/p&gt;
 &lt;p&gt;好无聊啊，有点想cql...&lt;/p&gt;
@@ -196,23 +201,23 @@ git config --global user.name &#34;Rockso&lt;/p&gt;
 &lt;p&gt;&lt;details&gt;
     &lt;summary&gt;查看链接&lt;/summary&gt;
     &lt;div id=&#39;from&#39;&gt;&lt;/div&gt;
-    &lt;p&gt;&amp;lt;button onclick=&#34;document.getElementById(&#39;from&#39;).innerHTML=&#39;&amp;lt;iframe src&lt;/p&gt;
+    &lt;p&gt;&amp;lt;button onclick=&#34;document.getElementById(&#39;from&#39;).innerHTML=&#39;&amp;lt;iframe s&lt;/p&gt;
 </summary></entry><entry><title>手写int128</title><link href="/posts/shou-xie-int128/"/><updated>2021-09-27</updated><summary type="html">&lt;h1&gt;这个东西有待考证和优化&lt;/h1&gt;
-&lt;h3&gt;代码如下&lt;/h3&gt;
+&lt;h2&gt;代码如下&lt;/h2&gt;
 &lt;p&gt;```cpp&lt;/p&gt;
 &lt;h1&gt;include &lt;iostream&gt;&lt;/h1&gt;
 &lt;h1&gt;include &lt;cstdio&gt;&lt;/h1&gt;
 &lt;h1&gt;include &lt;stack&gt;&lt;/h1&gt;
 &lt;h1&gt;include &lt;cstring&gt;&lt;/h1&gt;
 &lt;p&gt;using namespace std;
-//从这里到100行都是int128的运算代码&lt;/p&gt;
+//从这里到100行都是int128的运算代&lt;/p&gt;
 </summary></entry><entry><title>快速幂</title><link href="/posts/kuai-su-mi/"/><updated>2021-09-27</updated><summary type="html">&lt;h3&gt;快速幂&lt;/h3&gt;
 &lt;p&gt;```cpp
 long long pow_quick(long long a, long long n){
     long long res = 1;
     while(n){
         if(n &amp;amp; 1){
-            res *= a;   //判断最后一位是不是1，如果是的话，就把 a 乘上来&lt;/p&gt;
+            res *= a;   //判断最后一&lt;/p&gt;
 </summary></entry><entry><title>快读</title><link href="/posts/kuai-du/"/><updated>2021-09-27</updated><summary type="html">&lt;h3&gt;代码&lt;/h3&gt;
 &lt;p&gt;```cpp
 int read()
@@ -222,7 +227,8 @@ int read()
     while (ch &amp;lt; &#39;0&#39; || ch &amp;gt; &#39;9&#39;)
     { // ch 不是数字时
         if (ch == &#39;-&#39;)&lt;/p&gt;
-</summary></entry><entry><title>算法打油诗[转载]</title><link href="/posts/suan-fa-da-you-shi-[-zhuan-zai-]/"/><updated>2021-09-15</updated><summary type="html">&lt;p&gt;```
+</summary></entry><entry><title>算法打油诗</title><link href="/posts/suan-fa-da-you-shi/"/><updated>2021-09-15</updated><summary type="html">&lt;h2&gt;转的&lt;/h2&gt;
+&lt;p&gt;```test
 屏幕在深夜微微发亮&lt;/p&gt;
 &lt;p&gt;思想在那虚树路径上彷徨&lt;/p&gt;
 &lt;p&gt;平面的向量交错生长&lt;/p&gt;
@@ -235,12 +241,6 @@ int read()
 &lt;p&gt;指尖流淌 代码千行&lt;/p&gt;
 &lt;p&gt;凸包周长 直径多长&lt;/p&gt;
 &lt;p&gt;一进考场 全都忘光&lt;/p&gt;
-&lt;p&gt;你在 OJ 上提交了&lt;/p&gt;
-</summary></entry><entry><title>线段树详解</title><link href="/posts/xian-duan-shu-xiang-jie/"/><updated>2021-09-15</updated><summary type="html">&lt;p&gt;&lt;details&gt;
-    &lt;summary&gt;查看链接&lt;/summary&gt;
-    &lt;div id=&#39;from&#39;&gt;&lt;/div&gt;
-    &lt;p&gt;
-        &amp;lt;a class=&#39;mdui-btn mdui-btn-raised&#39; href=&#34;&lt;a href=&#34;https://www.cnblogs.com/The&#34;&gt;https://www.cnblogs.com/The&lt;/a&gt;&lt;/p&gt;
 </summary></entry><entry><title>对拍</title><link href="/posts/dui-pai/"/><updated>2021-09-15</updated><summary type="html">&lt;h2&gt;对拍程序&lt;/h2&gt;
 &lt;h3&gt;首先需要将造数据的data.exe加上&lt;/h3&gt;
 &lt;pre&gt;&lt;code class=&#34;lang-cpp&#34;&gt;freopen(&amp;quot;data.in&amp;quot;,&amp;quot;r&amp;quot;,stdout);
@@ -249,7 +249,7 @@ int read()
 &lt;p&gt;```cpp&lt;/p&gt;
 &lt;h1&gt;include &amp;lt;bits/stdc++.h&amp;gt;&lt;/h1&gt;
 &lt;p&gt;using namespace std;
-int mai&lt;/p&gt;
+int ma&lt;/p&gt;
 </summary></entry><entry><title>金中新生群圣经</title><link href="/posts/jin-zhong-xin-sheng-qun-sheng-jing/"/><updated>2021-08-24</updated><summary type="html">&lt;p&gt;致敬圣经编纂组的全体成员&lt;/p&gt;
 &lt;p&gt;如果有重复，请麻烦指出来啊awa&lt;/p&gt;
 &lt;p&gt;Update Time：2021.8.29 15：40&lt;/p&gt;
@@ -257,15 +257,11 @@ int mai&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;2.jpg&#34; alt=&#34;2.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;3.jpg&#34; alt=&#34;3.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;4.jpg&#34; alt=&#34;4.jpg&#34;&gt;&lt;/p&gt;
-&lt;p&gt;![5.jp&lt;/p&gt;
+&lt;p&gt;![5.jpg]&lt;/p&gt;
 </summary></entry><entry><title>LG P1981 表达式求值</title><link href="/posts/LG-P1981--biao-da-shi-qiu-zhi/"/><updated>2021-08-24</updated><summary type="html">&lt;p&gt;&lt;details&gt;
     &lt;summary&gt;查看原题&lt;/summary&gt;
     &lt;div id=&#39;from&#39;&gt;&lt;/div&gt;
     &lt;p&gt;&amp;lt;button onclick=&#34;document.getElementById(&#39;from&#39;).innerHTML=&#39;&amp;lt;iframe src=&amp;quot;&lt;/p&gt;
-</summary></entry><entry><title>金中夏令营 游记</title><link href="/posts/jin-zhong-xia-ling-ying/"/><updated>2020-08-08</updated><summary type="html">&lt;h2&gt;前言&lt;/h2&gt;
-&lt;p&gt;其实这是第二次来到金中了，上一次是2019冬令营，在我写下这篇游记的时候，&lt;strong&gt;CSP 2020&lt;/strong&gt;只有不到70天的时间，我在这里收获的东西，不同于往年，还感受到了一些不一样的东西。&lt;/p&gt;
-&lt;h2&gt;day 0&lt;/h2&gt;
-&lt;p&gt;我去金中的前几天都在考试，这一次夏令营刚好卡在我们区统考后的第二天，~~根本没得&lt;/p&gt;
 </summary></entry><entry><title>USACO training 学习计划</title><link href="/posts/!USACO/"/><updated>2022-03-15</updated><summary type="html">&lt;h1&gt;前言&lt;/h1&gt;
 &lt;p&gt;USACO training 其实是很久之前就想彻底刷一遍的题单，但是因为其他的原因，一直没有完整的刷过一遍，这两个星期也有空，尝试刷刷吧！&lt;/p&gt;
 &lt;h1&gt;USACO Section 1&lt;/h1&gt;
