@@ -1,6 +1,9 @@
 https://blog.rockson.top/posts/guan-yu-bo-ke-wen-zhang/
 https://blog.rockson.top/posts/!USACO-training/
+https://blog.rockson.top/posts/!USACO/
 https://blog.rockson.top/posts/NOI-da-gang/
+https://blog.rockson.top/posts/host-bei-fen/
+https://blog.rockson.top/posts/NOIO-2022J-T1--shu-xue-you-xi/
 https://blog.rockson.top/posts/AT-AGC070D-HonestOrUnkind/
 https://blog.rockson.top/posts/CF-815B-Karen-and-Test/
 https://blog.rockson.top/posts/Blog-wei-hu-bi-ji/
@@ -44,7 +47,6 @@ https://blog.rockson.top/posts/dui-pai/
 https://blog.rockson.top/posts/jin-zhong-xin-sheng-qun-sheng-jing/
 https://blog.rockson.top/posts/LG-P1981--biao-da-shi-qiu-zhi/
 https://blog.rockson.top/posts/jin-zhong-xia-ling-ying/
-https://blog.rockson.top/posts/!USACO/
 https://blog.rockson.top/about/
 https://blog.rockson.top/collection/
 https://blog.rockson.top/links/
@@ -56,10 +58,54 @@ https://blog.rockson.top/page/2/
 https://blog.rockson.top/page/3/
 https://blog.rockson.top/page/4/
 https://blog.rockson.top/page/5/
-https://blog.rockson.top/tags/diary/
+https://blog.rockson.top/tags/USACO/
+https://blog.rockson.top/tags/Training Records/
+https://blog.rockson.top/tags/NOI/
+https://blog.rockson.top/tags/栈/
+https://blog.rockson.top/tags/交互/
+https://blog.rockson.top/tags/二项式定理/
+https://blog.rockson.top/tags/分类讨论/
+https://blog.rockson.top/tags/Blog/
+https://blog.rockson.top/tags/优先队列/
+https://blog.rockson.top/tags/Note/
+https://blog.rockson.top/tags/Note/page/2/
+https://blog.rockson.top/tags/Luogu/
+https://blog.rockson.top/tags/Set/
+https://blog.rockson.top/tags/奇怪的东西/
+https://blog.rockson.top/tags/Splay/
+https://blog.rockson.top/tags/平衡树/
+https://blog.rockson.top/tags/错排/
+https://blog.rockson.top/tags/KMP/
+https://blog.rockson.top/tags/最短路/
+https://blog.rockson.top/tags/Hash哈希/
+https://blog.rockson.top/tags/Diary/
+https://blog.rockson.top/tags/git/
 https://blog.rockson.top/tags/游记/
-https://blog.rockson.top/categories/diary/
+https://blog.rockson.top/tags/Stjzoi/
+https://blog.rockson.top/tags/高精度/
+https://blog.rockson.top/tags/逆序对/
+https://blog.rockson.top/tags/树状数组/
+https://blog.rockson.top/tags/归并排序/
+https://blog.rockson.top/tags/常数优化/
+https://blog.rockson.top/tags/快速幂/
+https://blog.rockson.top/tags/快读/
+https://blog.rockson.top/tags/对拍/
+https://blog.rockson.top/categories/Training Records/USACO/
+https://blog.rockson.top/categories/Training Records/Atcoder/
+https://blog.rockson.top/categories/Training Records/Codeforces/
+https://blog.rockson.top/categories/Training Records/
+https://blog.rockson.top/categories/Note/平衡树/
+https://blog.rockson.top/categories/Note/错排/
+https://blog.rockson.top/categories/Note/KMP/
+https://blog.rockson.top/categories/Note/最短路/
+https://blog.rockson.top/categories/Note/高精度/
+https://blog.rockson.top/categories/Note/常数优化/
+https://blog.rockson.top/categories/Note/对拍/
+https://blog.rockson.top/categories/Note/
+https://blog.rockson.top/categories/Diary/
 https://blog.rockson.top/categories/游记/
+https://blog.rockson.top/categories/note/逆序对/
+https://blog.rockson.top/categories/note/
 https://blog.rockson.top/categories/
 https://blog.rockson.top/tags/
 https://blog.rockson.top/404.html
