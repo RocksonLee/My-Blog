@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>RocksonLee's Blog</title><link href="https://blog.rockson.top/" rel="self"/><link href="https://blog.rockson.top/"/><updated>2022-03-30 19:34:17</updated><author><name>RocksonLee</name></author><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><entry><title>关于博客文章（必看）</title><link href="/posts/guan-yu-bo-ke-wen-zhang/"/><updated>2022-01-01</updated><summary type="html">&lt;p&gt;这个博客是我个人的博客&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>RocksonLee's Blog</title><link href="https://blog.rockson.top/" rel="self"/><link href="https://blog.rockson.top/"/><updated>2022-04-02 09:30:13</updated><author><name>RocksonLee</name></author><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><entry><title>关于博客文章（必看）</title><link href="/posts/guan-yu-bo-ke-wen-zhang/"/><updated>2022-01-01</updated><summary type="html">&lt;p&gt;这个博客是我个人的博客&lt;/p&gt;
 &lt;p&gt;存着一些奇奇怪怪的东西（可以看到我发疯的记录）&lt;/p&gt;
 &lt;p&gt;你可在这里找到我的一些思考，一些做题想法&lt;/p&gt;
 &lt;p&gt;也可能会看到我转载的一些优秀的思考&lt;/p&gt;
@@ -26,6 +26,11 @@
     &lt;summary&gt;跳转CCF大纲&lt;/summary&gt;
     &lt;div id=&#39;from&#39;&gt;&lt;/div&gt;
     &lt;p&gt;&amp;lt;button onclick=&#34;document.getElementById(&#39;from&#39;).innerHTML=&#39;&amp;lt;iframe src=&amp;amp;qu&lt;/p&gt;
+</summary></entry><entry><title>CF 1375F Integer Game</title><link href="/posts/CF-1375F-Integer-Game/"/><updated>2022-04-01</updated><summary type="html">&lt;h2&gt;Problem&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/problem/CF1375F&#34;&gt;Luogu&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://codeforces.com/problemset/problem/1375/F&#34;&gt;Codeforces&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Solution&lt;/h2&gt;
+&lt;p&gt;刚开始这道题的思考&lt;/p&gt;
 </summary></entry><entry><title>host备份</title><link href="/posts/host-bei-fen/"/><updated>2022-03-29</updated><summary type="html">&lt;pre&gt;&lt;code class=&#34;lang-cmd&#34;&gt;%SystemRoot%\System32\drivers\etc
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;```ps&lt;/p&gt;
@@ -200,10 +205,11 @@ i&lt;/p&gt;
 密码保护i&lt;/p&gt;
 </summary></entry><entry><title>Note sth</title><link href="/posts/!Note-sth/"/><updated>2021-10-29</updated><summary type="html">&lt;p&gt;Nth...&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/blog/fzj2007/solution-p1932&#34;&gt;https://www.luogu.com.cn/blog/fzj2007/solution-p1932&lt;/a&gt; 高精度&lt;/p&gt;
-&lt;p&gt;四、常见评测结果&lt;/p&gt;
-&lt;p&gt;（1）Accepted 正确通过&lt;/p&gt;
-&lt;p&gt;（2）Compile Error 编译错误（选错语言/头文件/语法等）&lt;/p&gt;
-&lt;p&gt;（3）Runtime Error&lt;/p&gt;
+&lt;p&gt;CF1641B 2000 √ wait solution&lt;/p&gt;
+&lt;p&gt;AGC070D 3365 √&lt;/p&gt;
+&lt;p&gt;CF1375F 2600 √&lt;/p&gt;
+&lt;p&gt;CF983B 1800&lt;/p&gt;
+&lt;p&gt;CF815&lt;/p&gt;
 </summary></entry><entry><title>git setting</title><link href="/posts/git-setting/"/><updated>2021-10-25</updated><summary type="html">&lt;p&gt;```ps
 git config --global http.proxy &lt;a href=&#34;http://127.0.0.1:1080&#34;&gt;http://127.0.0.1:1080&lt;/a&gt;
 git config --global https.proxy &lt;a href=&#34;https://127.0.0.1:1080&#34;&gt;https://127.0.0.1:1080&lt;/a&gt;
