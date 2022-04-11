@@ -16,92 +16,296 @@
         "@id": "https://blog.rockson.top/"
     },
     "description":""
-}</script></head><body class="mdui-appbar-with-toolbar mdui-theme-accent-blue"><div class="mdui-progress" id='loading-progress' style="position: fixed;top:0;z-index: 999999;"><div class="mdui-progress-indeterminate"></div></div><div id="theme_css"></div><div class="mdui-appbar mdui-appbar-fixed mdui-appbar-scroll-hide"><div class="mdui-toolbar"><button class="mdui-btn mdui-btn-icon" mdui-drawer="{target:'#drawer'}" mdui-tooltip="{content: '菜单'}"><i class="mdui-icon material-icons">menu</i></button><a href="/" class="mdui-typo-title">RocksonLee's Blog</a><div class="mdui-toolbar-spacer"></div><div class="mdui-row mdui-hidden-sm-down"><a href="/tags/" target="_blank" rel="noopener" class="mdui-col text">标签云</a><a href="/categories/" target="_blank" rel="noopener" class="mdui-col text">分类</a><a href="/links/" target="_blank" rel="noopener" class="mdui-col text">友链</a><a href="/tools/" target="_blank" rel="noopener" class="mdui-col text">工具集</a><a href="/about/" target="_blank" rel="noopener" class="mdui-col text">关于</a></div><button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '切换主题'}" mdui-menu="{target: '#theme_menu',align: 'right',covered: false}"><i class="mdui-icon material-icons">view_quilt</i></button><ul class="mdui-menu" id="theme_menu" style="width: fit-content;"><li class="mdui-menu-item" mdui-tooltip="{content: '回归原本'}"><a onclick="theme('day')">日间模式</a></li><li class="mdui-menu-item" mdui-tooltip="{content: '晚上要保护眼睛哦'}"><a onclick="theme('night')">夜间模式</a></li><li class="mdui-menu-item" mdui-tooltip="{content: '满足你的少女心吧'}"><a onclick="theme('pink')">粉红</a></li><li class="mdui-menu-item" mdui-tooltip="{content: '没什么,就是淡蓝色'}"><a onclick="theme('blue')">粉蓝</a></li></ul><button mdui-dialog="{target:'#search_dialog'}" onclick="document.getElementById('search_input').focus();" class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '搜索'}"><i class="mdui-icon material-icons">search</i></button><button id='toc_button' class="mdui-btn mdui-btn-icon" mdui-drawer="{target:'#toc_drawer'}" mdui-tooltip="{content: '目录'}" hidden><i class="mdui-icon material-icons">format_list_numbered</i></button></div></div><div class="mdui-container"><div id='page_typ' hidden>article</div><div class="mdui-card article"><a href="/posts/gao-jing-mu-ban/"><div class="mdui-card-media"><img data-src="https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/img/34.webp" height="300px" style="object-fit: cover;" src='https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/assets/icon/loading.svg' alt></div></a><div class="mdui-card-primary"><a href="/posts/gao-jing-mu-ban/" class="mdui-card-primary-title">高精模板</a><div class="mdui-card-primary-subtitle"><a href="/tags/Note/" class="mdui-chip"><span class="mdui-chip-title">Note</span></a><a href="/tags/高精度/" class="mdui-chip"><span class="mdui-chip-title">高精度</span></a></div></div><div class="mdui-card-header"><img data-src="https://cdn.jsdelivr.net/gh/RocksonLee/My-Blog@master/img/avatar_2.webp" src='https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/assets/icon/loading.svg' alt='avatar' class="mdui-card-header-avatar"><div class="mdui-card-header-title">RocksonLee</div><div class="mdui-card-header-subtitle">2021-10-08 22:09:20</div><div class="mdui-card-menu"><button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '文章分类'}" mdui-menu="{target:'#categories-list',align:'right',covered: false}"><i class="mdui-icon material-icons">bookmark</i></button><ul class="mdui-menu" id="categories-list"><li class="mdui-menu-item"><a href="/categories/Note/高精度/">Note/高精度</a></li></ul><button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '本文阅读量'}" mdui-menu="{target:'#visit_counter',align:'right',covered: false}"><i class="mdui-icon material-icons">remove_red_eye</i></button><ul class="mdui-menu" id="visit_counter"><li class="mdui-menu-item"><div id="busuanzi_container_page_pv"><center>本文总阅读量<span id="busuanzi_value_page_pv"></span>次</center></div></li></ul><button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '分享'}" mdui-menu="{target:'#share_menu',align:'right',covered: false}"><i class="mdui-icon material-icons">share</i></button><ul class="mdui-menu" id="share_menu" style="width: fit-content;"><li class="mdui-menu-item"><a id="share_weibo" href="https://service.weibo.com/share/share.php?appkey=&title=高精模板 - RocksonLee's Blog&url=/posts/gao-jing-mu-ban/&pic=https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/img/avatar_2.webp&style=simple" target="_blank" rel="noopener"><i class="mdui-menu-item-icon mdui-icon mqii mqii-weibo"></i>分享到微博</a></li><li class="mdui-menu-item"><a id="share_qq" href="https://connect.qq.com/widget/shareqq/index.html?site=RocksonLee's Blog&title=高精模板 - RocksonLee's Blog&summary=&pics=https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/img/avatar_2.webp&url=/posts/gao-jing-mu-ban/" target="_blank" rel="noopener"><i class="mdui-menu-item-icon mdui-icon mqii mqii-qq_filled"></i>分享到QQ</a></li><li class="mdui-menu-item"><a id="share_twitter" href="https://twitter.com/intent/tweet?text=高精模板 - RocksonLee's Blog&url=/posts/gao-jing-mu-ban/" target="_blank" rel="noopener"><i class="mdui-menu-item-icon mdui-icon mqii mqii-twitter"></i>分享到Twitter</a></li><li class="mdui-menu-item"><a id="share_copy" onclick="copylink()"><i class="mdui-menu-item-icon mdui-icon material-icons">link</i>复制链接</a></li></ul></div></div><div class="mdui-card-content"><div id="md-body" class="md-body text"><details>
-    <summary>查看链接</summary>
-    <div id='from'></div>
-    <p>
-        <a class='mdui-btn mdui-btn-raised' href="https://www.cnblogs.com/mrclr/p/9886145.html" target='_blank'>点击跳转</a>
-    <p>
-</details><h2>代码</h2>
-<pre><code class="lang-cpp">#include &lt;cstdio&gt;
-#include &lt;cstring&gt;
-#include &lt;iostream&gt;
-#include &lt;algorithm&gt;
-
+}</script></head><body class="mdui-appbar-with-toolbar mdui-theme-accent-blue"><div class="mdui-progress" id='loading-progress' style="position: fixed;top:0;z-index: 999999;"><div class="mdui-progress-indeterminate"></div></div><div id="theme_css"></div><div class="mdui-appbar mdui-appbar-fixed mdui-appbar-scroll-hide"><div class="mdui-toolbar"><button class="mdui-btn mdui-btn-icon" mdui-drawer="{target:'#drawer'}" mdui-tooltip="{content: '菜单'}"><i class="mdui-icon material-icons">menu</i></button><a href="/" class="mdui-typo-title">RocksonLee's Blog</a><div class="mdui-toolbar-spacer"></div><div class="mdui-row mdui-hidden-sm-down"><a href="/tags/" target="_blank" rel="noopener" class="mdui-col text">标签云</a><a href="/categories/" target="_blank" rel="noopener" class="mdui-col text">分类</a><a href="/links/" target="_blank" rel="noopener" class="mdui-col text">友链</a><a href="/tools/" target="_blank" rel="noopener" class="mdui-col text">工具集</a><a href="/about/" target="_blank" rel="noopener" class="mdui-col text">关于</a></div><button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '切换主题'}" mdui-menu="{target: '#theme_menu',align: 'right',covered: false}"><i class="mdui-icon material-icons">view_quilt</i></button><ul class="mdui-menu" id="theme_menu" style="width: fit-content;"><li class="mdui-menu-item" mdui-tooltip="{content: '回归原本'}"><a onclick="theme('day')">日间模式</a></li><li class="mdui-menu-item" mdui-tooltip="{content: '晚上要保护眼睛哦'}"><a onclick="theme('night')">夜间模式</a></li><li class="mdui-menu-item" mdui-tooltip="{content: '满足你的少女心吧'}"><a onclick="theme('pink')">粉红</a></li><li class="mdui-menu-item" mdui-tooltip="{content: '没什么,就是淡蓝色'}"><a onclick="theme('blue')">粉蓝</a></li></ul><button mdui-dialog="{target:'#search_dialog'}" onclick="document.getElementById('search_input').focus();" class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '搜索'}"><i class="mdui-icon material-icons">search</i></button><button id='toc_button' class="mdui-btn mdui-btn-icon" mdui-drawer="{target:'#toc_drawer'}" mdui-tooltip="{content: '目录'}" hidden><i class="mdui-icon material-icons">format_list_numbered</i></button></div></div><div class="mdui-container"><div id='page_typ' hidden>article</div><div class="mdui-card article"><a href="/posts/gao-jing-mu-ban/"><div class="mdui-card-media"><img data-src="https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/img/35.webp" height="300px" style="object-fit: cover;" src='https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/assets/icon/loading.svg' alt></div></a><div class="mdui-card-primary"><a href="/posts/gao-jing-mu-ban/" class="mdui-card-primary-title">高精模板</a><div class="mdui-card-primary-subtitle"><a href="/tags/Note/" class="mdui-chip"><span class="mdui-chip-title">Note</span></a><a href="/tags/高精度/" class="mdui-chip"><span class="mdui-chip-title">高精度</span></a></div></div><div class="mdui-card-header"><img data-src="https://cdn.jsdelivr.net/gh/RocksonLee/My-Blog@master/img/avatar_2.webp" src='https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/assets/icon/loading.svg' alt='avatar' class="mdui-card-header-avatar"><div class="mdui-card-header-title">RocksonLee</div><div class="mdui-card-header-subtitle">2021-10-08 22:09:20</div><div class="mdui-card-menu"><button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '文章分类'}" mdui-menu="{target:'#categories-list',align:'right',covered: false}"><i class="mdui-icon material-icons">bookmark</i></button><ul class="mdui-menu" id="categories-list"><li class="mdui-menu-item"><a href="/categories/Note/高精度/">Note/高精度</a></li></ul><button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '本文阅读量'}" mdui-menu="{target:'#visit_counter',align:'right',covered: false}"><i class="mdui-icon material-icons">remove_red_eye</i></button><ul class="mdui-menu" id="visit_counter"><li class="mdui-menu-item"><div id="busuanzi_container_page_pv"><center>本文总阅读量<span id="busuanzi_value_page_pv"></span>次</center></div></li></ul><button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '分享'}" mdui-menu="{target:'#share_menu',align:'right',covered: false}"><i class="mdui-icon material-icons">share</i></button><ul class="mdui-menu" id="share_menu" style="width: fit-content;"><li class="mdui-menu-item"><a id="share_weibo" href="https://service.weibo.com/share/share.php?appkey=&title=高精模板 - RocksonLee's Blog&url=/posts/gao-jing-mu-ban/&pic=https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/img/avatar_2.webp&style=simple" target="_blank" rel="noopener"><i class="mdui-menu-item-icon mdui-icon mqii mqii-weibo"></i>分享到微博</a></li><li class="mdui-menu-item"><a id="share_qq" href="https://connect.qq.com/widget/shareqq/index.html?site=RocksonLee's Blog&title=高精模板 - RocksonLee's Blog&summary=&pics=https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/img/avatar_2.webp&url=/posts/gao-jing-mu-ban/" target="_blank" rel="noopener"><i class="mdui-menu-item-icon mdui-icon mqii mqii-qq_filled"></i>分享到QQ</a></li><li class="mdui-menu-item"><a id="share_twitter" href="https://twitter.com/intent/tweet?text=高精模板 - RocksonLee's Blog&url=/posts/gao-jing-mu-ban/" target="_blank" rel="noopener"><i class="mdui-menu-item-icon mdui-icon mqii mqii-twitter"></i>分享到Twitter</a></li><li class="mdui-menu-item"><a id="share_copy" onclick="copylink()"><i class="mdui-menu-item-icon mdui-icon material-icons">link</i>复制链接</a></li></ul></div></div><div class="mdui-card-content"><div id="md-body" class="md-body text"><h2>代码</h2>
+<pre><code class="lang-cpp">#include &lt;bits/stdc++.h&gt;
 using namespace std;
 
-const int N = 1050;
+#define il inline
+#define INF 0x3f3f3f3f
+#define cl(a, b) memset(a, b, sizeof(a))
+typedef long long ll;
+typedef unsigned long long ull;
 
-struct Int {
+static const int LEN = 10010;
 
-    int a[N], len;
-    Int() { memset(a, 0, sizeof(a)); len = 0; }
-    inline void get() {
-        char s[N];
-        scanf(&quot;%s&quot;, s);
-        len = strlen(s);
-        for(int i = 0; i &lt; len; i ++ ) a[len - i - 1] = s[i] - &#39;0&#39;;
-        while(!a[len - 1] &amp;&amp; len) len -- ;
-    } 
-    inline void write() { for(int i = len - 1; i &gt;= 0; i -- ) cout &lt;&lt; a[i]; }
-    Int operator + (const Int &amp;b) const {
-        Int c;
-        int lenc = max(len, b.len) + 1;
-        for(int i = 0; i &lt; lenc; i ++ ) {
-            c.a[i] += a[i] + b.a[i];
-            c.a[i + 1] = c.a[i] / 10;
-            c.a[i] %= 10;
-        } while(!c.a[lenc - 1] &amp;&amp; lenc) lenc -- ;
-        c.len = lenc;
-        return c;
-    } Int operator - (const Int &amp;b) const {
-        Int c;
-        for(int i = 0; i &lt; len; i ++ ) {
-            c.a[i] = a[i] - b.a[i];
-            if(c.a[i] &lt; 0) a[i + 1] -- , c.a[i] += 10;
-        } c.len = len;
-        while(!c.a[c.len - 1] &amp;&amp; c.len) c.len -- ;
-        return c;
-    } Int operator * (const Int &amp;b) const {
-        Int c;
-        for(int i = 0; i &lt; len; i ++ )
-            for(int j = 0; j &lt; b.len; j ++ ) {
-                c.a[i + j] += a[i] * b.a[j];
-                c.a[i + j + 1] += c.a[i + j] / 10;
-                c.a[i + j] %= 10;
-            } c.len = len + b.len;
-        while(!c.a[c.len - 1] &amp;&amp; c.len) c.len -- ;
-        return c;
-    } Int operator / (const int &amp;x) const {
-        Int c;
-        int ret = 0;
-        for(int i = len - 1; i &gt;= 0; i -- ) {
-            ret *= 10; ret += a[i];
-            c.a[c.len ++ ] = ret / 10;
-            ret %= 10;
-        } reverse(c.a, c.a + c.len);
-    } while(!c.a[c.len - 1] &amp;&amp; c.len) c.len -- ;
-    return c;
-    int operator % (const int &amp;mod) const {
-        int res = 0;
-        for(int i = len - 1; i &gt;= 0; i -- ) res = res * 10 + a[i], res %= mod;
-        return res;
-    } bool operator &lt; (const Int &amp;b) const {
-        if(len != b.len) return len &lt; b.len;
-        for(int i = len - 1; i &gt;= 0; i -- ) if(a[i] != b.a[i]) return a[i] &lt; b.a[i];
-        return 0;
+struct BIGNUM
+{
+    typedef long long ll;
+    static const int LEN = 10010;     // LEN 最大位数
+    static const int BIT = 9;         // BIT 压位位数
+    static const ll MOD = 1000000000; // MOD = 1eBIT
+
+    ll s[LEN]; // num[0] 存储长度
+    bool flag; // flag 存储正负
+
+    void clear()
+    {
+        memset(s, 0, sizeof(s));
+        flag = true;
+        s[0] = 1;
     }
- };
 
- Int Max(Int a, Int b) {
+    // 重载赋值以及初始化
 
-     if(a.len &gt; b.len) return a;
-     if(a.len &lt; b.len) return b;
-     for(int i = a.len - 1; i &gt;= 0; i -- ) {
-         if(a.a[i] &gt; b.a[i]) return a;
-         if(b.a[i] &gt; a.a[i]) return b;
-     } return a;
- }
+    BIGNUM operator=(const char *num)
+    {
+        int len = strlen(num);
+        s[0] = 0;
+        for (int i = len - 1; i &gt;= 0; i -= BIT)
+        {
+            ++s[0];   // s[0] 当前操作位||位数
+            ll w = 1; // w 为 s[now] 操作位置的 base
+            s[s[0]] = 0;
+            for (int j = i; j &gt; i - BIT &amp;&amp; j &gt;= 0; j--)
+            {
+                s[s[0]] += (num[j] ^ 48) * w; // s[now] += num[j] * w;
+                w = (w &lt;&lt; 1) + (w &lt;&lt; 3);      // w *= 10;
+            }
+        }
+        return *this;
+    }
+    BIGNUM operator=(const int num)
+    {
+        char temp[LEN];
+        flag = (num &gt;= 0);
+        sprintf(temp, &quot;%d&quot;, (num &gt; 0 ? num : -num));
+        *this = temp;
+        return *this;
+    };
+    BIGNUM()
+    {
+        clear();
+    }
+    BIGNUM(int num)
+    {
+        *this = num;
+    }
+    BIGNUM(const char *num)
+    {
+        *this = num;
+    }
+
+    // 重载关系运算符
+
+    bool operator==(const BIGNUM &amp;a)
+    {
+        if (s[0] != a.s[0]) return false;
+        for (int i = s[0]; i &gt;= 1; i--)
+            if (s[i] != a.s[i]) return false; // 如果有不相同就是 false
+        return true;
+    }
+    bool operator&gt;(const BIGNUM &amp;a)
+    {
+        if (s[0] != a.s[0]) return s[0] &gt; a.s[0];
+        for (int i = s[0]; i &gt;= 1; i--)
+            if (s[i] != a.s[i]) return s[i] &gt; a.s[i];
+        return false; // 相同也是 false
+    }
+    bool operator&lt;(const BIGNUM &amp;a)
+    {
+        if (s[0] != a.s[0]) return s[0] &lt; a.s[0];
+        for (int i = s[0]; i &gt;= 1; i--)
+            if (s[i] != a.s[i]) return s[i] &lt; a.s[i];
+        return false; // 相同也是 false
+    }
+    bool operator&gt;=(const BIGNUM &amp;a)
+    {
+        if (*this &gt; a || *this == a)
+            return true;
+        else
+            return false;
+    }
+    bool operator&lt;=(const BIGNUM &amp;a)
+    {
+        if (*this &lt; a || *this == a)
+            return true;
+        else
+            return false;
+    }
+    bool operator!=(const BIGNUM &amp;a)
+    {
+        return !(*this == a);
+    }
+
+    // 重载算术运算符
+
+    BIGNUM operator+(const BIGNUM &amp;a)
+    {
+        BIGNUM c;
+        int x = 0; // 存储进位的辅助变量
+        c.s[0] = max(a.s[0], s[0]) + 1;
+        for (int i = 1; i &lt;= c.s[0]; i++)
+        {
+            c.s[i] = a.s[i] + s[i] + x;
+            // 压位高精思想 10进制 转换为 10^BIT 进制
+            x = c.s[i] / MOD;
+            c.s[i] %= MOD;
+        }
+        while (c.s[c.s[0]] == 0 &amp;&amp; c.s[0] &gt; 1) c.s[0]--; // 去除前导零
+        return c;
+    }
+    BIGNUM operator+=(const BIGNUM &amp;a)
+    {
+        *this = *this + a;
+        return *this;
+    }
+    BIGNUM operator-(const BIGNUM &amp;a)
+    {
+        BIGNUM c;
+        c.s[0] = max(a.s[0], s[0]) + 1;
+        if (*this &lt; a) c.flag = false; // 负数标志
+        for (int i = 1; i &lt;= c.s[0]; i++)
+        {
+            if (c.flag)
+                c.s[i] += s[i] - a.s[i];
+            else
+                c.s[i] += a.s[i] - s[i];
+            if (c.s[i] &lt; 0)
+            {
+                c.s[i] += MOD;
+                c.s[i + 1]--; // 借位
+            }
+        }
+        while (c.s[c.s[0]] == 0 &amp;&amp; c.s[0] &gt; 1) c.s[0]--; // 去除前导零
+        return c;
+    }
+    BIGNUM operator-=(const BIGNUM &amp;a)
+    {
+        *this = *this - a;
+        return *this;
+    }
+    BIGNUM operator*(const BIGNUM &amp;a)
+    {
+        BIGNUM c;
+        c.s[0] = s[0] + a.s[0];
+        for (int i = 1; i &lt;= s[0]; i++)
+        {
+            int x = 0; // 存储进位的辅助变量
+            for (int j = 1; j &lt;= a.s[0]; j++)
+            {
+                c.s[i + j - 1] += s[i] * a.s[j] + x;
+                x = c.s[i + j - 1] / MOD;
+                c.s[i + j - 1] %= MOD;
+            }
+            c.s[i + a.s[0]] = x;
+        }
+        while (c.s[c.s[0]] &gt; 0) c.s[0]++;                // 正确调整位数
+        while (c.s[c.s[0]] == 0 &amp;&amp; c.s[0] &gt; 1) c.s[0]--; // 去除前导零
+        return c;
+    }
+    BIGNUM operator*=(const BIGNUM &amp;a)
+    {
+        *this = *this * a;
+        return *this;
+    }
+
+    // 重载位运算符
+    // 倍增优化减法模拟的除法时需要用
+
+    BIGNUM operator&lt;&lt;(const int &amp;num)
+    {
+        s[0]++;
+        for (int j = 1; j &lt;= num; j++)
+        {
+            for (int i = 1; i &lt;= s[0]; i++)
+            {
+                s[i] &lt;&lt;= 1;
+                if (s[i - 1] &gt;= MOD)
+                    s[i - 1] -= MOD, ++s[i];
+            }
+            if (s[s[0]] &gt; 0) s[0]++;
+        }
+        while (s[s[0]] == 0 &amp;&amp; s[0] &gt; 1) s[0]--;
+        return *this;
+    }
+    BIGNUM operator&gt;&gt;(const int &amp;num)
+    {
+        for (int j = 1; j &lt;= num; j++)
+        {
+            for (int i = s[0]; i &gt;= 1; i--)
+            {
+                if ((s[i] &amp; 1) &amp;&amp; i &gt; 1) s[i - 1] += MOD;
+                s[i] &gt;&gt;= 1;
+            }
+        }
+        while (s[s[0]] == 0 &amp;&amp; s[0] &gt; 1) s[0]--;
+        return *this;
+    }
+
+    BIGNUM operator/(const BIGNUM &amp;k)
+    {
+        BIGNUM c = *this, temp, It, a;
+        a = k;
+        temp.s[1] = 1;
+        // a 为 k ^ 2 ^ x , temp 为 2 ^ x
+        while (c &gt;= a)
+        {
+            a = a &lt;&lt; 1;
+            temp = temp &lt;&lt; 1;
+        }
+        while (temp.s[0] &gt; 1 || temp.s[1])
+        {
+            if (c &gt;= a)
+            {
+                c -= a;
+                It += temp; // It 为当前商
+            }
+            a = a &gt;&gt; 1;
+            temp = temp &gt;&gt; 1;
+        }
+        c = It;                                          // 注意，此时 a 为余数
+        while (c.s[c.s[0]] == 0 &amp;&amp; c.s[0] &gt; 1) c.s[0]--; // 去除前导零
+        if (c.s[0] &lt; 1) c.s[c.s[0] = 1] = 0;
+        return c;
+    }
+    BIGNUM operator/=(const BIGNUM &amp;a)
+    {
+        *this = *this / a;
+        return *this;
+    }
+    BIGNUM operator%(const BIGNUM &amp;a)
+    {
+        BIGNUM d = *this, c = *this / a;
+        c *= a;
+        return d - c;
+    }
+    BIGNUM operator%=(const BIGNUM &amp;a)
+    {
+        *this = *this % a;
+        return *this;
+    }
+};
+
+ostream &amp;operator&lt;&lt;(ostream &amp;out, const BIGNUM &amp;a)
+{
+    if (!a.flag) putchar(&#39;-&#39;);
+    //读出时先把第一组BIT位数输出
+    //之后的每一组数不足BIT位的要在左边补零
+    printf(&quot;%lld&quot;, a.s[a.s[0]]);
+    for (int i = a.s[0] - 1; i &gt;= 1; i--)
+        printf(&quot;%09lld&quot;, a.s[i]);
+    return out;
+}
+istream &amp;operator&gt;&gt;(istream &amp;in, BIGNUM &amp;a)
+{
+    char str[LEN];
+    in &gt;&gt; str;
+    a = str;
+    return in;
+}
+
+BIGNUM a, b;
+
+int main()
+{
+    cin &gt;&gt; a &gt;&gt; b;
+    cout &lt;&lt; a + b &lt;&lt; endl;
+    cout &lt;&lt; a - b &lt;&lt; endl;
+    cout &lt;&lt; a * b &lt;&lt; endl;
+    cout &lt;&lt; a / b &lt;&lt; endl;
+    cout &lt;&lt; a % b &lt;&lt; endl;
+    return 0;
+}
 </code></pre>
 </div></div></div><div class="mdui-row-xs-3 article"><div class="mdui-col"><a href="/posts/stjzoi-shua-ti-ji-lu/" class="text" id='pre_button'><i class="mdui-icon material-icons">arrow_back</i>stjzoi刷题记录</a></div><div class="mdui-col mdui-text-center">高精模板</div><div class="mdui-col"><a href="/posts/Diary-2021.10/" class="text mdui-float-right" id='nxt_button'>Diary-2021.10<i class="mdui-icon material-icons">arrow_forward</i></a></div></div><div class="mdui-card" style="margin-top: 50px;"><div class="mdui-card-primary"><div class="mdui-card-primary-title"><i class="mdui-icon material-icons">comment</i>评论</div></div><div class="mdui-card-content" id='comments'><center><div class="mdui-spinner"></div></center></div></div><script>
 function SetComment(){
@@ -127,7 +331,7 @@ function GenComment(){
     }
     document.getElementsByTagName("head")[0].appendChild(valinejs);
 }
-</script></div><div class="mdui-drawer mdui-drawer-close" id="drawer"><ul class="mdui-list"><li class='mdui-subheader'>Pages</li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon material-icons"style='color:black'">bookmark_border</i><a href="/tags/" target="_blank" rel="noopener" class="mdui-list-item-content">标签云</a></li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon material-icons"style='color:black'">book</i><a href="/categories/" target="_blank" rel="noopener" class="mdui-list-item-content">分类</a></li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon material-icons"style='color:black'">link</i><a href="/links/" target="_blank" rel="noopener" class="mdui-list-item-content">友链</a></li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon material-icons"style='color:black'">build</i><a href="/tools/" target="_blank" rel="noopener" class="mdui-list-item-content">工具集</a></li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon material-icons"style='color:black'">person</i><a href="/about/" target="_blank" rel="noopener" class="mdui-list-item-content">关于</a></li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon material-icons"style='color:black'">rss_feed</i><a href="/atom.xml" target="_blank" rel="noopener" class="mdui-list-item-content">订阅</a></li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon material-icons"style='color:black'">list</i><a href="/sitemap.xml" target="_blank" rel="noopener" class="mdui-list-item-content">站点地图</a></li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon material-icons"style='color:black'">comment</i><a href="https://rocksonlee.avosapps.us" target="_blank" rel="noopener" class="mdui-list-item-content">评论管理</a></li><li class='mdui-subheader'>Catch me</li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon material-icons"style='color:dodgerblue'">email</i><a href="mailto:lixuanzhang0629@163.com" target="_blank" rel="noopener" class="mdui-list-item-content">给我写信</a></li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon mqii mqii-telegram"style='color:#66ccff'"></i><a href="https://t.me/RocksonLee" target="_blank" rel="noopener" class="mdui-list-item-content">电报</a></li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon mqii mqii-twitter"style='color:rgba(29,161,242,1.00)'"></i><a href="https://twitter.com/RocksonLee_" target="_blank" rel="noopener" class="mdui-list-item-content">推特</a></li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon mqii mqii-bilibili"style='color:#F06292'"></i><a href="https://space.bilibili.com/456088161" target="_blank" rel="noopener" class="mdui-list-item-content">哔哩哔哩</a></li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon mqii mqii-netease-cloud-music"style='color:red'"></i><a href="https://music.163.com/#/user/home?id=3718936185" target="_blank" rel="noopener" class="mdui-list-item-content">网易云音乐</a></li><li class="mdui-list-item"><img class="mdui-list-item-icon" src="/img/links/luogu.webp" alt><a href="https://www.luogu.com.cn/user/146852" target="_blank" rel="noopener" class="mdui-list-item-content">洛谷</a></li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon mqii mqii-github"style='color:black'"></i><a href="https://github.com/RocksonLee" target="_blank" rel="noopener" class="mdui-list-item-content">Github</a></li><li class='mdui-subheader'>Links</li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon mqii mqii-telegram"style='color:#bbb'"></i><a href="https://travellings.link/" target="_blank" rel="noopener" class="mdui-list-item-content">Traveling</a></li></ul></div><div class="mdui-drawer mdui-drawer-close mdui-drawer-right" id="toc_drawer" hidden><ul class="mdui-list" id="toc"></ul></div></body><button class="mdui-fab mdui-fab-mini mdui-fab-fixed mdui-fab-hide" id="totop" onclick="totop()" style="z-index: 99999;"><i class="mdui-icon material-icons">keyboard_arrow_up</i></button><footer class="mdui-m-t-5"><div class="mdui-card"><div class="mdui-card-content mdui-p-a-5"><div class="mdui-container"><div class="mdui-row-sm-3"><div class="mdui-col"><div class="mdui-row"><div class="mdui-col-xs-2 mdui-col-sm-1 mdui-col-md-1" style="margin: 10px;"><a href="https://github.com/RocksonLee" target="_blank" rel="noopener"><i class="mdui-icon mqii mqii-github"></i></a></div><div class="mdui-col-xs-2 mdui-col-sm-1 mdui-col-md-1" style="margin: 10px;"><a href="https://space.bilibili.com/456088161" target="_blank" rel="noopener"><i class="mdui-icon mqii mqii-bilibili"></i></a></div><div class="mdui-col-xs-2 mdui-col-sm-1 mdui-col-md-1" style="margin: 10px;"><a href="https://www.zhihu.com/people/rocksonlee-6" target="_blank" rel="noopener"><i class="mdui-icon mqii mqii-zhihu"></i></a></div><div class="mdui-col-xs-2 mdui-col-sm-1 mdui-col-md-1" style="margin: 10px;"><a href="https://twitter.com/RocksonLee_" target="_blank" rel="noopener"><i class="mdui-icon mqii mqii-twitter"></i></a></div></div></div><div class="mdui-col mdui-text-center"><span>Copyright ©&nbsp;2020-2021&nbsp;RocksonLee's Blog</span><div><span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span></div><script async src="https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/assets/busuanzi.js" onload="window.addEventListener('load',busuanzi);document.addEventListener('pjax:complete',busuanzi);"></script><div>last build:2022-04-02 09:30:13</div></div><div class="mdui-col mdui-text-center mdui-typo"><div>Powered by<a href="https://github.com/zcmimi/py-blog" target="_blank" rel="noopener">py-blog</a></div><div>Theme<a href="https://github.com/zcmimi/py-blog-theme-material" target="_blank" rel="noopener">material</a></div></div></div></div></div></div></footer><div class="mdui-dialog" id="search_dialog" style="min-height: 50%;"><div class="mdui-dialog-title">Search</div><div class="mdui-dialog-content"><div class="mdui-textfield"><i class="mdui-icon material-icons">search</i><input id="search_input" class="mdui-textfield-input" placeholder="搜索"></div><div id="search_result" class="mdui-list"></div></div></div><script async src='https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/assets/local_search.js'></script><script>document.getElementById('search_input').onchange=function(){search("/pure_data.json");}</script><script async defer src="https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/assets/mdui/js/mdui.min.js"></script><script async defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"></script><script async defer src="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.js"></script><script defer src='https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/assets/bundle.min.js'></script><script defer src='/custom.js'></script><script defer>
+</script></div><div class="mdui-drawer mdui-drawer-close" id="drawer"><ul class="mdui-list"><li class='mdui-subheader'>Pages</li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon material-icons"style='color:black'">bookmark_border</i><a href="/tags/" target="_blank" rel="noopener" class="mdui-list-item-content">标签云</a></li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon material-icons"style='color:black'">book</i><a href="/categories/" target="_blank" rel="noopener" class="mdui-list-item-content">分类</a></li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon material-icons"style='color:black'">link</i><a href="/links/" target="_blank" rel="noopener" class="mdui-list-item-content">友链</a></li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon material-icons"style='color:black'">build</i><a href="/tools/" target="_blank" rel="noopener" class="mdui-list-item-content">工具集</a></li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon material-icons"style='color:black'">person</i><a href="/about/" target="_blank" rel="noopener" class="mdui-list-item-content">关于</a></li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon material-icons"style='color:black'">rss_feed</i><a href="/atom.xml" target="_blank" rel="noopener" class="mdui-list-item-content">订阅</a></li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon material-icons"style='color:black'">list</i><a href="/sitemap.xml" target="_blank" rel="noopener" class="mdui-list-item-content">站点地图</a></li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon material-icons"style='color:black'">comment</i><a href="https://rocksonlee.avosapps.us" target="_blank" rel="noopener" class="mdui-list-item-content">评论管理</a></li><li class='mdui-subheader'>Catch me</li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon material-icons"style='color:dodgerblue'">email</i><a href="mailto:lixuanzhang0629@163.com" target="_blank" rel="noopener" class="mdui-list-item-content">给我写信</a></li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon mqii mqii-telegram"style='color:#66ccff'"></i><a href="https://t.me/RocksonLee" target="_blank" rel="noopener" class="mdui-list-item-content">电报</a></li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon mqii mqii-twitter"style='color:rgba(29,161,242,1.00)'"></i><a href="https://twitter.com/RocksonLee_" target="_blank" rel="noopener" class="mdui-list-item-content">推特</a></li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon mqii mqii-bilibili"style='color:#F06292'"></i><a href="https://space.bilibili.com/456088161" target="_blank" rel="noopener" class="mdui-list-item-content">哔哩哔哩</a></li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon mqii mqii-netease-cloud-music"style='color:red'"></i><a href="https://music.163.com/#/user/home?id=3718936185" target="_blank" rel="noopener" class="mdui-list-item-content">网易云音乐</a></li><li class="mdui-list-item"><img class="mdui-list-item-icon" src="/img/links/luogu.webp" alt><a href="https://www.luogu.com.cn/user/146852" target="_blank" rel="noopener" class="mdui-list-item-content">洛谷</a></li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon mqii mqii-github"style='color:black'"></i><a href="https://github.com/RocksonLee" target="_blank" rel="noopener" class="mdui-list-item-content">Github</a></li><li class='mdui-subheader'>Links</li><li class="mdui-list-item"><i class="mdui-list-item-icon mdui-icon mqii mqii-telegram"style='color:#bbb'"></i><a href="https://travellings.link/" target="_blank" rel="noopener" class="mdui-list-item-content">Traveling</a></li></ul></div><div class="mdui-drawer mdui-drawer-close mdui-drawer-right" id="toc_drawer" hidden><ul class="mdui-list" id="toc"></ul></div></body><button class="mdui-fab mdui-fab-mini mdui-fab-fixed mdui-fab-hide" id="totop" onclick="totop()" style="z-index: 99999;"><i class="mdui-icon material-icons">keyboard_arrow_up</i></button><footer class="mdui-m-t-5"><div class="mdui-card"><div class="mdui-card-content mdui-p-a-5"><div class="mdui-container"><div class="mdui-row-sm-3"><div class="mdui-col"><div class="mdui-row"><div class="mdui-col-xs-2 mdui-col-sm-1 mdui-col-md-1" style="margin: 10px;"><a href="https://github.com/RocksonLee" target="_blank" rel="noopener"><i class="mdui-icon mqii mqii-github"></i></a></div><div class="mdui-col-xs-2 mdui-col-sm-1 mdui-col-md-1" style="margin: 10px;"><a href="https://space.bilibili.com/456088161" target="_blank" rel="noopener"><i class="mdui-icon mqii mqii-bilibili"></i></a></div><div class="mdui-col-xs-2 mdui-col-sm-1 mdui-col-md-1" style="margin: 10px;"><a href="https://www.zhihu.com/people/rocksonlee-6" target="_blank" rel="noopener"><i class="mdui-icon mqii mqii-zhihu"></i></a></div><div class="mdui-col-xs-2 mdui-col-sm-1 mdui-col-md-1" style="margin: 10px;"><a href="https://twitter.com/RocksonLee_" target="_blank" rel="noopener"><i class="mdui-icon mqii mqii-twitter"></i></a></div></div></div><div class="mdui-col mdui-text-center"><span>Copyright ©&nbsp;2020-2021&nbsp;RocksonLee's Blog</span><div><span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span></div><script async src="https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/assets/busuanzi.js" onload="window.addEventListener('load',busuanzi);document.addEventListener('pjax:complete',busuanzi);"></script><div>last build:2022-04-11 22:04:06</div></div><div class="mdui-col mdui-text-center mdui-typo"><div>Powered by<a href="https://github.com/zcmimi/py-blog" target="_blank" rel="noopener">py-blog</a></div><div>Theme<a href="https://github.com/zcmimi/py-blog-theme-material" target="_blank" rel="noopener">material</a></div></div></div></div></div></div></footer><div class="mdui-dialog" id="search_dialog" style="min-height: 50%;"><div class="mdui-dialog-title">Search</div><div class="mdui-dialog-content"><div class="mdui-textfield"><i class="mdui-icon material-icons">search</i><input id="search_input" class="mdui-textfield-input" placeholder="搜索"></div><div id="search_result" class="mdui-list"></div></div></div><script async src='https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/assets/local_search.js'></script><script>document.getElementById('search_input').onchange=function(){search("/pure_data.json");}</script><script async defer src="https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/assets/mdui/js/mdui.min.js"></script><script async defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"></script><script async defer src="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.js"></script><script defer src='https://cdn.jsdelivr.net/gh/RocksonLee/My-blog/assets/bundle.min.js'></script><script defer src='/custom.js'></script><script defer>
 window.addEventListener('load',()=>{try{GenComment();}catch{}});
 document.addEventListener('pjax:complete',()=>{try{GenComment();}catch{}});
 </script></html>
