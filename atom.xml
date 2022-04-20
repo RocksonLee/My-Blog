@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>RocksonLee's Blog</title><link href="https://blog.rockson.top/" rel="self"/><link href="https://blog.rockson.top/"/><updated>2022-04-11 22:05:54</updated><author><name>RocksonLee</name></author><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><entry><title>关于博客文章（必看）</title><link href="/posts/guan-yu-bo-ke-wen-zhang/"/><updated>2022-01-01</updated><summary type="html">&lt;p&gt;这个博客是我个人的博客&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>RocksonLee's Blog</title><link href="https://blog.rockson.top/" rel="self"/><link href="https://blog.rockson.top/"/><updated>2022-04-20 20:41:10</updated><author><name>RocksonLee</name></author><generator uri="https://zcmimi.github.io/py-blog">py-blog</generator><entry><title>关于博客文章（必看）</title><link href="/posts/guan-yu-bo-ke-wen-zhang/"/><updated>2022-01-01</updated><summary type="html">&lt;p&gt;这个博客是我个人的博客&lt;/p&gt;
 &lt;p&gt;存着一些奇奇怪怪的东西（可以看到我发疯的记录）&lt;/p&gt;
 &lt;p&gt;你可在这里找到我的一些思考，一些做题想法&lt;/p&gt;
 &lt;p&gt;也可能会看到我转载的一些优秀的思考&lt;/p&gt;
@@ -214,10 +214,10 @@ i&lt;/p&gt;
 密码保护ing
 密码保护ing
 密码保护i&lt;/p&gt;
-</summary></entry><entry><title>Note sth</title><link href="/posts/!Note-sth/"/><updated>2021-10-29</updated><summary type="html">&lt;p&gt;Nth...&lt;/p&gt;
+</summary></entry><entry><title>Note sth</title><link href="/posts/!Note-sth/"/><updated>2021-10-29</updated><summary type="html">&lt;p&gt;&lt;a href=&#34;https://tim.qq.com/download.html&#34;&gt;https://tim.qq.com/download.html&lt;/a&gt; tim 下载链接&lt;/p&gt;
+&lt;p&gt;Nth...&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.luogu.com.cn/blog/fzj2007/solution-p1932&#34;&gt;https://www.luogu.com.cn/blog/fzj2007/solution-p1932&lt;/a&gt; 高精度&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.cnblogs.com/pks-t/p/9251147.html&#34;&gt;https://www.cnblogs.com/pks-t/p/9251147.html&lt;/a&gt; FFT&lt;/p&gt;
-&lt;p&gt;CF1641B 2000 √ wait solution&lt;/p&gt;
+&lt;p&gt;&amp;lt;&lt;a href=&#34;https://www.cnblogs.com/pks-t/p/925&#34;&gt;https://www.cnblogs.com/pks-t/p/925&lt;/a&gt;&lt;/p&gt;
 </summary></entry><entry><title>git setting</title><link href="/posts/git-setting/"/><updated>2021-10-25</updated><summary type="html">&lt;p&gt;```ps
 git config --global http.proxy &lt;a href=&#34;http://127.0.0.1:1080&#34;&gt;http://127.0.0.1:1080&lt;/a&gt;
 git config --global https.proxy &lt;a href=&#34;https://127.0.0.1:1080&#34;&gt;https://127.0.0.1:1080&lt;/a&gt;
