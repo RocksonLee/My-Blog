@@ -2,12 +2,13 @@ https://blog.rockson.top/posts/guan-yu-bo-ke-wen-zhang/
 https://blog.rockson.top/posts/!USACO-training/
 https://blog.rockson.top/posts/!USACO/
 https://blog.rockson.top/posts/NOI-da-gang/
+https://blog.rockson.top/posts/sth-about-dns/
 https://blog.rockson.top/posts/CF-983B-XOR-pyramid/
 https://blog.rockson.top/posts/LG-P3401--luo-gu-shu/
 https://blog.rockson.top/posts/CF-1375F-Integer-Game/
 https://blog.rockson.top/posts/host-bei-fen/
 https://blog.rockson.top/posts/NOIO-2022J-T1--shu-xue-you-xi/
-https://blog.rockson.top/posts/AT-AGC070D-HonestOrUnkind/
+https://blog.rockson.top/posts/AT-ARC070D-HonestOrUnkind/
 https://blog.rockson.top/posts/CF-815B-Karen-and-Test/
 https://blog.rockson.top/posts/Blog-wei-hu-bi-ji/
 https://blog.rockson.top/posts/CF-1654C-Alice-and-the-Cake/
